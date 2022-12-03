@@ -1,0 +1,86 @@
+<div>
+  <div>
+    <h1>
+      Residency #<%= @the_residency.id %> details
+    </h1>
+
+    <div>
+      <div>
+        <a href="/residencies">
+          Go back
+        </a>
+      </div>
+
+      <div>
+        <a href="/delete_residency/<%= @the_residency.id %>">
+          Delete residency
+        </a>
+      </div>
+    </div>
+
+    <dl>
+      <dt>
+        Residency type
+      </dt>
+      <dd>
+        <%= @the_residency.residency_type %>
+      </dd>
+
+      <dt>
+        Residency status
+      </dt>
+      <dd>
+        <%= @the_residency.residency_status %>
+      </dd>
+
+      <dt>
+        Created at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_residency.created_at) %> ago
+      </dd>
+
+      <dt>
+        Updated at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_residency.updated_at) %> ago
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+
+
+<div>
+  <div>
+    <h2>
+      Edit residency
+    </h2>
+
+    <form action="/modify_residency/<%= @the_residency.id %>"  method="post" >
+      <div>
+        <label for="residency_type_box">
+          Residency type
+        </label>
+
+        <input type="text" id="residency_type_box" name="query_residency_type" value="<%= @the_residency.residency_type %>">
+      </div>
+
+      <div>
+        <label for="residency_status_box">
+          Residency status
+        </label>
+
+        <input type="text" id="residency_status_box" name="query_residency_status" value="<%= @the_residency.residency_status %>">
+      </div>
+
+      <button>
+        Update residency
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>

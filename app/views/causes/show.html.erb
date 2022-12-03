@@ -1,0 +1,116 @@
+<div>
+  <div>
+    <h1>
+      Cause #<%= @the_cause.id %> details
+    </h1>
+
+    <div>
+      <div>
+        <a href="/causes">
+          Go back
+        </a>
+      </div>
+
+      <div>
+        <a href="/delete_cause/<%= @the_cause.id %>">
+          Delete cause
+        </a>
+      </div>
+    </div>
+
+    <dl>
+      <dt>
+        Quote
+      </dt>
+      <dd>
+        <%= @the_cause.quote %>
+      </dd>
+
+      <dt>
+        Politician
+      </dt>
+      <dd>
+        <%= @the_cause.politician_id %>
+      </dd>
+
+      <dt>
+        Name
+      </dt>
+      <dd>
+        <%= @the_cause.name %>
+      </dd>
+
+      <dt>
+        Industry
+      </dt>
+      <dd>
+        <%= @the_cause.industry_id %>
+      </dd>
+
+      <dt>
+        Created at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_cause.created_at) %> ago
+      </dd>
+
+      <dt>
+        Updated at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_cause.updated_at) %> ago
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+
+
+<div>
+  <div>
+    <h2>
+      Edit cause
+    </h2>
+
+    <form action="/modify_cause/<%= @the_cause.id %>"  method="post" >
+      <div>
+        <label for="quote_box">
+          Quote
+        </label>
+
+        <input type="text" id="quote_box" name="query_quote" value="<%= @the_cause.quote %>">
+      </div>
+
+      <div>
+        <label for="politician_id_box">
+          Politician
+        </label>
+
+        <input type="text" id="politician_id_box" name="query_politician_id" value="<%= @the_cause.politician_id %>">
+      </div>
+
+      <div>
+        <input type="checkbox" id="name_box" name="query_name" value="1" <%= "checked" if @the_cause.name %>>
+
+        <label for="name_box">
+            Name
+        </label>
+      </div>
+
+      <div>
+        <label for="industry_id_box">
+          Industry
+        </label>
+
+        <input type="text" id="industry_id_box" name="query_industry_id" value="<%= @the_cause.industry_id %>">
+      </div>
+
+      <button>
+        Update cause
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>

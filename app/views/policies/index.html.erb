@@ -1,0 +1,118 @@
+<div>
+  <div>
+    <h1>
+      List of all policies
+    </h1>
+  </div>
+</div>
+
+<hr>
+
+<div>
+  <div>
+    <h2>
+      Add a new policy
+    </h2>
+
+    <form action="/insert_policy" method="post">
+      <div>
+        <label for="description_box">
+          Description
+        </label>
+
+        <input type="text" id="description_box" name="query_description">
+      </div>
+
+      <div>
+        <label for="low_sentiment_box">
+          Low sentiment
+        </label>
+
+        <input type="text" id="low_sentiment_box" name="query_low_sentiment">
+      </div>
+
+      <div>
+        <label for="high_sentiment_box">
+          High sentiment
+        </label>
+
+        <input type="text" id="high_sentiment_box" name="query_high_sentiment">
+      </div>
+
+      <button>
+        Create policy
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>
+<div>
+  <div>
+    <table border="1">
+      <tr>
+        <th>
+          ID
+        </th>
+
+        <th>
+          Description
+        </th>
+
+        <th>
+          Low sentiment
+        </th>
+
+        <th>
+          High sentiment
+        </th>
+
+        <th>
+          Created at
+        </th>
+
+        <th>
+          Updated at
+        </th>
+
+        <th>
+        </th>
+      </tr>
+
+      <% @list_of_policies.each do |a_policy| %>
+      <tr>
+        <td>
+          <%= a_policy.id %>
+        </td>
+
+        <td>
+          <%= a_policy.description %>
+        </td>
+
+        <td>
+          <%= a_policy.low_sentiment %>
+        </td>
+
+        <td>
+          <%= a_policy.high_sentiment %>
+        </td>
+
+        <td>
+          <%= time_ago_in_words(a_policy.created_at) %> ago
+        </td>
+        <td>
+          <%= time_ago_in_words(a_policy.updated_at) %> ago
+        </td>
+
+        <td>
+          <a href="/policies/<%= a_policy.id %>">
+            Show details
+          </a>
+        </td>
+      </tr>
+      <% end %>
+    </table>
+  </div>
+</div>
+
+<hr>

@@ -1,0 +1,326 @@
+<div>
+  <div>
+    <h1>
+      User #<%= @the_user.id %> details
+    </h1>
+
+    <div>
+      <div>
+        <a href="/users">
+          Go back
+        </a>
+      </div>
+
+      <div>
+        <a href="/delete_user/<%= @the_user.id %>">
+          Delete user
+        </a>
+      </div>
+    </div>
+
+    <dl>
+      <dt>
+        Status
+      </dt>
+      <dd>
+        <%= @the_user.status_id %>
+      </dd>
+
+      <dt>
+        Identification
+      </dt>
+      <dd>
+        <%= @the_user.identification_id %>
+      </dd>
+
+      <dt>
+        Residency
+      </dt>
+      <dd>
+        <%= @the_user.residency_id %>
+      </dd>
+
+      <dt>
+        First name
+      </dt>
+      <dd>
+        <%= @the_user.first_name %>
+      </dd>
+
+      <dt>
+        Last name
+      </dt>
+      <dd>
+        <%= @the_user.last_name %>
+      </dd>
+
+      <dt>
+        Arrival year
+      </dt>
+      <dd>
+        <%= @the_user.arrival_year %>
+      </dd>
+
+      <dt>
+        Nationality
+      </dt>
+      <dd>
+        <%= @the_user.nationality %>
+      </dd>
+
+      <dt>
+        Email
+      </dt>
+      <dd>
+        <%= @the_user.email %>
+      </dd>
+
+      <dt>
+        Industry
+      </dt>
+      <dd>
+        <%= @the_user.industry_id %>
+      </dd>
+
+      <dt>
+        Anonymity
+      </dt>
+      <dd>
+        <%= @the_user.anonymity_id %>
+      </dd>
+
+      <dt>
+        Municipality
+      </dt>
+      <dd>
+        <%= @the_user.municipality_id %>
+      </dd>
+
+      <dt>
+        Integration survey
+      </dt>
+      <dd>
+        <%= @the_user.integration_survey %>
+      </dd>
+
+      <dt>
+        Integration result
+      </dt>
+      <dd>
+        <%= @the_user.integration_result %>
+      </dd>
+
+      <dt>
+        Permanent residency survey
+      </dt>
+      <dd>
+        <%= @the_user.permanent_residency_survey %>
+      </dd>
+
+      <dt>
+        Permanent residency result
+      </dt>
+      <dd>
+        <%= @the_user.permanent_residency_result %>
+      </dd>
+
+      <dt>
+        Volunteer team
+      </dt>
+      <dd>
+        <%= @the_user.volunteer_team_id %>
+      </dd>
+
+      <dt>
+        Phone
+      </dt>
+      <dd>
+        <%= @the_user.phone %>
+      </dd>
+
+      <dt>
+        Personal story
+      </dt>
+      <dd>
+        <%= @the_user.personal_story %>
+      </dd>
+
+      <dt>
+        Created at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_user.created_at) %> ago
+      </dd>
+
+      <dt>
+        Updated at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_user.updated_at) %> ago
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+
+
+<div>
+  <div>
+    <h2>
+      Edit user
+    </h2>
+
+    <form action="/modify_user/<%= @the_user.id %>"  method="post" >
+      <div>
+        <label for="status_id_box">
+          Status
+        </label>
+
+        <input type="text" id="status_id_box" name="query_status_id" value="<%= @the_user.status_id %>">
+      </div>
+
+      <div>
+        <label for="identification_id_box">
+          Identification
+        </label>
+
+        <input type="text" id="identification_id_box" name="query_identification_id" value="<%= @the_user.identification_id %>">
+      </div>
+
+      <div>
+        <label for="residency_id_box">
+          Residency
+        </label>
+
+        <input type="text" id="residency_id_box" name="query_residency_id" value="<%= @the_user.residency_id %>">
+      </div>
+
+      <div>
+        <label for="first_name_box">
+          First name
+        </label>
+
+        <input type="text" id="first_name_box" name="query_first_name" value="<%= @the_user.first_name %>">
+      </div>
+
+      <div>
+        <label for="last_name_box">
+          Last name
+        </label>
+
+        <input type="text" id="last_name_box" name="query_last_name" value="<%= @the_user.last_name %>">
+      </div>
+
+      <div>
+        <label for="arrival_year_box">
+          Arrival year
+        </label>
+
+        <input type="date" id="arrival_year_box" name="query_arrival_year" value="<%= @the_user.arrival_year %>">
+      </div>
+
+      <div>
+        <label for="nationality_box">
+          Nationality
+        </label>
+
+        <input type="text" id="nationality_box" name="query_nationality" value="<%= @the_user.nationality %>">
+      </div>
+
+      <div>
+        <label for="email_box">
+          Email
+        </label>
+
+        <input type="text" id="email_box" name="query_email" value="<%= @the_user.email %>">
+      </div>
+
+      <div>
+        <label for="industry_id_box">
+          Industry
+        </label>
+
+        <input type="text" id="industry_id_box" name="query_industry_id" value="<%= @the_user.industry_id %>">
+      </div>
+
+      <div>
+        <label for="anonymity_id_box">
+          Anonymity
+        </label>
+
+        <input type="text" id="anonymity_id_box" name="query_anonymity_id" value="<%= @the_user.anonymity_id %>">
+      </div>
+
+      <div>
+        <label for="municipality_id_box">
+          Municipality
+        </label>
+
+        <input type="text" id="municipality_id_box" name="query_municipality_id" value="<%= @the_user.municipality_id %>">
+      </div>
+
+      <div>
+        <input type="checkbox" id="integration_survey_box" name="query_integration_survey" value="1" <%= "checked" if @the_user.integration_survey %>>
+
+        <label for="integration_survey_box">
+            Integration survey
+        </label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="integration_result_box" name="query_integration_result" value="1" <%= "checked" if @the_user.integration_result %>>
+
+        <label for="integration_result_box">
+            Integration result
+        </label>
+      </div>
+
+      <div>
+        <label for="permanent_residency_survey_box">
+          Permanent residency survey
+        </label>
+
+        <input type="text" id="permanent_residency_survey_box" name="query_permanent_residency_survey" value="<%= @the_user.permanent_residency_survey %>">
+      </div>
+
+      <div>
+        <input type="checkbox" id="permanent_residency_result_box" name="query_permanent_residency_result" value="1" <%= "checked" if @the_user.permanent_residency_result %>>
+
+        <label for="permanent_residency_result_box">
+            Permanent residency result
+        </label>
+      </div>
+
+      <div>
+        <label for="volunteer_team_id_box">
+          Volunteer team
+        </label>
+
+        <input type="text" id="volunteer_team_id_box" name="query_volunteer_team_id" value="<%= @the_user.volunteer_team_id %>">
+      </div>
+
+      <div>
+        <label for="phone_box">
+          Phone
+        </label>
+
+        <input type="text" id="phone_box" name="query_phone" value="<%= @the_user.phone %>">
+      </div>
+
+      <div>
+        <label for="personal_story_box">
+          Personal story
+        </label>
+
+        <input type="text" id="personal_story_box" name="query_personal_story" value="<%= @the_user.personal_story %>">
+      </div>
+
+      <button>
+        Update user
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>

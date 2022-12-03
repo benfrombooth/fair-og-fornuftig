@@ -1,0 +1,71 @@
+<div>
+  <div>
+    <h1>
+      Industry #<%= @the_industry.id %> details
+    </h1>
+
+    <div>
+      <div>
+        <a href="/industries">
+          Go back
+        </a>
+      </div>
+
+      <div>
+        <a href="/delete_industry/<%= @the_industry.id %>">
+          Delete industry
+        </a>
+      </div>
+    </div>
+
+    <dl>
+      <dt>
+        Industry
+      </dt>
+      <dd>
+        <%= @the_industry.industry %>
+      </dd>
+
+      <dt>
+        Created at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_industry.created_at) %> ago
+      </dd>
+
+      <dt>
+        Updated at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_industry.updated_at) %> ago
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+
+
+<div>
+  <div>
+    <h2>
+      Edit industry
+    </h2>
+
+    <form action="/modify_industry/<%= @the_industry.id %>"  method="post" >
+      <div>
+        <label for="industry_box">
+          Industry
+        </label>
+
+        <input type="text" id="industry_box" name="query_industry" value="<%= @the_industry.industry %>">
+      </div>
+
+      <button>
+        Update industry
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>

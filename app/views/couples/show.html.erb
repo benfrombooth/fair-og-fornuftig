@@ -1,0 +1,116 @@
+<div>
+  <div>
+    <h1>
+      Couple #<%= @the_couple.id %> details
+    </h1>
+
+    <div>
+      <div>
+        <a href="/couples">
+          Go back
+        </a>
+      </div>
+
+      <div>
+        <a href="/delete_couple/<%= @the_couple.id %>">
+          Delete couple
+        </a>
+      </div>
+    </div>
+
+    <dl>
+      <dt>
+        Danish user
+      </dt>
+      <dd>
+        <%= @the_couple.danish_user_id %>
+      </dd>
+
+      <dt>
+        Foreign user
+      </dt>
+      <dd>
+        <%= @the_couple.foreign_user_id %>
+      </dd>
+
+      <dt>
+        Points
+      </dt>
+      <dd>
+        <%= @the_couple.points %>
+      </dd>
+
+      <dt>
+        City
+      </dt>
+      <dd>
+        <%= @the_couple.city %>
+      </dd>
+
+      <dt>
+        Created at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_couple.created_at) %> ago
+      </dd>
+
+      <dt>
+        Updated at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_couple.updated_at) %> ago
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+
+
+<div>
+  <div>
+    <h2>
+      Edit couple
+    </h2>
+
+    <form action="/modify_couple/<%= @the_couple.id %>"  method="post" >
+      <div>
+        <label for="danish_user_id_box">
+          Danish user
+        </label>
+
+        <input type="text" id="danish_user_id_box" name="query_danish_user_id" value="<%= @the_couple.danish_user_id %>">
+      </div>
+
+      <div>
+        <label for="foreign_user_id_box">
+          Foreign user
+        </label>
+
+        <input type="text" id="foreign_user_id_box" name="query_foreign_user_id" value="<%= @the_couple.foreign_user_id %>">
+      </div>
+
+      <div>
+        <label for="points_box">
+          Points
+        </label>
+
+        <input type="text" id="points_box" name="query_points" value="<%= @the_couple.points %>">
+      </div>
+
+      <div>
+        <label for="city_box">
+          City
+        </label>
+
+        <input type="text" id="city_box" name="query_city" value="<%= @the_couple.city %>">
+      </div>
+
+      <button>
+        Update couple
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>

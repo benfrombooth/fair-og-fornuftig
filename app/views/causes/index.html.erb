@@ -1,0 +1,132 @@
+<div>
+  <div>
+    <h1>
+      List of all causes
+    </h1>
+  </div>
+</div>
+
+<hr>
+
+<div>
+  <div>
+    <h2>
+      Add a new cause
+    </h2>
+
+    <form action="/insert_cause" method="post">
+      <div>
+        <label for="quote_box">
+          Quote
+        </label>
+
+        <input type="text" id="quote_box" name="query_quote">
+      </div>
+
+      <div>
+        <label for="politician_id_box">
+          Politician
+        </label>
+
+        <input type="text" id="politician_id_box" name="query_politician_id">
+      </div>
+
+      <div>
+        <input type="checkbox" id="name_box" name="query_name" value="1">
+
+        <label for="name_box">Name</label>
+      </div>
+
+      <div>
+        <label for="industry_id_box">
+          Industry
+        </label>
+
+        <input type="text" id="industry_id_box" name="query_industry_id">
+      </div>
+
+      <button>
+        Create cause
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>
+<div>
+  <div>
+    <table border="1">
+      <tr>
+        <th>
+          ID
+        </th>
+
+        <th>
+          Quote
+        </th>
+
+        <th>
+          Politician
+        </th>
+
+        <th>
+          Name
+        </th>
+
+        <th>
+          Industry
+        </th>
+
+        <th>
+          Created at
+        </th>
+
+        <th>
+          Updated at
+        </th>
+
+        <th>
+        </th>
+      </tr>
+
+      <% @list_of_causes.each do |a_cause| %>
+      <tr>
+        <td>
+          <%= a_cause.id %>
+        </td>
+
+        <td>
+          <%= a_cause.quote %>
+        </td>
+
+        <td>
+          <%= a_cause.politician_id %>
+        </td>
+
+        <td>
+          <%= a_cause.name %>
+        </td>
+
+        <td>
+          <%= a_cause.industry_id %>
+        </td>
+
+        <td>
+          <%= time_ago_in_words(a_cause.created_at) %> ago
+        </td>
+        <td>
+          <%= time_ago_in_words(a_cause.updated_at) %> ago
+        </td>
+
+        <td>
+          <a href="/causes/<%= a_cause.id %>">
+            Show details
+          </a>
+        </td>
+      </tr>
+      <% end %>
+    </table>
+  </div>
+</div>
+
+<hr>

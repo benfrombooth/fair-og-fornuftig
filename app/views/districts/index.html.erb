@@ -1,0 +1,86 @@
+<div>
+  <div>
+    <h1>
+      List of all districts
+    </h1>
+  </div>
+</div>
+
+<hr>
+
+<div>
+  <div>
+    <h2>
+      Add a new district
+    </h2>
+
+    <form action="/insert_district" method="post">
+      <div>
+        <label for="name_box">
+          Name
+        </label>
+
+        <input type="text" id="name_box" name="query_name">
+      </div>
+
+      <button>
+        Create district
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>
+<div>
+  <div>
+    <table border="1">
+      <tr>
+        <th>
+          ID
+        </th>
+
+        <th>
+          Name
+        </th>
+
+        <th>
+          Created at
+        </th>
+
+        <th>
+          Updated at
+        </th>
+
+        <th>
+        </th>
+      </tr>
+
+      <% @list_of_districts.each do |a_district| %>
+      <tr>
+        <td>
+          <%= a_district.id %>
+        </td>
+
+        <td>
+          <%= a_district.name %>
+        </td>
+
+        <td>
+          <%= time_ago_in_words(a_district.created_at) %> ago
+        </td>
+        <td>
+          <%= time_ago_in_words(a_district.updated_at) %> ago
+        </td>
+
+        <td>
+          <a href="/districts/<%= a_district.id %>">
+            Show details
+          </a>
+        </td>
+      </tr>
+      <% end %>
+    </table>
+  </div>
+</div>
+
+<hr>

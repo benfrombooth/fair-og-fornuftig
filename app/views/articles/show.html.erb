@@ -1,0 +1,131 @@
+<div>
+  <div>
+    <h1>
+      Article #<%= @the_article.id %> details
+    </h1>
+
+    <div>
+      <div>
+        <a href="/articles">
+          Go back
+        </a>
+      </div>
+
+      <div>
+        <a href="/delete_article/<%= @the_article.id %>">
+          Delete article
+        </a>
+      </div>
+    </div>
+
+    <dl>
+      <dt>
+        Journalist
+      </dt>
+      <dd>
+        <%= @the_article.journalist_id %>
+      </dd>
+
+      <dt>
+        Outlet
+      </dt>
+      <dd>
+        <%= @the_article.outlet %>
+      </dd>
+
+      <dt>
+        User
+      </dt>
+      <dd>
+        <%= @the_article.user_id %>
+      </dd>
+
+      <dt>
+        Publication date
+      </dt>
+      <dd>
+        <%= @the_article.publication_date %>
+      </dd>
+
+      <dt>
+        Politician
+      </dt>
+      <dd>
+        <%= @the_article.politician_id %>
+      </dd>
+
+      <dt>
+        Created at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_article.created_at) %> ago
+      </dd>
+
+      <dt>
+        Updated at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_article.updated_at) %> ago
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+
+
+<div>
+  <div>
+    <h2>
+      Edit article
+    </h2>
+
+    <form action="/modify_article/<%= @the_article.id %>"  method="post" >
+      <div>
+        <label for="journalist_id_box">
+          Journalist
+        </label>
+
+        <input type="text" id="journalist_id_box" name="query_journalist_id" value="<%= @the_article.journalist_id %>">
+      </div>
+
+      <div>
+        <label for="outlet_box">
+          Outlet
+        </label>
+
+        <input type="text" id="outlet_box" name="query_outlet" value="<%= @the_article.outlet %>">
+      </div>
+
+      <div>
+        <label for="user_id_box">
+          User
+        </label>
+
+        <input type="text" id="user_id_box" name="query_user_id" value="<%= @the_article.user_id %>">
+      </div>
+
+      <div>
+        <label for="publication_date_box">
+          Publication date
+        </label>
+
+        <input type="date" id="publication_date_box" name="query_publication_date" value="<%= @the_article.publication_date %>">
+      </div>
+
+      <div>
+        <label for="politician_id_box">
+          Politician
+        </label>
+
+        <input type="text" id="politician_id_box" name="query_politician_id" value="<%= @the_article.politician_id %>">
+      </div>
+
+      <button>
+        Update article
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>

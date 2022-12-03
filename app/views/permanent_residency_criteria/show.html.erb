@@ -1,0 +1,131 @@
+<div>
+  <div>
+    <h1>
+      Permanent residency criterium #<%= @the_permanent_residency_criterium.id %> details
+    </h1>
+
+    <div>
+      <div>
+        <a href="/permanent_residency_criteria">
+          Go back
+        </a>
+      </div>
+
+      <div>
+        <a href="/delete_permanent_residency_criterium/<%= @the_permanent_residency_criterium.id %>">
+          Delete permanent residency criterium
+        </a>
+      </div>
+    </div>
+
+    <dl>
+      <dt>
+        Language requirement
+      </dt>
+      <dd>
+        <%= @the_permanent_residency_criterium.language_requirement %>
+      </dd>
+
+      <dt>
+        Work requirement
+      </dt>
+      <dd>
+        <%= @the_permanent_residency_criterium.work_requirement %>
+      </dd>
+
+      <dt>
+        Inicome requirement
+      </dt>
+      <dd>
+        <%= @the_permanent_residency_criterium.inicome_requirement %>
+      </dd>
+
+      <dt>
+        Active citizenship requirement
+      </dt>
+      <dd>
+        <%= @the_permanent_residency_criterium.active_citizenship_requirement %>
+      </dd>
+
+      <dt>
+        User
+      </dt>
+      <dd>
+        <%= @the_permanent_residency_criterium.user_id %>
+      </dd>
+
+      <dt>
+        Created at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_permanent_residency_criterium.created_at) %> ago
+      </dd>
+
+      <dt>
+        Updated at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_permanent_residency_criterium.updated_at) %> ago
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+
+
+<div>
+  <div>
+    <h2>
+      Edit permanent residency criterium
+    </h2>
+
+    <form action="/modify_permanent_residency_criterium/<%= @the_permanent_residency_criterium.id %>"  method="post" >
+      <div>
+        <input type="checkbox" id="language_requirement_box" name="query_language_requirement" value="1" <%= "checked" if @the_permanent_residency_criterium.language_requirement %>>
+
+        <label for="language_requirement_box">
+            Language requirement
+        </label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="work_requirement_box" name="query_work_requirement" value="1" <%= "checked" if @the_permanent_residency_criterium.work_requirement %>>
+
+        <label for="work_requirement_box">
+            Work requirement
+        </label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="inicome_requirement_box" name="query_inicome_requirement" value="1" <%= "checked" if @the_permanent_residency_criterium.inicome_requirement %>>
+
+        <label for="inicome_requirement_box">
+            Inicome requirement
+        </label>
+      </div>
+
+      <div>
+        <label for="active_citizenship_requirement_box">
+          Active citizenship requirement
+        </label>
+
+        <input type="text" id="active_citizenship_requirement_box" name="query_active_citizenship_requirement" value="<%= @the_permanent_residency_criterium.active_citizenship_requirement %>">
+      </div>
+
+      <div>
+        <label for="user_id_box">
+          User
+        </label>
+
+        <input type="text" id="user_id_box" name="query_user_id" value="<%= @the_permanent_residency_criterium.user_id %>">
+      </div>
+
+      <button>
+        Update permanent residency criterium
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>

@@ -1,0 +1,101 @@
+<div>
+  <div>
+    <h1>
+      Identification #<%= @the_identification.id %> details
+    </h1>
+
+    <div>
+      <div>
+        <a href="/identifications">
+          Go back
+        </a>
+      </div>
+
+      <div>
+        <a href="/delete_identification/<%= @the_identification.id %>">
+          Delete identification
+        </a>
+      </div>
+    </div>
+
+    <dl>
+      <dt>
+        Identification type
+      </dt>
+      <dd>
+        <%= @the_identification.identification_type %>
+      </dd>
+
+      <dt>
+        Person type
+      </dt>
+      <dd>
+        <%= @the_identification.person_type %>
+      </dd>
+
+      <dt>
+        Remark
+      </dt>
+      <dd>
+        <%= @the_identification.remark %>
+      </dd>
+
+      <dt>
+        Created at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_identification.created_at) %> ago
+      </dd>
+
+      <dt>
+        Updated at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_identification.updated_at) %> ago
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+
+
+<div>
+  <div>
+    <h2>
+      Edit identification
+    </h2>
+
+    <form action="/modify_identification/<%= @the_identification.id %>"  method="post" >
+      <div>
+        <label for="identification_type_box">
+          Identification type
+        </label>
+
+        <input type="text" id="identification_type_box" name="query_identification_type" value="<%= @the_identification.identification_type %>">
+      </div>
+
+      <div>
+        <label for="person_type_box">
+          Person type
+        </label>
+
+        <input type="text" id="person_type_box" name="query_person_type" value="<%= @the_identification.person_type %>">
+      </div>
+
+      <div>
+        <label for="remark_box">
+          Remark
+        </label>
+
+        <input type="text" id="remark_box" name="query_remark" value="<%= @the_identification.remark %>">
+      </div>
+
+      <button>
+        Update identification
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>

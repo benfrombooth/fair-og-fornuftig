@@ -1,0 +1,166 @@
+<div>
+  <div>
+    <h1>
+      List of all journalists
+    </h1>
+  </div>
+</div>
+
+<hr>
+
+<div>
+  <div>
+    <h2>
+      Add a new journalist
+    </h2>
+
+    <form action="/insert_journalist" method="post">
+      <div>
+        <label for="first_name_box">
+          First name
+        </label>
+
+        <input type="text" id="first_name_box" name="query_first_name">
+      </div>
+
+      <div>
+        <label for="last_name_box">
+          Last name
+        </label>
+
+        <input type="text" id="last_name_box" name="query_last_name">
+      </div>
+
+      <div>
+        <label for="email_box">
+          Email
+        </label>
+
+        <input type="text" id="email_box" name="query_email">
+      </div>
+
+      <div>
+        <label for="phone_box">
+          Phone
+        </label>
+
+        <input type="text" id="phone_box" name="query_phone">
+      </div>
+
+      <div>
+        <label for="outlet_box">
+          Outlet
+        </label>
+
+        <input type="text" id="outlet_box" name="query_outlet">
+      </div>
+
+      <div>
+        <label for="user_id_box">
+          User
+        </label>
+
+        <input type="text" id="user_id_box" name="query_user_id">
+      </div>
+
+      <button>
+        Create journalist
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>
+<div>
+  <div>
+    <table border="1">
+      <tr>
+        <th>
+          ID
+        </th>
+
+        <th>
+          First name
+        </th>
+
+        <th>
+          Last name
+        </th>
+
+        <th>
+          Email
+        </th>
+
+        <th>
+          Phone
+        </th>
+
+        <th>
+          Outlet
+        </th>
+
+        <th>
+          User
+        </th>
+
+        <th>
+          Created at
+        </th>
+
+        <th>
+          Updated at
+        </th>
+
+        <th>
+        </th>
+      </tr>
+
+      <% @list_of_journalists.each do |a_journalist| %>
+      <tr>
+        <td>
+          <%= a_journalist.id %>
+        </td>
+
+        <td>
+          <%= a_journalist.first_name %>
+        </td>
+
+        <td>
+          <%= a_journalist.last_name %>
+        </td>
+
+        <td>
+          <%= a_journalist.email %>
+        </td>
+
+        <td>
+          <%= a_journalist.phone %>
+        </td>
+
+        <td>
+          <%= a_journalist.outlet %>
+        </td>
+
+        <td>
+          <%= a_journalist.user_id %>
+        </td>
+
+        <td>
+          <%= time_ago_in_words(a_journalist.created_at) %> ago
+        </td>
+        <td>
+          <%= time_ago_in_words(a_journalist.updated_at) %> ago
+        </td>
+
+        <td>
+          <a href="/journalists/<%= a_journalist.id %>">
+            Show details
+          </a>
+        </td>
+      </tr>
+      <% end %>
+    </table>
+  </div>
+</div>
+
+<hr>

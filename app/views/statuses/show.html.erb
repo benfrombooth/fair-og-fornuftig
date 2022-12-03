@@ -1,0 +1,101 @@
+<div>
+  <div>
+    <h1>
+      Status #<%= @the_status.id %> details
+    </h1>
+
+    <div>
+      <div>
+        <a href="/statuses">
+          Go back
+        </a>
+      </div>
+
+      <div>
+        <a href="/delete_status/<%= @the_status.id %>">
+          Delete status
+        </a>
+      </div>
+    </div>
+
+    <dl>
+      <dt>
+        Status type
+      </dt>
+      <dd>
+        <%= @the_status.status_type %>
+      </dd>
+
+      <dt>
+        Person type
+      </dt>
+      <dd>
+        <%= @the_status.person_type %>
+      </dd>
+
+      <dt>
+        Remark
+      </dt>
+      <dd>
+        <%= @the_status.remark %>
+      </dd>
+
+      <dt>
+        Created at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_status.created_at) %> ago
+      </dd>
+
+      <dt>
+        Updated at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_status.updated_at) %> ago
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+
+
+<div>
+  <div>
+    <h2>
+      Edit status
+    </h2>
+
+    <form action="/modify_status/<%= @the_status.id %>"  method="post" >
+      <div>
+        <label for="status_type_box">
+          Status type
+        </label>
+
+        <input type="text" id="status_type_box" name="query_status_type" value="<%= @the_status.status_type %>">
+      </div>
+
+      <div>
+        <label for="person_type_box">
+          Person type
+        </label>
+
+        <input type="text" id="person_type_box" name="query_person_type" value="<%= @the_status.person_type %>">
+      </div>
+
+      <div>
+        <input type="checkbox" id="remark_box" name="query_remark" value="1" <%= "checked" if @the_status.remark %>>
+
+        <label for="remark_box">
+            Remark
+        </label>
+      </div>
+
+      <button>
+        Update status
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>
