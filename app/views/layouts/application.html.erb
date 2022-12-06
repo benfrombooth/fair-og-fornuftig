@@ -13,6 +13,78 @@
 
     <%= stylesheet_link_tag 'application', media: 'all' %>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+          padding-top: 20px;
+          padding-bottom: 40px;
+          background-color: #FDF9E5;
+        }
+
+       .items {
+          display: flex;
+          flex-direction: column;
+          gap: 25px;
+          max-width: 550px;
+          flex-grow: 1;
+        }
+
+        .name {
+          color: #FF9551;
+          display: flex;
+          justify-content: center;
+          font-size: 200%;
+        }
+
+        .banner{
+          display: flex;
+          justify-content: center;
+        }
+
+        .social-icons {
+          display: flex;
+          justify-content: space-around;
+          font-size: 130%;
+        }
+
+        .social-icons a {
+          color: #FF4A4A;
+          text-decoration: none;
+        }
+
+        .link {
+          background-color: #6FEDD6;
+          display: flex;
+          align-items: center;
+          padding: 5px;
+        }
+
+        .link a {
+          color: #FF4A4A;
+          text-decoration: none;
+          text-align: center;
+          flex-grow: 1;
+        }
+   
+        .banner-image {
+          width: 128px;
+          height: 128px;
+          object-fit: cover;
+          border-radius: 128px;
+          border: double thick #FF9551
+        }
+
+        .thumbnail {
+          width: 48px;
+          height: 48px;
+          border-radius: 48px;
+          object-fit: cover;
+        }
+
+      </style>
+
   </head>
 
   <body>

@@ -1,0 +1,17 @@
+id,created_at,updated_at,permission_name,permission_photo,permission_story,permission_external,remark
+1,12/2/22 13:15,12/2/22 13:15,FALSE,FALSE,FALSE,FALSE,Fully confidential
+2,12/2/22 13:15,12/2/22 13:15,FALSE,TRUE,FALSE,FALSE,Uncommon - triggers validation
+3,12/2/22 13:15,12/2/22 13:15,FALSE,FALSE,TRUE,FALSE,Permission to share story on website (no name or photo)
+4,12/2/22 13:15,12/2/22 13:15,FALSE,TRUE,TRUE,FALSE,Uncommon - triggers validation
+5,12/2/22 13:15,12/2/22 13:15,FALSE,FALSE,FALSE,TRUE,Permission to share with media (anonymous and no story on website)
+6,12/2/22 13:15,12/2/22 13:15,FALSE,TRUE,FALSE,TRUE,Uncommon - triggers validation
+7,12/2/22 13:15,12/2/22 13:15,FALSE,FALSE,TRUE,TRUE,Permission to share story on website and with media (anonymous)
+8,12/2/22 13:15,12/2/22 13:15,FALSE,TRUE,TRUE,TRUE,Uncommon - triggers validation
+9,12/2/22 13:15,12/2/22 13:15,TRUE,FALSE,FALSE,FALSE,Permission to share name - triggers validation if status_id not between 6 and 8
+10,12/2/22 13:15,12/2/22 13:15,TRUE,TRUE,FALSE,FALSE,Permission to share name and photo - triggers validation if status_id not between 6 and 8
+11,12/2/22 13:15,12/2/22 13:15,TRUE,FALSE,TRUE,FALSE,"Permission to share name and story but not photo on website, and to share with media"
+12,12/2/22 13:15,12/2/22 13:15,TRUE,TRUE,TRUE,FALSE,"Permission to share name, photo and story on website, not with media"
+13,12/2/22 13:15,12/2/22 13:15,TRUE,FALSE,FALSE,TRUE,Uncommon - triggers validation
+14,12/2/22 13:15,12/2/22 13:15,TRUE,TRUE,FALSE,TRUE,Uncommon - triggers validation
+15,12/2/22 13:15,12/2/22 13:15,TRUE,FALSE,TRUE,TRUE,Permission to share everything but photo on website and with media
+16,12/2/22 13:15,12/2/22 13:15,TRUE,TRUE,TRUE,TRUE,Fully authorized
