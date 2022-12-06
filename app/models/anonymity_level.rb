@@ -1,0 +1,2 @@
+class AnonymityLevel < ApplicationRecord
+end

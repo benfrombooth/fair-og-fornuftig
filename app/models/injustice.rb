@@ -1,0 +1,2 @@
+class Injustice < ApplicationRecord
+end

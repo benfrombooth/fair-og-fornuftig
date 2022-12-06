@@ -1,0 +1,101 @@
+<div>
+  <div>
+    <h1>
+      Cause #<%= @the_cause.id %> details
+    </h1>
+
+    <div>
+      <div>
+        <a href="/causes">
+          Go back
+        </a>
+      </div>
+
+      <div>
+        <a href="/delete_cause/<%= @the_cause.id %>">
+          Delete cause
+        </a>
+      </div>
+    </div>
+
+    <dl>
+      <dt>
+        Politician
+      </dt>
+      <dd>
+        <%= @the_cause.politician_id %>
+      </dd>
+
+      <dt>
+        Industry
+      </dt>
+      <dd>
+        <%= @the_cause.industry_id %>
+      </dd>
+
+      <dt>
+        Priority
+      </dt>
+      <dd>
+        <%= @the_cause.priority %>
+      </dd>
+
+      <dt>
+        Created at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_cause.created_at) %> ago
+      </dd>
+
+      <dt>
+        Updated at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_cause.updated_at) %> ago
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+
+
+<div>
+  <div>
+    <h2>
+      Edit cause
+    </h2>
+
+    <form action="/modify_cause/<%= @the_cause.id %>"  method="post" >
+      <div>
+        <label for="politician_id_box">
+          Politician
+        </label>
+
+        <input type="text" id="politician_id_box" name="query_politician_id" value="<%= @the_cause.politician_id %>">
+      </div>
+
+      <div>
+        <label for="industry_id_box">
+          Industry
+        </label>
+
+        <input type="text" id="industry_id_box" name="query_industry_id" value="<%= @the_cause.industry_id %>">
+      </div>
+
+      <div>
+        <input type="checkbox" id="priority_box" name="query_priority" value="1" <%= "checked" if @the_cause.priority %>>
+
+        <label for="priority_box">
+            Priority
+        </label>
+      </div>
+
+      <button>
+        Update cause
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>

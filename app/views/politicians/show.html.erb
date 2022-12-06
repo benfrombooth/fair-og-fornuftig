@@ -1,0 +1,161 @@
+<div>
+  <div>
+    <h1>
+      Politician #<%= @the_politician.id %> details
+    </h1>
+
+    <div>
+      <div>
+        <a href="/politicians">
+          Go back
+        </a>
+      </div>
+
+      <div>
+        <a href="/delete_politician/<%= @the_politician.id %>">
+          Delete politician
+        </a>
+      </div>
+    </div>
+
+    <dl>
+      <dt>
+        District
+      </dt>
+      <dd>
+        <%= @the_politician.district_id %>
+      </dd>
+
+      <dt>
+        Party
+      </dt>
+      <dd>
+        <%= @the_politician.party %>
+      </dd>
+
+      <dt>
+        Name
+      </dt>
+      <dd>
+        <%= @the_politician.name %>
+      </dd>
+
+      <dt>
+        Photo
+      </dt>
+      <dd>
+        <%= @the_politician.photo %>
+      </dd>
+
+      <dt>
+        Last name
+      </dt>
+      <dd>
+        <%= @the_politician.last_name %>
+      </dd>
+
+      <dt>
+        Spokesperson
+      </dt>
+      <dd>
+        <%= @the_politician.spokesperson %>
+      </dd>
+
+      <dt>
+        Username
+      </dt>
+      <dd>
+        <%= @the_politician.username %>
+      </dd>
+
+      <dt>
+        Created at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_politician.created_at) %> ago
+      </dd>
+
+      <dt>
+        Updated at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_politician.updated_at) %> ago
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+
+
+<div>
+  <div>
+    <h2>
+      Edit politician
+    </h2>
+
+    <form action="/modify_politician/<%= @the_politician.id %>"  method="post" >
+      <div>
+        <label for="district_id_box">
+          District
+        </label>
+
+        <input type="text" id="district_id_box" name="query_district_id" value="<%= @the_politician.district_id %>">
+      </div>
+
+      <div>
+        <label for="party_box">
+          Party
+        </label>
+
+        <input type="text" id="party_box" name="query_party" value="<%= @the_politician.party %>">
+      </div>
+
+      <div>
+        <label for="name_box">
+          Name
+        </label>
+
+        <input type="text" id="name_box" name="query_name" value="<%= @the_politician.name %>">
+      </div>
+
+      <div>
+        <label for="photo_box">
+          Photo
+        </label>
+
+        <input type="text" id="photo_box" name="query_photo" value="<%= @the_politician.photo %>">
+      </div>
+
+      <div>
+        <label for="last_name_box">
+          Last name
+        </label>
+
+        <input type="text" id="last_name_box" name="query_last_name" value="<%= @the_politician.last_name %>">
+      </div>
+
+      <div>
+        <input type="checkbox" id="spokesperson_box" name="query_spokesperson" value="1" <%= "checked" if @the_politician.spokesperson %>>
+
+        <label for="spokesperson_box">
+            Spokesperson
+        </label>
+      </div>
+
+      <div>
+        <label for="username_box">
+          Username
+        </label>
+
+        <input type="text" id="username_box" name="query_username" value="<%= @the_politician.username %>">
+      </div>
+
+      <button>
+        Update politician
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>

@@ -1,0 +1,102 @@
+<div>
+  <div>
+    <h1>
+      List of all injustices
+    </h1>
+  </div>
+</div>
+
+<hr>
+
+<div>
+  <div>
+    <h2>
+      Add a new injustice
+    </h2>
+
+    <form action="/insert_injustice" method="post">
+      <div>
+        <label for="description_box">
+          Description
+        </label>
+
+        <input type="text" id="description_box" name="query_description">
+      </div>
+
+      <div>
+        <label for="value_id_box">
+          Value
+        </label>
+
+        <input type="text" id="value_id_box" name="query_value_id">
+      </div>
+
+      <button>
+        Create injustice
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>
+<div>
+  <div>
+    <table border="1">
+      <tr>
+        <th>
+          ID
+        </th>
+
+        <th>
+          Description
+        </th>
+
+        <th>
+          Value
+        </th>
+
+        <th>
+          Created at
+        </th>
+
+        <th>
+          Updated at
+        </th>
+
+        <th>
+        </th>
+      </tr>
+
+      <% @list_of_injustices.each do |an_injustice| %>
+      <tr>
+        <td>
+          <%= an_injustice.id %>
+        </td>
+
+        <td>
+          <%= an_injustice.description %>
+        </td>
+
+        <td>
+          <%= an_injustice.value_id %>
+        </td>
+
+        <td>
+          <%= time_ago_in_words(an_injustice.created_at) %> ago
+        </td>
+        <td>
+          <%= time_ago_in_words(an_injustice.updated_at) %> ago
+        </td>
+
+        <td>
+          <a href="/injustices/<%= an_injustice.id %>">
+            Show details
+          </a>
+        </td>
+      </tr>
+      <% end %>
+    </table>
+  </div>
+</div>
+
+<hr>

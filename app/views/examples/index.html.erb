@@ -1,0 +1,118 @@
+<div>
+  <div>
+    <h1>
+      List of all examples
+    </h1>
+  </div>
+</div>
+
+<hr>
+
+<div>
+  <div>
+    <h2>
+      Add a new example
+    </h2>
+
+    <form action="/insert_example" method="post">
+      <div>
+        <label for="user_id_box">
+          User
+        </label>
+
+        <input type="text" id="user_id_box" name="query_user_id">
+      </div>
+
+      <div>
+        <label for="policy_id_box">
+          Policy
+        </label>
+
+        <input type="text" id="policy_id_box" name="query_policy_id">
+      </div>
+
+      <div>
+        <label for="article_id_box">
+          Article
+        </label>
+
+        <input type="text" id="article_id_box" name="query_article_id">
+      </div>
+
+      <button>
+        Create example
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>
+<div>
+  <div>
+    <table border="1">
+      <tr>
+        <th>
+          ID
+        </th>
+
+        <th>
+          User
+        </th>
+
+        <th>
+          Policy
+        </th>
+
+        <th>
+          Article
+        </th>
+
+        <th>
+          Created at
+        </th>
+
+        <th>
+          Updated at
+        </th>
+
+        <th>
+        </th>
+      </tr>
+
+      <% @list_of_examples.each do |an_example| %>
+      <tr>
+        <td>
+          <%= an_example.id %>
+        </td>
+
+        <td>
+          <%= an_example.user_id %>
+        </td>
+
+        <td>
+          <%= an_example.policy_id %>
+        </td>
+
+        <td>
+          <%= an_example.article_id %>
+        </td>
+
+        <td>
+          <%= time_ago_in_words(an_example.created_at) %> ago
+        </td>
+        <td>
+          <%= time_ago_in_words(an_example.updated_at) %> ago
+        </td>
+
+        <td>
+          <a href="/examples/<%= an_example.id %>">
+            Show details
+          </a>
+        </td>
+      </tr>
+      <% end %>
+    </table>
+  </div>
+</div>
+
+<hr>

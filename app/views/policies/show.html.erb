@@ -1,0 +1,86 @@
+<div>
+  <div>
+    <h1>
+      Policy #<%= @the_policy.id %> details
+    </h1>
+
+    <div>
+      <div>
+        <a href="/policies">
+          Go back
+        </a>
+      </div>
+
+      <div>
+        <a href="/delete_policy/<%= @the_policy.id %>">
+          Delete policy
+        </a>
+      </div>
+    </div>
+
+    <dl>
+      <dt>
+        Description
+      </dt>
+      <dd>
+        <%= @the_policy.description %>
+      </dd>
+
+      <dt>
+        Injustice
+      </dt>
+      <dd>
+        <%= @the_policy.injustice_id %>
+      </dd>
+
+      <dt>
+        Created at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_policy.created_at) %> ago
+      </dd>
+
+      <dt>
+        Updated at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_policy.updated_at) %> ago
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+
+
+<div>
+  <div>
+    <h2>
+      Edit policy
+    </h2>
+
+    <form action="/modify_policy/<%= @the_policy.id %>"  method="post" >
+      <div>
+        <label for="description_box">
+          Description
+        </label>
+
+        <input type="text" id="description_box" name="query_description" value="<%= @the_policy.description %>">
+      </div>
+
+      <div>
+        <label for="injustice_id_box">
+          Injustice
+        </label>
+
+        <input type="text" id="injustice_id_box" name="query_injustice_id" value="<%= @the_policy.injustice_id %>">
+      </div>
+
+      <button>
+        Update policy
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>

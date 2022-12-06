@@ -1,0 +1,86 @@
+<div>
+  <div>
+    <h1>
+      Injustice #<%= @the_injustice.id %> details
+    </h1>
+
+    <div>
+      <div>
+        <a href="/injustices">
+          Go back
+        </a>
+      </div>
+
+      <div>
+        <a href="/delete_injustice/<%= @the_injustice.id %>">
+          Delete injustice
+        </a>
+      </div>
+    </div>
+
+    <dl>
+      <dt>
+        Description
+      </dt>
+      <dd>
+        <%= @the_injustice.description %>
+      </dd>
+
+      <dt>
+        Value
+      </dt>
+      <dd>
+        <%= @the_injustice.value_id %>
+      </dd>
+
+      <dt>
+        Created at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_injustice.created_at) %> ago
+      </dd>
+
+      <dt>
+        Updated at
+      </dt>
+      <dd>
+        <%= time_ago_in_words(@the_injustice.updated_at) %> ago
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+
+
+<div>
+  <div>
+    <h2>
+      Edit injustice
+    </h2>
+
+    <form action="/modify_injustice/<%= @the_injustice.id %>"  method="post" >
+      <div>
+        <label for="description_box">
+          Description
+        </label>
+
+        <input type="text" id="description_box" name="query_description" value="<%= @the_injustice.description %>">
+      </div>
+
+      <div>
+        <label for="value_id_box">
+          Value
+        </label>
+
+        <input type="text" id="value_id_box" name="query_value_id" value="<%= @the_injustice.value_id %>">
+      </div>
+
+      <button>
+        Update injustice
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>
