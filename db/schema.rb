@@ -10,23 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_03_181750) do
+ActiveRecord::Schema.define(version: 2022_12_03_181729) do
 
   create_table "anonymity_levels", force: :cascade do |t|
     t.string "permission_name"
     t.string "permission_photo"
     t.string "permission_story"
     t.string "permission_media"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "articles", force: :cascade do |t|
-    t.integer "journalist_id"
-    t.string "outlet"
-    t.integer "user_id"
-    t.date "publication_date"
-    t.integer "politician_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -97,17 +87,6 @@ ActiveRecord::Schema.define(version: 2022_12_03_181750) do
     t.boolean "education_requirement"
     t.boolean "work_dane_requirement"
     t.boolean "work_foreigner_requirement"
-    t.integer "user_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "journalists", force: :cascade do |t|
-    t.string "first_name"
-    t.string "last_name"
-    t.string "email"
-    t.string "phone"
-    t.string "outlet"
     t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -198,13 +177,6 @@ ActiveRecord::Schema.define(version: 2022_12_03_181750) do
   create_table "values", force: :cascade do |t|
     t.string "name"
     t.string "description"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "volunteer_teams", force: :cascade do |t|
-    t.string "team_name"
-    t.integer "team_lead_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
