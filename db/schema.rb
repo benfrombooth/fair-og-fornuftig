@@ -10,15 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_06_175914) do
-
-  create_table "causes", force: :cascade do |t|
-    t.integer "politician_id"
-    t.integer "industry_id"
-    t.boolean "priority"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
+ActiveRecord::Schema.define(version: 2022_12_07_173921) do
 
   create_table "districts", force: :cascade do |t|
     t.string "name"
@@ -47,6 +39,17 @@ ActiveRecord::Schema.define(version: 2022_12_06_175914) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "members", force: :cascade do |t|
+    t.string "email"
+    t.string "password_digest"
+    t.string "first_name"
+    t.string "last_name"
+    t.string "user_type"
+    t.string "string"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "municipalities", force: :cascade do |t|
     t.string "name"
     t.integer "district_id"
@@ -66,9 +69,10 @@ ActiveRecord::Schema.define(version: 2022_12_06_175914) do
     t.string "party"
     t.integer "name"
     t.string "photo"
-    t.string "last_name"
-    t.boolean "spokesperson"
+    t.string "spokesperson"
     t.string "username"
+    t.string "password"
+    t.integer "status_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -88,10 +92,10 @@ ActiveRecord::Schema.define(version: 2022_12_06_175914) do
     t.string "nationality"
     t.string "username"
     t.integer "industry_id"
-    t.boolean "permission_name"
-    t.boolean "permission_photo"
-    t.boolean "permission_story"
-    t.boolean "permission_media"
+    t.string "permission_name"
+    t.string "permission_photo"
+    t.string "permission_story"
+    t.string "permission_media"
     t.integer "municipality_id"
     t.string "personal_story"
     t.string "photo"

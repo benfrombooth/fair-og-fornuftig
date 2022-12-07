@@ -62,10 +62,31 @@
       </dd>
 
       <dt>
-        Anonymity
+        Permission name
       </dt>
       <dd>
-        <%= @the_user.anonymity_id %>
+        <%= @the_user.permission_name %>
+      </dd>
+
+      <dt>
+        Permission photo
+      </dt>
+      <dd>
+        <%= @the_user.permission_photo %>
+      </dd>
+
+      <dt>
+        Permission story
+      </dt>
+      <dd>
+        <%= @the_user.permission_story %>
+      </dd>
+
+      <dt>
+        Permission media
+      </dt>
+      <dd>
+        <%= @the_user.permission_media %>
       </dd>
 
       <dt>
@@ -87,6 +108,13 @@
       </dt>
       <dd>
         <%= @the_user.photo %>
+      </dd>
+
+      <dt>
+        Password
+      </dt>
+      <dd>
+        <%= @the_user.password %>
       </dd>
 
       <dt>
@@ -165,11 +193,35 @@
       </div>
 
       <div>
-        <label for="anonymity_id_box">
-          Anonymity
+        <label for="permission_name_box">
+          Permission name
         </label>
 
-        <input type="text" id="anonymity_id_box" name="query_anonymity_id" value="<%= @the_user.anonymity_id %>">
+        <input type="text" id="permission_name_box" name="query_permission_name" value="<%= @the_user.permission_name %>">
+      </div>
+
+      <div>
+        <label for="permission_photo_box">
+          Permission photo
+        </label>
+
+        <input type="text" id="permission_photo_box" name="query_permission_photo" value="<%= @the_user.permission_photo %>">
+      </div>
+
+      <div>
+        <label for="permission_story_box">
+          Permission story
+        </label>
+
+        <input type="text" id="permission_story_box" name="query_permission_story" value="<%= @the_user.permission_story %>">
+      </div>
+
+      <div>
+        <label for="permission_media_box">
+          Permission media
+        </label>
+
+        <input type="text" id="permission_media_box" name="query_permission_media" value="<%= @the_user.permission_media %>">
       </div>
 
       <div>
@@ -194,6 +246,14 @@
         </label>
 
         <input type="text" id="photo_box" name="query_photo" value="<%= @the_user.photo %>">
+      </div>
+
+      <div>
+        <label for="password_box">
+          Password
+        </label>
+
+        <input type="text" id="password_box" name="query_password" value="<%= @the_user.password %>">
       </div>
 
       <button>

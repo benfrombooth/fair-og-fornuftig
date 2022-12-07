@@ -7,10 +7,10 @@ class CreateUsers < ActiveRecord::Migration[6.0]
       t.string :nationality
       t.string :username
       t.integer :industry_id
-      t.boolean :permission_name
-      t.boolean :permission_photo
-      t.boolean :permission_story
-      t.boolean :permission_media
+      t.string :permission_name
+      t.string :permission_photo
+      t.string :permission_story
+      t.string :permission_media
       t.integer :municipality_id
       t.string :personal_story
       t.string :photo

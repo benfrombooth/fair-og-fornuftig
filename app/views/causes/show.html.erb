@@ -84,11 +84,11 @@
       </div>
 
       <div>
-        <input type="checkbox" id="priority_box" name="query_priority" value="1" <%= "checked" if @the_cause.priority %>>
-
         <label for="priority_box">
-            Priority
+          Priority
         </label>
+
+        <input type="text" id="priority_box" name="query_priority" value="<%= @the_cause.priority %>">
       </div>
 
       <button>

@@ -11,6 +11,4 @@ class District < ApplicationRecord
   has_many(:politicians, { :class_name => "Politician", :foreign_key => "district_id", :dependent => :destroy })
 
   has_many(:municipalities, { :class_name => "Municipality", :foreign_key => "district_id", :dependent => :destroy })
-
-  has_many(:users, { :through => :municipalities, :source => :users })
 end

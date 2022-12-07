@@ -21,7 +21,7 @@ class CausesController < ApplicationController
     the_cause = Cause.new
     the_cause.politician_id = params.fetch("query_politician_id")
     the_cause.industry_id = params.fetch("query_industry_id")
-    the_cause.priority = params.fetch("query_priority", false)
+    the_cause.priority = params.fetch("query_priority")
 
     if the_cause.valid?
       the_cause.save
@@ -37,7 +37,7 @@ class CausesController < ApplicationController
 
     the_cause.politician_id = params.fetch("query_politician_id")
     the_cause.industry_id = params.fetch("query_industry_id")
-    the_cause.priority = params.fetch("query_priority", false)
+    the_cause.priority = params.fetch("query_priority")
 
     if the_cause.valid?
       the_cause.save

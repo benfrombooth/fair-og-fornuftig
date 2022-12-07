@@ -1,10 +1,10 @@
 <h1>Sign up</h1>
 
-<form action="/insert_user" method="post">
+<form action="/insert_member" method="post">
 
   <div>
-    <label for="email_box">Email</label>
-    <input id="email_box" name="query_email" placeholder="Choose a email..." type="text">
+    <label for="username_box">Username</label>
+    <input id="username_box" name="query_username" placeholder="Choose a username..." type="text">
   </div>
                  
   <div>
@@ -17,6 +17,12 @@
     <label for="last_name_box">Last name</label>
       
     <input type="text" id="last_name_box" name="query_last_name">
+  </div>
+         
+  <div>
+    <label for="string_box">String</label>
+      
+    <input type="text" id="string_box" name="query_string">
   </div>
     
   <div>
@@ -37,5 +43,5 @@
 <hr>
 
 <p>
-  Or, <a href="/user_sign_in">Sign in</a> instead.
+  Or, <a href="/member_sign_in">Sign in</a> instead.
 </p>

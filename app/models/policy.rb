@@ -9,7 +9,7 @@
 #  injustice_id :integer
 #
 class Policy < ApplicationRecord
-  belongs_to(:injustice, { :required => true, :class_name => "Injustice", :foreign_key => "injustice_id" })
+  belongs_to(:injustice, { :class_name => "Injustice", :foreign_key => "injustice_id" })
 
   has_many(:examples, { :class_name => "Example", :foreign_key => "policy_id", :dependent => :destroy })
 

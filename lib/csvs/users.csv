@@ -29,6 +29,5 @@ id,created_at,updated_at,first_name,last_name,nationality,username,industry_id,p
 28,12/2/2022 13:15,12/2/2022 13:15,,,South Africa,anonymous2,4,TRUE,TRUE,TRUE,FALSE,2,South African immigrant who did not qualify for faimly reunification as a recent graduate.,,danmark123
 29,12/2/2022 13:15,12/2/2022 13:15,,,Norway,anonymous3,4,FALSE,FALSE,TRUE,TRUE,3,Rejected for Danish citizenship because of inability to locate original high school diploma.,,danmark123
 30,12/2/2022 13:15,12/2/2022 13:15,,,Australia,anonymous4,4,FALSE,FALSE,TRUE,FALSE,95,Permanent residency revoked due to leaving the country more than 6 months to care for sick parent.,,danmark123
-31,12/2/2022 13:15,12/2/2022 13:15,,,Bahrain,anonymous5,1,FALSE,FALSE,TRUE,FALSE,16,Rejected for Danish citizenship because of a retroactive rule change and subsequent denial by politicians without clear cause,,danmark123
-32,12/2/2022 13:15,12/2/2022 13:15,Bjarne,Toft Jakobsen,Denmark,bjarne,4,TRUE,TRUE,TRUE,FALSE,67,Unable to reside in Denmark with Thai wife because of inability to produce high school diploma.,,danmark123
-33,12/2/2022 13:15,12/2/2022 13:15,Susan,Cawley,Australia,susan,3,TRUE,TRUE,TRUE,FALSE,8,"Rejected for Danish citizenship, but ultimately granted dispensation, because of a decades-old speeding ticket.",,danmark123
+31,12/2/2022 13:15,12/2/2022 13:15,Bjarne,Toft Jakobsen,Denmark,bjarne,4,TRUE,TRUE,TRUE,FALSE,67,Unable to reside in Denmark with Thai wife because of inability to produce high school diploma.,,danmark123
+32,12/2/2022 13:15,12/2/2022 13:15,Susan,Cawley,Australia,susan,3,TRUE,TRUE,TRUE,FALSE,8,"Rejected for Danish citizenship, but ultimately granted dispensation, because of a decades-old speeding ticket.",,danmark123

@@ -3,7 +3,7 @@ class CreateCauses < ActiveRecord::Migration[6.0]
     create_table :causes do |t|
       t.integer :politician_id
       t.integer :industry_id
-      t.boolean :priority
+      t.string :priority
 
       t.timestamps
     end

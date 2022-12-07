@@ -5,9 +5,10 @@ class CreatePoliticians < ActiveRecord::Migration[6.0]
       t.string :party
       t.integer :name
       t.string :photo
-      t.string :last_name
-      t.boolean :spokesperson
+      t.string :spokesperson
       t.string :username
+      t.string :password
+      t.integer :status_id
 
       t.timestamps
     end

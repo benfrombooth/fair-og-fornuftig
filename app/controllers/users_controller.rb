@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
-  def landing
-    render({ :template => "users/landing.html.erb" })
+  def municipality_name
+    TBD
   end
   
   def index
@@ -29,10 +29,14 @@ class UsersController < ApplicationController
     the_user.nationality = params.fetch("query_nationality")
     the_user.username = params.fetch("query_username")
     the_user.industry_id = params.fetch("query_industry_id")
-    the_user.anonymity_id = params.fetch("query_anonymity_id")
+    the_user.permission_name = params.fetch("query_permission_name")
+    the_user.permission_photo = params.fetch("query_permission_photo")
+    the_user.permission_story = params.fetch("query_permission_story")
+    the_user.permission_media = params.fetch("query_permission_media")
     the_user.municipality_id = params.fetch("query_municipality_id")
     the_user.personal_story = params.fetch("query_personal_story")
     the_user.photo = params.fetch("query_photo")
+    the_user.password = params.fetch("query_password")
 
     if the_user.valid?
       the_user.save
@@ -52,10 +56,14 @@ class UsersController < ApplicationController
     the_user.nationality = params.fetch("query_nationality")
     the_user.username = params.fetch("query_username")
     the_user.industry_id = params.fetch("query_industry_id")
-    the_user.anonymity_id = params.fetch("query_anonymity_id")
+    the_user.permission_name = params.fetch("query_permission_name")
+    the_user.permission_photo = params.fetch("query_permission_photo")
+    the_user.permission_story = params.fetch("query_permission_story")
+    the_user.permission_media = params.fetch("query_permission_media")
     the_user.municipality_id = params.fetch("query_municipality_id")
     the_user.personal_story = params.fetch("query_personal_story")
     the_user.photo = params.fetch("query_photo")
+    the_user.password = params.fetch("query_password")
 
     if the_user.valid?
       the_user.save

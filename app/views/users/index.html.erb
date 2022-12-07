@@ -64,11 +64,35 @@
       </div>
 
       <div>
-        <label for="anonymity_id_box">
-          Anonymity
+        <label for="permission_name_box">
+          Permission name
         </label>
 
-        <input type="text" id="anonymity_id_box" name="query_anonymity_id">
+        <input type="text" id="permission_name_box" name="query_permission_name">
+      </div>
+
+      <div>
+        <label for="permission_photo_box">
+          Permission photo
+        </label>
+
+        <input type="text" id="permission_photo_box" name="query_permission_photo">
+      </div>
+
+      <div>
+        <label for="permission_story_box">
+          Permission story
+        </label>
+
+        <input type="text" id="permission_story_box" name="query_permission_story">
+      </div>
+
+      <div>
+        <label for="permission_media_box">
+          Permission media
+        </label>
+
+        <input type="text" id="permission_media_box" name="query_permission_media">
       </div>
 
       <div>
@@ -93,6 +117,14 @@
         </label>
 
         <input type="text" id="photo_box" name="query_photo">
+      </div>
+
+      <div>
+        <label for="password_box">
+          Password
+        </label>
+
+        <input type="text" id="password_box" name="query_password">
       </div>
 
       <button>
@@ -136,7 +168,19 @@
         </th>
 
         <th>
-          Anonymity
+          Permission name
+        </th>
+
+        <th>
+          Permission photo
+        </th>
+
+        <th>
+          Permission story
+        </th>
+
+        <th>
+          Permission media
         </th>
 
         <th>
@@ -149,6 +193,10 @@
 
         <th>
           Photo
+        </th>
+
+        <th>
+          Password
         </th>
 
         <th>
@@ -194,7 +242,19 @@
         </td>
 
         <td>
-          <%= a_user.anonymity_id %>
+          <%= a_user.permission_name %>
+        </td>
+
+        <td>
+          <%= a_user.permission_photo %>
+        </td>
+
+        <td>
+          <%= a_user.permission_story %>
+        </td>
+
+        <td>
+          <%= a_user.permission_media %>
         </td>
 
         <td>
@@ -207,6 +267,10 @@
 
         <td>
           <%= a_user.photo %>
+        </td>
+
+        <td>
+          <%= a_user.password %>
         </td>
 
         <td>

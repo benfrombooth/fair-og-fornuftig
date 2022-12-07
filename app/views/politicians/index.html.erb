@@ -48,17 +48,11 @@
       </div>
 
       <div>
-        <label for="last_name_box">
-          Last name
+        <label for="spokesperson_box">
+          Spokesperson
         </label>
 
-        <input type="text" id="last_name_box" name="query_last_name">
-      </div>
-
-      <div>
-        <input type="checkbox" id="spokesperson_box" name="query_spokesperson" value="1">
-
-        <label for="spokesperson_box">Spokesperson</label>
+        <input type="text" id="spokesperson_box" name="query_spokesperson">
       </div>
 
       <div>
@@ -67,6 +61,22 @@
         </label>
 
         <input type="text" id="username_box" name="query_username">
+      </div>
+
+      <div>
+        <label for="password_box">
+          Password
+        </label>
+
+        <input type="text" id="password_box" name="query_password">
+      </div>
+
+      <div>
+        <label for="status_id_box">
+          Status
+        </label>
+
+        <input type="text" id="status_id_box" name="query_status_id">
       </div>
 
       <button>
@@ -102,15 +112,19 @@
         </th>
 
         <th>
-          Last name
-        </th>
-
-        <th>
           Spokesperson
         </th>
 
         <th>
           Username
+        </th>
+
+        <th>
+          Password
+        </th>
+
+        <th>
+          Status
         </th>
 
         <th>
@@ -148,15 +162,19 @@
         </td>
 
         <td>
-          <%= a_politician.last_name %>
-        </td>
-
-        <td>
           <%= a_politician.spokesperson %>
         </td>
 
         <td>
           <%= a_politician.username %>
+        </td>
+
+        <td>
+          <%= a_politician.password %>
+        </td>
+
+        <td>
+          <%= a_politician.status_id %>
         </td>
 
         <td>
