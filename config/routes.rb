@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  # Route used for the home page:
+
+  get("/", { :controller => "users", :action => "home" })
+  
   # Routes for the Stance resource:
 
   # CREATE
@@ -18,10 +22,6 @@ Rails.application.routes.draw do
   get("/delete_stance/:path_id", { :controller => "stances", :action => "destroy" })
 
   #------------------------------
-
-  # Routes used in the proof-of-concept:
-
-  get("/", { :controller => "users", :action => "index" })
   
   # Routes for the Cause resource:
 

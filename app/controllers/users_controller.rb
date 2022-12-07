@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
-  def municipality_name
-    TBD
+  def home
+    render({ :template => "users/home.html.erb" })
   end
   
   def index

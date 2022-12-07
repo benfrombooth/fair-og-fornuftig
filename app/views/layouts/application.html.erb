@@ -108,14 +108,14 @@
 
       <% if session.fetch(:user_id) == nil %>
         <li>
-          <a href="/user_sign_up">Sign up</a>
+          <a href="/member_sign_up">Sign up</a>
         </li>
         <li>
-          <a href="/user_sign_in">Sign in</a>
+          <a href="/member_sign_in">Sign in</a>
         </li>
       <% else %>
         <li>
-          <a href="/user_sign_out">Sign out</a>
+          <a href="/member_sign_out">Sign out</a>
         </li>
       <% end %>
     </ul>
