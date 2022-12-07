@@ -1,5 +1,32 @@
 Rails.application.routes.draw do
 
+  # Routes for the Member account:
+
+  # SIGN UP FORM
+  get("/member_sign_up", { :controller => "member_authentication", :action => "sign_up_form" })        
+  # CREATE RECORD
+  post("/insert_member", { :controller => "member_authentication", :action => "create"  })
+      
+  # EDIT PROFILE FORM        
+  get("/edit_member_profile", { :controller => "member_authentication", :action => "edit_profile_form" })       
+  # UPDATE RECORD
+  post("/modify_member", { :controller => "member_authentication", :action => "update" })
+  
+  # DELETE RECORD
+  get("/cancel_member_account", { :controller => "member_authentication", :action => "destroy" })
+
+  # ------------------------------
+
+  # SIGN IN FORM
+  get("/member_sign_in", { :controller => "member_authentication", :action => "sign_in_form" })
+  # AUTHENTICATE AND STORE COOKIE
+  post("/member_verify_credentials", { :controller => "member_authentication", :action => "create_cookie" })
+  
+  # SIGN OUT        
+  get("/member_sign_out", { :controller => "member_authentication", :action => "destroy_cookies" })
+             
+  #------------------------------
+
   # Route used for the home page:
 
   get("/", { :controller => "users", :action => "home" })
