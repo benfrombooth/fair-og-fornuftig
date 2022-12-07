@@ -3,12 +3,10 @@
 # Table name: members
 #
 #  id              :integer          not null, primary key
-#  email           :string
 #  first_name      :string
 #  last_name       :string
 #  password_digest :string
-#  string          :string
-#  user_type       :string
+#  username        :string
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #

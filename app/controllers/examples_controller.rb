@@ -1,5 +1,10 @@
 class ExamplesController < ApplicationController
   def overview
+
+    @users = Users.all
+
+    
+
     render({ :template => "examples/overview.html.erb" })
   end
   

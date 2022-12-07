@@ -48,12 +48,10 @@ ActiveRecord::Schema.define(version: 2022_12_07_220129) do
   end
 
   create_table "members", force: :cascade do |t|
-    t.string "email"
+    t.string "username"
     t.string "password_digest"
     t.string "first_name"
     t.string "last_name"
-    t.string "user_type"
-    t.string "string"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -78,8 +76,6 @@ ActiveRecord::Schema.define(version: 2022_12_07_220129) do
     t.string "name"
     t.string "photo"
     t.string "spokesperson"
-    t.string "username"
-    t.string "password"
     t.integer "status_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -99,7 +95,6 @@ ActiveRecord::Schema.define(version: 2022_12_07_220129) do
     t.string "first_name"
     t.string "last_name"
     t.string "nationality"
-    t.string "username"
     t.integer "industry_id"
     t.string "permission_name"
     t.string "permission_photo"
@@ -108,7 +103,6 @@ ActiveRecord::Schema.define(version: 2022_12_07_220129) do
     t.integer "municipality_id"
     t.string "personal_story"
     t.string "photo"
-    t.string "password"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

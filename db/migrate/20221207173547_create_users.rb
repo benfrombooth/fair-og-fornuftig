@@ -5,7 +5,6 @@ class CreateUsers < ActiveRecord::Migration[6.0]
       t.string :first_name
       t.string :last_name
       t.string :nationality
-      t.string :username
       t.integer :industry_id
       t.string :permission_name
       t.string :permission_photo
@@ -14,7 +13,6 @@ class CreateUsers < ActiveRecord::Migration[6.0]
       t.integer :municipality_id
       t.string :personal_story
       t.string :photo
-      t.string :password
 
       t.timestamps
     end
