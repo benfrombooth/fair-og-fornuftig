@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_07_185247) do
+ActiveRecord::Schema.define(version: 2022_12_07_220129) do
 
   create_table "causes", force: :cascade do |t|
     t.integer "politician_id"
@@ -75,7 +75,7 @@ ActiveRecord::Schema.define(version: 2022_12_07_185247) do
   create_table "politicians", force: :cascade do |t|
     t.integer "district_id"
     t.string "party"
-    t.integer "name"
+    t.string "name"
     t.string "photo"
     t.string "spokesperson"
     t.string "username"

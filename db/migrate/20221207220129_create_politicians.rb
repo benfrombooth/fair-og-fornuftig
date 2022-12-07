@@ -3,7 +3,7 @@ class CreatePoliticians < ActiveRecord::Migration[6.0]
     create_table :politicians do |t|
       t.integer :district_id
       t.string :party
-      t.integer :name
+      t.string :name
       t.string :photo
       t.string :spokesperson
       t.string :username

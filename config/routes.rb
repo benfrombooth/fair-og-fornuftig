@@ -1,5 +1,24 @@
 Rails.application.routes.draw do
 
+  # Routes for the Politician resource:
+
+  # CREATE
+  post("/insert_politician", { :controller => "politicians", :action => "create" })
+          
+  # READ
+  get("/politicians", { :controller => "politicians", :action => "index" })
+  
+  get("/politicians/:path_id", { :controller => "politicians", :action => "show" })
+  
+  # UPDATE
+  
+  post("/modify_politician/:path_id", { :controller => "politicians", :action => "update" })
+  
+  # DELETE
+  get("/delete_politician/:path_id", { :controller => "politicians", :action => "destroy" })
+
+  #------------------------------
+
   # Route used for the home page:
 
   get("/", { :controller => "users", :action => "home" })
@@ -224,25 +243,6 @@ Rails.application.routes.draw do
   
   # DELETE
   get("/delete_district/:path_id", { :controller => "districts", :action => "destroy" })
-
-  #------------------------------
-
-  # Routes for the Politician resource:
-
-  # CREATE
-  post("/insert_politician", { :controller => "politicians", :action => "create" })
-          
-  # READ
-  get("/politicians", { :controller => "politicians", :action => "index" })
-  
-  get("/politicians/:path_id", { :controller => "politicians", :action => "show" })
-  
-  # UPDATE
-  
-  post("/modify_politician/:path_id", { :controller => "politicians", :action => "update" })
-  
-  # DELETE
-  get("/delete_politician/:path_id", { :controller => "politicians", :action => "destroy" })
 
   #------------------------------
 

@@ -3,7 +3,7 @@
 # Table name: politicians
 #
 #  id           :integer          not null, primary key
-#  name         :integer
+#  name         :string
 #  party        :string
 #  password     :string
 #  photo        :string
@@ -15,13 +15,4 @@
 #  status_id    :integer
 #
 class Politician < ApplicationRecord
-  has_many(:stances, { :class_name => "Stance", :foreign_key => "politician_id", :dependent => :destroy })
-
-  has_many(:causes, { :class_name => "Cause", :foreign_key => "politician_id", :dependent => :destroy })
-
-  belongs_to(:district, { :class_name => "District", :foreign_key => "district_id" })
-
-  has_many(:policies, { :through => :stances, :source => :policy })
-
-  has_many(:values, { :through => :stances, :source => :value })
 end
