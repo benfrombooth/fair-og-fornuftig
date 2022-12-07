@@ -1,15 +1,15 @@
 class BookmarksController < ApplicationController
 
-  before_action(:load_current_user)
+  before_action(:load_current_member)
 
-  def load_current_user
-    @current_user = User.where({ :id => session[:user_id] }).at(0) 
+  def load_current_member
+    @current_member = Member.where({ :id => session[:user_id] }).at(0) 
   end
 
   def index
-    self.load_current_user
+    self.load_current_member
 
-    matching_bookmarks = @current_user.bookmarks
+    matching_bookmarks = @current_member.bookmarks
 
     @list_of_bookmarks = matching_bookmarks.order({ :created_at => :desc })
 
@@ -32,7 +32,7 @@ class BookmarksController < ApplicationController
     self.load_current_user
 
     the_bookmark = Bookmark.new
-    the_bookmark.user_id = @current_user.id
+    the_bookmark.user_id = @current_member.id
     the_bookmark.movie_id = params.fetch("query_politician_id")
 
     if the_bookmark.valid?

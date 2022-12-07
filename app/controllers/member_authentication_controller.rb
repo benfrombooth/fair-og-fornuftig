@@ -7,7 +7,7 @@ class MemberAuthenticationController < ApplicationController
   end
 
   def create_cookie
-    member = Member.where({ :email => params.fetch("query_username") }).first
+    member = Member.where({ :username => params.fetch("query_username") }).first
     
     the_supplied_password = params.fetch("query_password")
     
@@ -38,7 +38,7 @@ class MemberAuthenticationController < ApplicationController
 
   def create
     @member = Member.new
-    @member.username = params.fetch("query_username")
+    @member.email = params.fetch("query_username")
     @member.password = params.fetch("query_password")
     @member.password_confirmation = params.fetch("query_password_confirmation")
     @member.first_name = params.fetch("query_first_name")
