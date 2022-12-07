@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Fair & Fornuftig</title>
-    <%= csrf_meta_tags %>
+<head>
+  <title>
+    Fair & Fornuftig
+  </title>
 
-    <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
-    <meta charset="utf-8">
+  <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
+  <meta charset="utf-8">
 
-    <!-- Make it responsive to small screens -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <%= csp_meta_tag %>
+  <!-- Make it responsive to small screens. Include only if you're using responsive CSS. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <!-- Helper methods that create <link>s and <script>s for all of the stylesheets and javascript files in the non-`/public/` assets folders. -->
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%# javascript_pack_tag  'application' %>
 
-    <style>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 
-        body {
-          padding-top: 10px;
-          padding-bottom: 10px;
+  <!-- Rendering a partial that has all the <link>s and <script>s for assets we are pulling from content-delivery networks. -->
+  <%= render "shared/cdn_assets" %>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <style>
+    body { 
+          padding-bottom: 70px;
           background-color: #FDF9E5;
-        }
+       }
+}
 
-       .items {
+    .items {
           display: flex;
           flex-direction: column;
           gap: 25px;
@@ -31,16 +40,14 @@
           flex-grow: 1;
         }
 
-        div {
+    div {
           font-family: 'Playfair Display', serif, bold;
           }
-          
-      </style>
+  </style>
+</head>
 
-  </head>
-
-  <body>
-    <ul>
+<body>
+  <ul>
       <li>
         <a href="/">Home</a>
       </li>
@@ -54,7 +61,7 @@
         <a href="/politicians">Politicians</a>
       </li>
 
-      <% if session.fetch(:user_id) == nil %>
+      <% if session.fetch(:user_name) == nil %>
         <li>
           <a href="/member_sign_up">Sign up</a>
         </li>
@@ -73,5 +80,7 @@
     <p style="color: red"><%= alert %></p>
 
     <%= yield %>
-  </body>
+  </div>
+
+</body>
 </html>
