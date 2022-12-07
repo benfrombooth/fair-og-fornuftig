@@ -22,7 +22,7 @@ class MemberAuthenticationController < ApplicationController
         redirect_to("/", { :notice => "Signed in successfully." })
       end
     else
-      redirect_to("/member_sign_in", { :alert => "No member with that email address." })
+      redirect_to("/member_sign_in", { :alert => "No member with that username." })
     end
   end
 
@@ -38,7 +38,7 @@ class MemberAuthenticationController < ApplicationController
 
   def create
     @member = Member.new
-    @member.email = params.fetch("query_username")
+    @member.username = params.fetch("query_username")
     @member.password = params.fetch("query_password")
     @member.password_confirmation = params.fetch("query_password_confirmation")
     @member.first_name = params.fetch("query_first_name")
@@ -61,7 +61,7 @@ class MemberAuthenticationController < ApplicationController
 
   def update
     @member = @current_member
-    @member.email = params.fetch("query_email")
+    @member.username = params.fetch("query_username")
     @member.password = params.fetch("query_password")
     @member.password_confirmation = params.fetch("query_password_confirmation")
     @member.first_name = params.fetch("query_first_name")
