@@ -1,5 +1,24 @@
 Rails.application.routes.draw do
 
+  # Routes for the Stance resource:
+
+  # CREATE
+  post("/insert_stance", { :controller => "stances", :action => "create" })
+          
+  # READ
+  get("/stances", { :controller => "stances", :action => "index" })
+  
+  get("/stances/:path_id", { :controller => "stances", :action => "show" })
+  
+  # UPDATE
+  
+  post("/modify_stance/:path_id", { :controller => "stances", :action => "update" })
+  
+  # DELETE
+  get("/delete_stance/:path_id", { :controller => "stances", :action => "destroy" })
+
+  #------------------------------
+
   # Routes used in the proof-of-concept:
 
   get("/", { :controller => "users", :action => "index" })
@@ -96,25 +115,6 @@ Rails.application.routes.draw do
   
   # DELETE
   get("/delete_value/:path_id", { :controller => "values", :action => "destroy" })
-
-  #------------------------------
-
-  # Routes for the Stance resource:
-
-  # CREATE
-  post("/insert_stance", { :controller => "stances", :action => "create" })
-          
-  # READ
-  get("/stances", { :controller => "stances", :action => "index" })
-  
-  get("/stances/:path_id", { :controller => "stances", :action => "show" })
-  
-  # UPDATE
-  
-  post("/modify_stance/:path_id", { :controller => "stances", :action => "update" })
-  
-  # DELETE
-  get("/delete_stance/:path_id", { :controller => "stances", :action => "destroy" })
 
   #------------------------------
 

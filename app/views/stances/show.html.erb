@@ -41,6 +41,13 @@
       </dd>
 
       <dt>
+        Comment
+      </dt>
+      <dd>
+        <%= @the_stance.comment %>
+      </dd>
+
+      <dt>
         Created at
       </dt>
       <dd>
@@ -89,6 +96,14 @@
         </label>
 
         <input type="text" id="sentiment_score_box" name="query_sentiment_score" value="<%= @the_stance.sentiment_score %>">
+      </div>
+
+      <div>
+        <label for="comment_box">
+          Comment
+        </label>
+
+        <input type="text" id="comment_box" name="query_comment" value="<%= @the_stance.comment %>">
       </div>
 
       <button>

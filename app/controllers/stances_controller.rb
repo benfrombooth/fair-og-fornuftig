@@ -22,6 +22,7 @@ class StancesController < ApplicationController
     the_stance.policy_id = params.fetch("query_policy_id")
     the_stance.politician_id = params.fetch("query_politician_id")
     the_stance.sentiment_score = params.fetch("query_sentiment_score")
+    the_stance.comment = params.fetch("query_comment")
 
     if the_stance.valid?
       the_stance.save
@@ -38,6 +39,7 @@ class StancesController < ApplicationController
     the_stance.policy_id = params.fetch("query_policy_id")
     the_stance.politician_id = params.fetch("query_politician_id")
     the_stance.sentiment_score = params.fetch("query_sentiment_score")
+    the_stance.comment = params.fetch("query_comment")
 
     if the_stance.valid?
       the_stance.save

@@ -4,6 +4,7 @@ class CreateStances < ActiveRecord::Migration[6.0]
       t.integer :policy_id
       t.integer :politician_id
       t.integer :sentiment_score
+      t.string :comment
 
       t.timestamps
     end

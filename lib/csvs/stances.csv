@@ -1,520 +1,520 @@
-id,created_at,updated_at,policy_id,politician_id,sentiment_score
-1,12/2/22 13:15,12/2/22 13:15,23,1,1
-2,12/2/22 13:15,12/2/22 13:15,29,1,1
-3,12/2/22 13:15,12/2/22 13:15,30,1,1
-4,12/2/22 13:15,12/2/22 13:15,23,2,5
-5,12/2/22 13:15,12/2/22 13:15,29,2,1
-6,12/2/22 13:15,12/2/22 13:15,30,2,2
-7,12/2/22 13:15,12/2/22 13:15,23,3,5
-8,12/2/22 13:15,12/2/22 13:15,29,3,3
-9,12/2/22 13:15,12/2/22 13:15,30,3,4
-10,12/2/22 13:15,12/2/22 13:15,23,4,1
-11,12/2/22 13:15,12/2/22 13:15,29,4,4
-12,12/2/22 13:15,12/2/22 13:15,30,4,2
-13,12/2/22 13:15,12/2/22 13:15,23,5,1
-14,12/2/22 13:15,12/2/22 13:15,29,5,1
-15,12/2/22 13:15,12/2/22 13:15,30,5,3
-16,12/2/22 13:15,12/2/22 13:15,23,6,1
-17,12/2/22 13:15,12/2/22 13:15,29,6,3
-18,12/2/22 13:15,12/2/22 13:15,30,6,2
-19,12/2/22 13:15,12/2/22 13:15,23,7,5
-20,12/2/22 13:15,12/2/22 13:15,29,7,4
-21,12/2/22 13:15,12/2/22 13:15,30,7,2
-22,12/2/22 13:15,12/2/22 13:15,23,8,4
-23,12/2/22 13:15,12/2/22 13:15,29,8,2
-24,12/2/22 13:15,12/2/22 13:15,30,8,2
-25,12/2/22 13:15,12/2/22 13:15,23,9,5
-26,12/2/22 13:15,12/2/22 13:15,29,9,1
-27,12/2/22 13:15,12/2/22 13:15,30,9,3
-28,12/2/22 13:15,12/2/22 13:15,23,10,4
-29,12/2/22 13:15,12/2/22 13:15,29,10,2
-30,12/2/22 13:15,12/2/22 13:15,30,10,4
-31,12/2/22 13:15,12/2/22 13:15,23,11,1
-32,12/2/22 13:15,12/2/22 13:15,29,11,1
-33,12/2/22 13:15,12/2/22 13:15,30,11,3
-34,12/2/22 13:15,12/2/22 13:15,23,12,1
-35,12/2/22 13:15,12/2/22 13:15,29,12,1
-36,12/2/22 13:15,12/2/22 13:15,30,12,4
-37,12/2/22 13:15,12/2/22 13:15,23,13,1
-38,12/2/22 13:15,12/2/22 13:15,29,13,1
-39,12/2/22 13:15,12/2/22 13:15,30,13,4
-40,12/2/22 13:15,12/2/22 13:15,23,14,3
-41,12/2/22 13:15,12/2/22 13:15,29,14,2
-42,12/2/22 13:15,12/2/22 13:15,30,14,2
-43,12/2/22 13:15,12/2/22 13:15,23,15,1
-44,12/2/22 13:15,12/2/22 13:15,29,15,3
-45,12/2/22 13:15,12/2/22 13:15,30,15,3
-46,12/2/22 13:15,12/2/22 13:15,23,16,1
-47,12/2/22 13:15,12/2/22 13:15,29,16,1
-48,12/2/22 13:15,12/2/22 13:15,30,16,2
-49,12/2/22 13:15,12/2/22 13:15,23,17,1
-50,12/2/22 13:15,12/2/22 13:15,29,17,1
-51,12/2/22 13:15,12/2/22 13:15,30,17,2
-52,12/2/22 13:15,12/2/22 13:15,23,18,5
-53,12/2/22 13:15,12/2/22 13:15,29,18,5
-54,12/2/22 13:15,12/2/22 13:15,30,18,3
-55,12/2/22 13:15,12/2/22 13:15,23,19,5
-56,12/2/22 13:15,12/2/22 13:15,29,19,1
-57,12/2/22 13:15,12/2/22 13:15,30,19,2
-58,12/2/22 13:15,12/2/22 13:15,23,20,5
-59,12/2/22 13:15,12/2/22 13:15,29,20,3
-60,12/2/22 13:15,12/2/22 13:15,30,20,3
-61,12/2/22 13:15,12/2/22 13:15,23,21,5
-62,12/2/22 13:15,12/2/22 13:15,29,21,5
-63,12/2/22 13:15,12/2/22 13:15,30,21,2
-64,12/2/22 13:15,12/2/22 13:15,23,22,5
-65,12/2/22 13:15,12/2/22 13:15,29,22,5
-66,12/2/22 13:15,12/2/22 13:15,30,22,5
-67,12/2/22 13:15,12/2/22 13:15,23,23,1
-68,12/2/22 13:15,12/2/22 13:15,29,23,1
-69,12/2/22 13:15,12/2/22 13:15,30,23,4
-70,12/2/22 13:15,12/2/22 13:15,23,24,5
-71,12/2/22 13:15,12/2/22 13:15,29,24,5
-72,12/2/22 13:15,12/2/22 13:15,30,24,4
-73,12/2/22 13:15,12/2/22 13:15,23,25,5
-74,12/2/22 13:15,12/2/22 13:15,29,25,4
-75,12/2/22 13:15,12/2/22 13:15,30,25,2
-76,12/2/22 13:15,12/2/22 13:15,23,26,1
-77,12/2/22 13:15,12/2/22 13:15,29,26,1
-78,12/2/22 13:15,12/2/22 13:15,30,26,2
-79,12/2/22 13:15,12/2/22 13:15,23,27,1
-80,12/2/22 13:15,12/2/22 13:15,29,27,1
-81,12/2/22 13:15,12/2/22 13:15,30,27,4
-82,12/2/22 13:15,12/2/22 13:15,23,28,1
-83,12/2/22 13:15,12/2/22 13:15,29,28,4
-84,12/2/22 13:15,12/2/22 13:15,30,28,2
-85,12/2/22 13:15,12/2/22 13:15,23,29,1
-86,12/2/22 13:15,12/2/22 13:15,29,29,4
-87,12/2/22 13:15,12/2/22 13:15,30,29,2
-88,12/2/22 13:15,12/2/22 13:15,23,30,1
-89,12/2/22 13:15,12/2/22 13:15,29,30,4
-90,12/2/22 13:15,12/2/22 13:15,30,30,2
-91,12/2/22 13:15,12/2/22 13:15,23,31,5
-92,12/2/22 13:15,12/2/22 13:15,29,31,5
-93,12/2/22 13:15,12/2/22 13:15,30,31,5
-94,12/2/22 13:15,12/2/22 13:15,23,32,1
-95,12/2/22 13:15,12/2/22 13:15,29,32,1
-96,12/2/22 13:15,12/2/22 13:15,30,32,2
-97,12/2/22 13:15,12/2/22 13:15,23,33,1
-98,12/2/22 13:15,12/2/22 13:15,29,33,1
-99,12/2/22 13:15,12/2/22 13:15,30,33,4
-100,12/2/22 13:15,12/2/22 13:15,23,34,1
-101,12/2/22 13:15,12/2/22 13:15,29,34,3
-102,12/2/22 13:15,12/2/22 13:15,30,34,2
-103,12/2/22 13:15,12/2/22 13:15,23,35,1
-104,12/2/22 13:15,12/2/22 13:15,29,35,1
-105,12/2/22 13:15,12/2/22 13:15,30,35,4
-106,12/2/22 13:15,12/2/22 13:15,23,36,1
-107,12/2/22 13:15,12/2/22 13:15,29,36,4
-108,12/2/22 13:15,12/2/22 13:15,30,36,2
-109,12/2/22 13:15,12/2/22 13:15,23,37,5
-110,12/2/22 13:15,12/2/22 13:15,29,37,5
-111,12/2/22 13:15,12/2/22 13:15,30,37,4
-112,12/2/22 13:15,12/2/22 13:15,23,38,3
-113,12/2/22 13:15,12/2/22 13:15,29,38,4
-114,12/2/22 13:15,12/2/22 13:15,30,38,2
-115,12/2/22 13:15,12/2/22 13:15,23,39,1
-116,12/2/22 13:15,12/2/22 13:15,29,39,1
-117,12/2/22 13:15,12/2/22 13:15,30,39,4
-118,12/2/22 13:15,12/2/22 13:15,23,40,5
-119,12/2/22 13:15,12/2/22 13:15,29,40,5
-120,12/2/22 13:15,12/2/22 13:15,30,40,3
-121,12/2/22 13:15,12/2/22 13:15,23,41,1
-122,12/2/22 13:15,12/2/22 13:15,29,41,2
-123,12/2/22 13:15,12/2/22 13:15,30,41,2
-124,12/2/22 13:15,12/2/22 13:15,23,42,3
-125,12/2/22 13:15,12/2/22 13:15,29,42,3
-126,12/2/22 13:15,12/2/22 13:15,30,42,2
-127,12/2/22 13:15,12/2/22 13:15,23,43,1
-128,12/2/22 13:15,12/2/22 13:15,29,43,4
-129,12/2/22 13:15,12/2/22 13:15,30,43,2
-130,12/2/22 13:15,12/2/22 13:15,23,44,3
-131,12/2/22 13:15,12/2/22 13:15,29,44,2
-132,12/2/22 13:15,12/2/22 13:15,30,44,4
-133,12/2/22 13:15,12/2/22 13:15,23,45,1
-134,12/2/22 13:15,12/2/22 13:15,29,45,4
-135,12/2/22 13:15,12/2/22 13:15,30,45,2
-136,12/2/22 13:15,12/2/22 13:15,23,46,4
-137,12/2/22 13:15,12/2/22 13:15,29,46,4
-138,12/2/22 13:15,12/2/22 13:15,30,46,2
-139,12/2/22 13:15,12/2/22 13:15,23,47,5
-140,12/2/22 13:15,12/2/22 13:15,29,47,3
-141,12/2/22 13:15,12/2/22 13:15,30,47,4
-142,12/2/22 13:15,12/2/22 13:15,23,48,1
-143,12/2/22 13:15,12/2/22 13:15,29,48,1
-144,12/2/22 13:15,12/2/22 13:15,30,48,4
-145,12/2/22 13:15,12/2/22 13:15,23,49,4
-146,12/2/22 13:15,12/2/22 13:15,29,49,2
-147,12/2/22 13:15,12/2/22 13:15,30,49,2
-148,12/2/22 13:15,12/2/22 13:15,23,50,5
-149,12/2/22 13:15,12/2/22 13:15,29,50,1
-150,12/2/22 13:15,12/2/22 13:15,30,50,1
-151,12/2/22 13:15,12/2/22 13:15,23,51,3
-152,12/2/22 13:15,12/2/22 13:15,29,51,2
-153,12/2/22 13:15,12/2/22 13:15,30,51,2
-154,12/2/22 13:15,12/2/22 13:15,23,52,5
-155,12/2/22 13:15,12/2/22 13:15,29,52,4
-156,12/2/22 13:15,12/2/22 13:15,30,52,2
-157,12/2/22 13:15,12/2/22 13:15,23,53,3
-158,12/2/22 13:15,12/2/22 13:15,29,53,2
-159,12/2/22 13:15,12/2/22 13:15,30,53,2
-160,12/2/22 13:15,12/2/22 13:15,23,54,5
-161,12/2/22 13:15,12/2/22 13:15,29,54,4
-162,12/2/22 13:15,12/2/22 13:15,30,54,2
-163,12/2/22 13:15,12/2/22 13:15,23,55,5
-164,12/2/22 13:15,12/2/22 13:15,29,55,3
-165,12/2/22 13:15,12/2/22 13:15,30,55,4
-166,12/2/22 13:15,12/2/22 13:15,23,56,3
-167,12/2/22 13:15,12/2/22 13:15,29,56,3
-168,12/2/22 13:15,12/2/22 13:15,30,56,4
-169,12/2/22 13:15,12/2/22 13:15,23,57,1
-170,12/2/22 13:15,12/2/22 13:15,29,57,1
-171,12/2/22 13:15,12/2/22 13:15,30,57,3
-172,12/2/22 13:15,12/2/22 13:15,23,58,5
-173,12/2/22 13:15,12/2/22 13:15,29,58,4
-174,12/2/22 13:15,12/2/22 13:15,30,58,2
-175,12/2/22 13:15,12/2/22 13:15,23,59,3
-176,12/2/22 13:15,12/2/22 13:15,29,59,4
-177,12/2/22 13:15,12/2/22 13:15,30,59,2
-178,12/2/22 13:15,12/2/22 13:15,23,60,3
-179,12/2/22 13:15,12/2/22 13:15,29,60,2
-180,12/2/22 13:15,12/2/22 13:15,30,60,2
-181,12/2/22 13:15,12/2/22 13:15,23,61,1
-182,12/2/22 13:15,12/2/22 13:15,29,61,2
-183,12/2/22 13:15,12/2/22 13:15,30,61,2
-184,12/2/22 13:15,12/2/22 13:15,23,62,5
-185,12/2/22 13:15,12/2/22 13:15,29,62,3
-186,12/2/22 13:15,12/2/22 13:15,30,62,2
-187,12/2/22 13:15,12/2/22 13:15,23,63,5
-188,12/2/22 13:15,12/2/22 13:15,29,63,5
-189,12/2/22 13:15,12/2/22 13:15,30,63,5
-190,12/2/22 13:15,12/2/22 13:15,23,64,1
-191,12/2/22 13:15,12/2/22 13:15,29,64,1
-192,12/2/22 13:15,12/2/22 13:15,30,64,2
-193,12/2/22 13:15,12/2/22 13:15,23,65,3
-194,12/2/22 13:15,12/2/22 13:15,29,65,4
-195,12/2/22 13:15,12/2/22 13:15,30,65,2
-196,12/2/22 13:15,12/2/22 13:15,23,66,1
-197,12/2/22 13:15,12/2/22 13:15,29,66,4
-198,12/2/22 13:15,12/2/22 13:15,30,66,2
-199,12/2/22 13:15,12/2/22 13:15,23,67,4
-200,12/2/22 13:15,12/2/22 13:15,29,67,2
-201,12/2/22 13:15,12/2/22 13:15,30,67,4
-202,12/2/22 13:15,12/2/22 13:15,23,68,1
-203,12/2/22 13:15,12/2/22 13:15,29,68,2
-204,12/2/22 13:15,12/2/22 13:15,30,68,2
-205,12/2/22 13:15,12/2/22 13:15,23,69,1
-206,12/2/22 13:15,12/2/22 13:15,29,69,1
-207,12/2/22 13:15,12/2/22 13:15,30,69,4
-208,12/2/22 13:15,12/2/22 13:15,23,70,5
-209,12/2/22 13:15,12/2/22 13:15,29,70,3
-210,12/2/22 13:15,12/2/22 13:15,30,70,3
-211,12/2/22 13:15,12/2/22 13:15,23,71,1
-212,12/2/22 13:15,12/2/22 13:15,29,71,3
-213,12/2/22 13:15,12/2/22 13:15,30,71,2
-214,12/2/22 13:15,12/2/22 13:15,23,72,1
-215,12/2/22 13:15,12/2/22 13:15,29,72,1
-216,12/2/22 13:15,12/2/22 13:15,30,72,4
-217,12/2/22 13:15,12/2/22 13:15,23,73,5
-218,12/2/22 13:15,12/2/22 13:15,29,73,1
-219,12/2/22 13:15,12/2/22 13:15,30,73,4
-220,12/2/22 13:15,12/2/22 13:15,23,74,1
-221,12/2/22 13:15,12/2/22 13:15,29,74,1
-222,12/2/22 13:15,12/2/22 13:15,30,74,3
-223,12/2/22 13:15,12/2/22 13:15,23,75,1
-224,12/2/22 13:15,12/2/22 13:15,29,75,1
-225,12/2/22 13:15,12/2/22 13:15,30,75,3
-226,12/2/22 13:15,12/2/22 13:15,23,76,5
-227,12/2/22 13:15,12/2/22 13:15,29,76,1
-228,12/2/22 13:15,12/2/22 13:15,30,76,2
-229,12/2/22 13:15,12/2/22 13:15,23,77,5
-230,12/2/22 13:15,12/2/22 13:15,29,77,5
-231,12/2/22 13:15,12/2/22 13:15,30,77,3
-232,12/2/22 13:15,12/2/22 13:15,23,78,1
-233,12/2/22 13:15,12/2/22 13:15,29,78,1
-234,12/2/22 13:15,12/2/22 13:15,30,78,4
-235,12/2/22 13:15,12/2/22 13:15,23,79,5
-236,12/2/22 13:15,12/2/22 13:15,29,79,1
-237,12/2/22 13:15,12/2/22 13:15,30,79,1
-238,12/2/22 13:15,12/2/22 13:15,23,80,5
-239,12/2/22 13:15,12/2/22 13:15,29,80,4
-240,12/2/22 13:15,12/2/22 13:15,30,80,4
-241,12/2/22 13:15,12/2/22 13:15,23,81,5
-242,12/2/22 13:15,12/2/22 13:15,29,81,3
-243,12/2/22 13:15,12/2/22 13:15,30,81,2
-244,12/2/22 13:15,12/2/22 13:15,23,82,5
-245,12/2/22 13:15,12/2/22 13:15,29,82,2
-246,12/2/22 13:15,12/2/22 13:15,30,82,2
-247,12/2/22 13:15,12/2/22 13:15,23,83,1
-248,12/2/22 13:15,12/2/22 13:15,29,83,4
-249,12/2/22 13:15,12/2/22 13:15,30,83,2
-250,12/2/22 13:15,12/2/22 13:15,23,84,5
-251,12/2/22 13:15,12/2/22 13:15,29,84,1
-252,12/2/22 13:15,12/2/22 13:15,30,84,1
-253,12/2/22 13:15,12/2/22 13:15,23,85,5
-254,12/2/22 13:15,12/2/22 13:15,29,85,5
-255,12/2/22 13:15,12/2/22 13:15,30,85,3
-256,12/2/22 13:15,12/2/22 13:15,23,86,3
-257,12/2/22 13:15,12/2/22 13:15,29,86,2
-258,12/2/22 13:15,12/2/22 13:15,30,86,2
-259,12/2/22 13:15,12/2/22 13:15,23,87,1
-260,12/2/22 13:15,12/2/22 13:15,29,87,1
-261,12/2/22 13:15,12/2/22 13:15,30,87,3
-262,12/2/22 13:15,12/2/22 13:15,23,88,4
-263,12/2/22 13:15,12/2/22 13:15,29,88,4
-264,12/2/22 13:15,12/2/22 13:15,30,88,4
-265,12/2/22 13:15,12/2/22 13:15,23,89,4
-266,12/2/22 13:15,12/2/22 13:15,29,89,2
-267,12/2/22 13:15,12/2/22 13:15,30,89,2
-268,12/2/22 13:15,12/2/22 13:15,23,90,1
-269,12/2/22 13:15,12/2/22 13:15,29,90,1
-270,12/2/22 13:15,12/2/22 13:15,30,90,3
-271,12/2/22 13:15,12/2/22 13:15,23,91,3
-272,12/2/22 13:15,12/2/22 13:15,29,91,4
-273,12/2/22 13:15,12/2/22 13:15,30,91,4
-274,12/2/22 13:15,12/2/22 13:15,23,92,3
-275,12/2/22 13:15,12/2/22 13:15,29,92,2
-276,12/2/22 13:15,12/2/22 13:15,30,92,2
-277,12/2/22 13:15,12/2/22 13:15,23,93,1
-278,12/2/22 13:15,12/2/22 13:15,29,93,1
-279,12/2/22 13:15,12/2/22 13:15,30,93,2
-280,12/2/22 13:15,12/2/22 13:15,23,94,5
-281,12/2/22 13:15,12/2/22 13:15,29,94,1
-282,12/2/22 13:15,12/2/22 13:15,30,94,2
-283,12/2/22 13:15,12/2/22 13:15,23,95,3
-284,12/2/22 13:15,12/2/22 13:15,29,95,3
-285,12/2/22 13:15,12/2/22 13:15,30,95,4
-286,12/2/22 13:15,12/2/22 13:15,23,96,5
-287,12/2/22 13:15,12/2/22 13:15,29,96,3
-288,12/2/22 13:15,12/2/22 13:15,30,96,4
-289,12/2/22 13:15,12/2/22 13:15,23,97,5
-290,12/2/22 13:15,12/2/22 13:15,29,97,4
-291,12/2/22 13:15,12/2/22 13:15,30,97,4
-292,12/2/22 13:15,12/2/22 13:15,23,98,1
-293,12/2/22 13:15,12/2/22 13:15,29,98,4
-294,12/2/22 13:15,12/2/22 13:15,30,98,2
-295,12/2/22 13:15,12/2/22 13:15,23,99,1
-296,12/2/22 13:15,12/2/22 13:15,29,99,1
-297,12/2/22 13:15,12/2/22 13:15,30,99,4
-298,12/2/22 13:15,12/2/22 13:15,23,100,3
-299,12/2/22 13:15,12/2/22 13:15,29,100,3
-300,12/2/22 13:15,12/2/22 13:15,30,100,3
-301,12/2/22 13:15,12/2/22 13:15,23,101,1
-302,12/2/22 13:15,12/2/22 13:15,29,101,1
-303,12/2/22 13:15,12/2/22 13:15,30,101,3
-304,12/2/22 13:15,12/2/22 13:15,23,102,1
-305,12/2/22 13:15,12/2/22 13:15,29,102,1
-306,12/2/22 13:15,12/2/22 13:15,30,102,2
-307,12/2/22 13:15,12/2/22 13:15,23,103,5
-308,12/2/22 13:15,12/2/22 13:15,29,103,2
-309,12/2/22 13:15,12/2/22 13:15,30,103,2
-310,12/2/22 13:15,12/2/22 13:15,23,104,5
-311,12/2/22 13:15,12/2/22 13:15,29,104,5
-312,12/2/22 13:15,12/2/22 13:15,30,104,4
-313,12/2/22 13:15,12/2/22 13:15,23,105,1
-314,12/2/22 13:15,12/2/22 13:15,29,105,1
-315,12/2/22 13:15,12/2/22 13:15,30,105,3
-316,12/2/22 13:15,12/2/22 13:15,23,106,1
-317,12/2/22 13:15,12/2/22 13:15,29,106,4
-318,12/2/22 13:15,12/2/22 13:15,30,106,2
-319,12/2/22 13:15,12/2/22 13:15,23,107,1
-320,12/2/22 13:15,12/2/22 13:15,29,107,1
-321,12/2/22 13:15,12/2/22 13:15,30,107,1
-322,12/2/22 13:15,12/2/22 13:15,23,108,5
-323,12/2/22 13:15,12/2/22 13:15,29,108,4
-324,12/2/22 13:15,12/2/22 13:15,30,108,4
-325,12/2/22 13:15,12/2/22 13:15,23,109,1
-326,12/2/22 13:15,12/2/22 13:15,29,109,1
-327,12/2/22 13:15,12/2/22 13:15,30,109,3
-328,12/2/22 13:15,12/2/22 13:15,23,110,5
-329,12/2/22 13:15,12/2/22 13:15,29,110,1
-330,12/2/22 13:15,12/2/22 13:15,30,110,1
-331,12/2/22 13:15,12/2/22 13:15,23,111,5
-332,12/2/22 13:15,12/2/22 13:15,29,111,1
-333,12/2/22 13:15,12/2/22 13:15,30,111,5
-334,12/2/22 13:15,12/2/22 13:15,23,112,5
-335,12/2/22 13:15,12/2/22 13:15,29,112,5
-336,12/2/22 13:15,12/2/22 13:15,30,112,3
-337,12/2/22 13:15,12/2/22 13:15,23,113,1
-338,12/2/22 13:15,12/2/22 13:15,29,113,1
-339,12/2/22 13:15,12/2/22 13:15,30,113,2
-340,12/2/22 13:15,12/2/22 13:15,23,114,1
-341,12/2/22 13:15,12/2/22 13:15,29,114,3
-342,12/2/22 13:15,12/2/22 13:15,30,114,2
-343,12/2/22 13:15,12/2/22 13:15,23,115,5
-344,12/2/22 13:15,12/2/22 13:15,29,115,1
-345,12/2/22 13:15,12/2/22 13:15,30,115,2
-346,12/2/22 13:15,12/2/22 13:15,23,116,5
-347,12/2/22 13:15,12/2/22 13:15,29,116,3
-348,12/2/22 13:15,12/2/22 13:15,30,116,2
-349,12/2/22 13:15,12/2/22 13:15,23,117,3
-350,12/2/22 13:15,12/2/22 13:15,29,117,2
-351,12/2/22 13:15,12/2/22 13:15,30,117,2
-352,12/2/22 13:15,12/2/22 13:15,23,118,1
-353,12/2/22 13:15,12/2/22 13:15,29,118,4
-354,12/2/22 13:15,12/2/22 13:15,30,118,2
-355,12/2/22 13:15,12/2/22 13:15,23,119,1
-356,12/2/22 13:15,12/2/22 13:15,29,119,1
-357,12/2/22 13:15,12/2/22 13:15,30,119,2
-358,12/2/22 13:15,12/2/22 13:15,23,120,1
-359,12/2/22 13:15,12/2/22 13:15,29,120,4
-360,12/2/22 13:15,12/2/22 13:15,30,120,2
-361,12/2/22 13:15,12/2/22 13:15,23,121,1
-362,12/2/22 13:15,12/2/22 13:15,29,121,1
-363,12/2/22 13:15,12/2/22 13:15,30,121,4
-364,12/2/22 13:15,12/2/22 13:15,23,122,1
-365,12/2/22 13:15,12/2/22 13:15,29,122,1
-366,12/2/22 13:15,12/2/22 13:15,30,122,1
-367,12/2/22 13:15,12/2/22 13:15,23,123,5
-368,12/2/22 13:15,12/2/22 13:15,29,123,3
-369,12/2/22 13:15,12/2/22 13:15,30,123,4
-370,12/2/22 13:15,12/2/22 13:15,23,124,5
-371,12/2/22 13:15,12/2/22 13:15,29,124,1
-372,12/2/22 13:15,12/2/22 13:15,30,124,3
-373,12/2/22 13:15,12/2/22 13:15,23,125,3
-374,12/2/22 13:15,12/2/22 13:15,29,125,2
-375,12/2/22 13:15,12/2/22 13:15,30,125,2
-376,12/2/22 13:15,12/2/22 13:15,23,126,1
-377,12/2/22 13:15,12/2/22 13:15,29,126,3
-378,12/2/22 13:15,12/2/22 13:15,30,126,4
-379,12/2/22 13:15,12/2/22 13:15,23,127,5
-380,12/2/22 13:15,12/2/22 13:15,29,127,3
-381,12/2/22 13:15,12/2/22 13:15,30,127,4
-382,12/2/22 13:15,12/2/22 13:15,23,128,2
-383,12/2/22 13:15,12/2/22 13:15,29,128,2
-384,12/2/22 13:15,12/2/22 13:15,30,128,2
-385,12/2/22 13:15,12/2/22 13:15,23,129,1
-386,12/2/22 13:15,12/2/22 13:15,29,129,1
-387,12/2/22 13:15,12/2/22 13:15,30,129,2
-388,12/2/22 13:15,12/2/22 13:15,23,130,5
-389,12/2/22 13:15,12/2/22 13:15,29,130,5
-390,12/2/22 13:15,12/2/22 13:15,30,130,3
-391,12/2/22 13:15,12/2/22 13:15,23,131,5
-392,12/2/22 13:15,12/2/22 13:15,29,131,5
-393,12/2/22 13:15,12/2/22 13:15,30,131,2
-394,12/2/22 13:15,12/2/22 13:15,23,132,5
-395,12/2/22 13:15,12/2/22 13:15,29,132,5
-396,12/2/22 13:15,12/2/22 13:15,30,132,5
-397,12/2/22 13:15,12/2/22 13:15,23,133,5
-398,12/2/22 13:15,12/2/22 13:15,29,133,1
-399,12/2/22 13:15,12/2/22 13:15,30,133,1
-400,12/2/22 13:15,12/2/22 13:15,23,134,1
-401,12/2/22 13:15,12/2/22 13:15,29,134,3
-402,12/2/22 13:15,12/2/22 13:15,30,134,2
-403,12/2/22 13:15,12/2/22 13:15,23,135,5
-404,12/2/22 13:15,12/2/22 13:15,29,135,5
-405,12/2/22 13:15,12/2/22 13:15,30,135,5
-406,12/2/22 13:15,12/2/22 13:15,23,136,4
-407,12/2/22 13:15,12/2/22 13:15,29,136,2
-408,12/2/22 13:15,12/2/22 13:15,30,136,4
-409,12/2/22 13:15,12/2/22 13:15,23,137,5
-410,12/2/22 13:15,12/2/22 13:15,29,137,4
-411,12/2/22 13:15,12/2/22 13:15,30,137,4
-412,12/2/22 13:15,12/2/22 13:15,23,138,1
-413,12/2/22 13:15,12/2/22 13:15,29,138,1
-414,12/2/22 13:15,12/2/22 13:15,30,138,3
-415,12/2/22 13:15,12/2/22 13:15,23,139,5
-416,12/2/22 13:15,12/2/22 13:15,29,139,5
-417,12/2/22 13:15,12/2/22 13:15,30,139,5
-418,12/2/22 13:15,12/2/22 13:15,23,140,5
-419,12/2/22 13:15,12/2/22 13:15,29,140,5
-420,12/2/22 13:15,12/2/22 13:15,30,140,4
-421,12/2/22 13:15,12/2/22 13:15,23,141,4
-422,12/2/22 13:15,12/2/22 13:15,29,141,2
-423,12/2/22 13:15,12/2/22 13:15,30,141,2
-424,12/2/22 13:15,12/2/22 13:15,23,142,1
-425,12/2/22 13:15,12/2/22 13:15,29,142,4
-426,12/2/22 13:15,12/2/22 13:15,30,142,2
-427,12/2/22 13:15,12/2/22 13:15,23,143,1
-428,12/2/22 13:15,12/2/22 13:15,29,143,5
-429,12/2/22 13:15,12/2/22 13:15,30,143,4
-430,12/2/22 13:15,12/2/22 13:15,23,144,1
-431,12/2/22 13:15,12/2/22 13:15,29,144,1
-432,12/2/22 13:15,12/2/22 13:15,30,144,3
-433,12/2/22 13:15,12/2/22 13:15,23,145,1
-434,12/2/22 13:15,12/2/22 13:15,29,145,1
-435,12/2/22 13:15,12/2/22 13:15,30,145,4
-436,12/2/22 13:15,12/2/22 13:15,23,146,5
-437,12/2/22 13:15,12/2/22 13:15,29,146,1
-438,12/2/22 13:15,12/2/22 13:15,30,146,1
-439,12/2/22 13:15,12/2/22 13:15,23,147,1
-440,12/2/22 13:15,12/2/22 13:15,29,147,4
-441,12/2/22 13:15,12/2/22 13:15,30,147,2
-442,12/2/22 13:15,12/2/22 13:15,23,148,5
-443,12/2/22 13:15,12/2/22 13:15,29,148,3
-444,12/2/22 13:15,12/2/22 13:15,30,148,2
-445,12/2/22 13:15,12/2/22 13:15,23,149,1
-446,12/2/22 13:15,12/2/22 13:15,29,149,1
-447,12/2/22 13:15,12/2/22 13:15,30,149,4
-448,12/2/22 13:15,12/2/22 13:15,23,150,5
-449,12/2/22 13:15,12/2/22 13:15,29,150,5
-450,12/2/22 13:15,12/2/22 13:15,30,150,3
-451,12/2/22 13:15,12/2/22 13:15,23,151,5
-452,12/2/22 13:15,12/2/22 13:15,29,151,5
-453,12/2/22 13:15,12/2/22 13:15,30,151,4
-454,12/2/22 13:15,12/2/22 13:15,23,152,1
-455,12/2/22 13:15,12/2/22 13:15,29,152,4
-456,12/2/22 13:15,12/2/22 13:15,30,152,2
-457,12/2/22 13:15,12/2/22 13:15,23,153,1
-458,12/2/22 13:15,12/2/22 13:15,29,153,1
-459,12/2/22 13:15,12/2/22 13:15,30,153,3
-460,12/2/22 13:15,12/2/22 13:15,23,154,4
-461,12/2/22 13:15,12/2/22 13:15,29,154,2
-462,12/2/22 13:15,12/2/22 13:15,30,154,2
-463,12/2/22 13:15,12/2/22 13:15,23,155,3
-464,12/2/22 13:15,12/2/22 13:15,29,155,2
-465,12/2/22 13:15,12/2/22 13:15,30,155,2
-466,12/2/22 13:15,12/2/22 13:15,23,156,5
-467,12/2/22 13:15,12/2/22 13:15,29,156,2
-468,12/2/22 13:15,12/2/22 13:15,30,156,4
-469,12/2/22 13:15,12/2/22 13:15,23,157,5
-470,12/2/22 13:15,12/2/22 13:15,29,157,5
-471,12/2/22 13:15,12/2/22 13:15,30,157,4
-472,12/2/22 13:15,12/2/22 13:15,23,158,5
-473,12/2/22 13:15,12/2/22 13:15,29,158,1
-474,12/2/22 13:15,12/2/22 13:15,30,158,1
-475,12/2/22 13:15,12/2/22 13:15,23,159,1
-476,12/2/22 13:15,12/2/22 13:15,29,159,1
-477,12/2/22 13:15,12/2/22 13:15,30,159,3
-478,12/2/22 13:15,12/2/22 13:15,23,160,5
-479,12/2/22 13:15,12/2/22 13:15,29,160,5
-480,12/2/22 13:15,12/2/22 13:15,30,160,2
-481,12/2/22 13:15,12/2/22 13:15,23,161,1
-482,12/2/22 13:15,12/2/22 13:15,29,161,4
-483,12/2/22 13:15,12/2/22 13:15,30,161,2
-484,12/2/22 13:15,12/2/22 13:15,23,162,5
-485,12/2/22 13:15,12/2/22 13:15,29,162,5
-486,12/2/22 13:15,12/2/22 13:15,30,162,4
-487,12/2/22 13:15,12/2/22 13:15,23,163,5
-488,12/2/22 13:15,12/2/22 13:15,29,163,5
-489,12/2/22 13:15,12/2/22 13:15,30,163,5
-490,12/2/22 13:15,12/2/22 13:15,23,164,
-491,12/2/22 13:15,12/2/22 13:15,29,164,
-492,12/2/22 13:15,12/2/22 13:15,30,164,
-493,12/2/22 13:15,12/2/22 13:15,23,165,
-494,12/2/22 13:15,12/2/22 13:15,29,165,
-495,12/2/22 13:15,12/2/22 13:15,30,165,
-496,12/2/22 13:15,12/2/22 13:15,23,166,
-497,12/2/22 13:15,12/2/22 13:15,29,166,
-498,12/2/22 13:15,12/2/22 13:15,30,166,
-499,12/2/22 13:15,12/2/22 13:15,23,167,
-500,12/2/22 13:15,12/2/22 13:15,29,167,
-501,12/2/22 13:15,12/2/22 13:15,30,167,
-502,12/2/22 13:15,12/2/22 13:15,23,168,
-503,12/2/22 13:15,12/2/22 13:15,29,168,
-504,12/2/22 13:15,12/2/22 13:15,30,168,
-505,12/2/22 13:15,12/2/22 13:15,23,169,
-506,12/2/22 13:15,12/2/22 13:15,29,169,
-507,12/2/22 13:15,12/2/22 13:15,30,169,
-508,12/2/22 13:15,12/2/22 13:15,23,170,
-509,12/2/22 13:15,12/2/22 13:15,29,170,
-510,12/2/22 13:15,12/2/22 13:15,30,170,
-511,12/2/22 13:15,12/2/22 13:15,23,171,
-512,12/2/22 13:15,12/2/22 13:15,29,171,
-513,12/2/22 13:15,12/2/22 13:15,30,171,
-514,12/2/22 13:15,12/2/22 13:15,23,172,
-515,12/2/22 13:15,12/2/22 13:15,29,172,
-516,12/2/22 13:15,12/2/22 13:15,30,172,
-517,12/2/22 13:15,12/2/22 13:15,23,173,
-518,12/2/22 13:15,12/2/22 13:15,29,173,
-519,12/2/22 13:15,12/2/22 13:15,30,173,
+id,created_at,updated_at,policy_id,politician_id,sentiment_score,comment
+1,12/2/2022 13:15,12/2/2022 13:15,29,1,1,
+2,12/2/2022 13:15,12/2/2022 13:15,29,2,5,
+3,12/2/2022 13:15,12/2/2022 13:15,29,3,5,
+4,12/2/2022 13:15,12/2/2022 13:15,29,4,4,
+5,12/2/2022 13:15,12/2/2022 13:15,29,5,3,
+6,12/2/2022 13:15,12/2/2022 13:15,29,6,3,
+7,12/2/2022 13:15,12/2/2022 13:15,29,7,2,"Det er rimelig nemt for danske virksomheder at ansatte arbejdskraft inden for EU. Vi bør hellere sikre, at udenlandskarbejdskraft ikke er udnyttet til social dumping."
+8,12/2/2022 13:15,12/2/2022 13:15,29,8,4,
+9,12/2/2022 13:15,12/2/2022 13:15,29,9,5,"Jeg mener vi fortsat har brug for mere udenlandsk arbejdskraft og dermed at beløbsgrænsen bør nedsættes yderlig. Alene antallet af hænder, som vi mangler inden for velfærdsområdet, vil kræve at vi åbner mere op for international arbejdskraft. Både danske virksomheder og det offentlige skal have adgang til kvalificeret international arbejdskraft - dette vil være til gavn for Danmark og bidrage til mere vækst og velstand."
+10,12/2/2022 13:15,12/2/2022 13:15,29,10,2,"Det er allerede nemt for virksomhederne at skaffe arbejdskraft inden for EU. Og hvis vi får flere folk hertil for at arbejde, er det aller vigtigste at det ikke kan udnyttes af virksomheder til at presse lønninger i bund og resultere i dårligere arbejdsforhold."
+11,12/2/2022 13:15,12/2/2022 13:15,29,11,3,
+12,12/2/2022 13:15,12/2/2022 13:15,29,12,4,"Regeringen har indgået en aftale, som indfører en ny midlertidig supplerende beløbsordning til håndtering af mangel på arbejdskraft, der gælder fra december 2022 til december 2025. Den aftale inkluderer at det er blevet nemmere at få arbejdskraft ind udenfor Danmark. Den aftale står jeg ved, og det er vigtigt at vi følger situationen nøje så vi løbende kan hjælpe virksomhederne. Det er dog også vigtigt at vi ikke går på kompromis med danske løn- og arbejdsvilkår, og hele tiden har for øje at der ikke bliver ansat på bekostning af relevante danske arbejdere."
+13,12/2/2022 13:15,12/2/2022 13:15,29,13,4,"Vi mangler arbejdskraft, og hvis man som udlænding har lyst til at arbejde i Danmark og har de rette kvalifikationer, så kan det være en god løsning. Dog er det vigtigt at understrege, at man kun kan komme hertil, hvis man har et arbejde og kan forsørge sig selv."
+14,12/2/2022 13:15,12/2/2022 13:15,29,14,3,
+15,12/2/2022 13:15,12/2/2022 13:15,29,15,3,
+16,12/2/2022 13:15,12/2/2022 13:15,29,16,2,
+17,12/2/2022 13:15,12/2/2022 13:15,29,18,2,
+18,12/2/2022 13:15,12/2/2022 13:15,29,19,3,
+19,12/2/2022 13:15,12/2/2022 13:15,29,20,5,
+20,12/2/2022 13:15,12/2/2022 13:15,29,21,5,
+21,12/2/2022 13:15,12/2/2022 13:15,29,22,2,"Det er allerede nemt for virksomhederne at skaffe arbejdskraft inden for EU. SF mener derfor at opgaven bliver at sikre, at udenlandsk arbejdskraft, uanset om den kommer fra EU eller 3.-land, ikke kan udnyttes til social dumping."
+22,12/2/2022 13:15,12/2/2022 13:15,29,24,5,Vi har brug for flere hænder
+23,12/2/2022 13:15,12/2/2022 13:15,29,25,4,"Der er mangel på arbejdskraft i Danmark. Rekordmange danskere er lige nu i beskæftigelse, og mange virksomheder har svært ved at rekruttere, og må i stedet sig nej til ordrer. Derfor kan der være et behov for at åbne for mere specialiseret arbejdskraft fra udlandet, som ikke er muligt at finde herhjemme. Men det skal selvfølgelig være på danske løn- og arbejdsvilkår."
+24,12/2/2022 13:15,12/2/2022 13:15,29,26,5,"Vi laver i en globaliseret verden, og det er uklogt at lukke os for omverdenen. Den type nationalisme koster langt mere end det gavner."
+25,12/2/2022 13:15,12/2/2022 13:15,29,27,5,
+26,12/2/2022 13:15,12/2/2022 13:15,29,28,1,
+27,12/2/2022 13:15,12/2/2022 13:15,29,29,4,"Virksomhederne mangler desperat arbejdskraft og må sige nej til ordre, hvilket er ærgerligt, da vi som samfund tager penge på det. Det afgørende er at de arbejder under ordnede forhold, og vi lukker dem ind, som vi har brug for."
+28,12/2/2022 13:15,12/2/2022 13:15,29,30,4,"Danske virksomheder er pressede på kvalificeret arbejdskraft og det er godt for Danmark når kvalificeret international arbejdskraft kommer hertil. Derfor gik vi også forrest for at skaffe en bred politisk aftale om mere kvalificeret international arbejdskraft i Juni 2022, som kan skabe vækst, velstand og velfærd i Danmark."
+29,12/2/2022 13:15,12/2/2022 13:15,29,31,4,
+30,12/2/2022 13:15,12/2/2022 13:15,29,32,4,
+31,12/2/2022 13:15,12/2/2022 13:15,29,33,5,
+32,12/2/2022 13:15,12/2/2022 13:15,29,34,2,
+33,12/2/2022 13:15,12/2/2022 13:15,29,35,4,"Vi har brug for mere kvalificeret international arbejdskraft,. Det skal ske på ordnede forhold, så ansættelseskontrakten skal være på plads før man kommer hertil. Det er med til at øge væksten i Danmark og dermed antallet af job til glæde for alle."
+34,12/2/2022 13:15,12/2/2022 13:15,29,36,3,
+35,12/2/2022 13:15,12/2/2022 13:15,29,37,4,"Der er en lang række flaskehale når det gælder rekruttering til beskæftigelse hos landets virksomheder. Vi er ikke imod udenlandsk arbejdskraft. Vi skal blot sikre en sikker hånd, så der ikke efterlades store regninger og forpligtigelser, når der igen opstår markant større ledighed i Danmark"
+36,12/2/2022 13:15,12/2/2022 13:15,29,38,4,
+37,12/2/2022 13:15,12/2/2022 13:15,29,39,4,"Vi kan også give flygtninge nemmere adgang til permanent ophold, så de kan slappe af, slå rødder og blive en del af samfundet og arbejdsmarkedet"
+38,12/2/2022 13:15,12/2/2022 13:15,29,40,4,Vi har brug for arbejdskraft. Jeg ønsker gerne kvalificeret arbejdskraft til Danmark udefra
+39,12/2/2022 13:15,12/2/2022 13:15,29,41,4,
+40,12/2/2022 13:15,12/2/2022 13:15,29,42,5,
+41,12/2/2022 13:15,12/2/2022 13:15,29,43,2,
+42,12/2/2022 13:15,12/2/2022 13:15,29,44,3,
+43,12/2/2022 13:15,12/2/2022 13:15,29,46,4,"Der er brug for arbejdskraft i Danmark. Hvis man kan og vil, skal det være lettere at kunne arbejde her i landet."
+44,12/2/2022 13:15,12/2/2022 13:15,29,47,2,"Det er i forvejen muligt at komme til Danmark og arbejde. Vi vil gerne have at man kan komme til Danmark og arbejde i stillinger, hvor danske virksomheder ikke selv kan tiltrække arbejdskraft. Men det skal være til ordentlige lønninger og på en kontrolleret måde - og gerne med arbejdskraft fra Europa, hvor mange går arbejdsløse."
+45,12/2/2022 13:15,12/2/2022 13:15,29,48,4,"Vi står med en stor arbejdskraftsudfordring i Danmark. Og fra politisk hold skal vi sikre, at de danske virksomheder og det offentlige har adgang til den kvalificerede arbejdskraft, de har brug for. Det er afgørende for at sikre vækst og velstand, men også afgørende for at sikre den velfærd, vi alle nyder godt af. Derfor skal vi sikre, at der er adgang til kvalificeret international arbejdskraft. De bidrager netop til at skabe vækst, velstand og velfærd i Danmark."
+46,12/2/2022 13:15,12/2/2022 13:15,29,49,4,"Såfremt man kan tjene sine egne penge og forlader landet, hvis man ikke længere er i beskæftigelse. Manglen på arbejdskraft betyder pt, at danske virksomheder siger nej til omsætning for kr. 9 mia pr måned."
+47,12/2/2022 13:15,12/2/2022 13:15,29,50,5,
+48,12/2/2022 13:15,12/2/2022 13:15,29,51,4,"Mange brancher mangler arbejdskraft. Hvis denne mangel ikke kan dækkes af det danske arbejdsmarked er det oplagt at se på hvordan vi kan tiltrække kvalificeret arbejdskraft, som naturligvis skal arbejde efter de normale danske løn og arbejdsvilkår. Og de skal naturligvis kunne forsørge sig selv, mens de er."
+49,12/2/2022 13:15,12/2/2022 13:15,29,52,4,
+50,12/2/2022 13:15,12/2/2022 13:15,29,53,5,
+51,12/2/2022 13:15,12/2/2022 13:15,29,54,3,
+52,12/2/2022 13:15,12/2/2022 13:15,29,55,5,"Hvis der er arbejdsgivere, der vil betale en overenskomstmæssig løn for et menneske, er der absolut brug for at lukke op for den mulighed. Vi har brug for arbejdskraft udefra - og det er alt for besværligt for virksomhederne at skaffe folk hertil. Vi skal ikke åbne grænserne for arbejdssøgende, men når der står en arbejdsgiver og ønsker en person hertil,l er det tudetosset at gøre den arbejdsgang besværlig."
+53,12/2/2022 13:15,12/2/2022 13:15,29,56,3,
+54,12/2/2022 13:15,12/2/2022 13:15,29,57,2,Det er klogt at der er regler for lønniveau og ansættelsesbetingelser for udenlandsk arbejdskraft. Ellers bliver udlændingene brugt til at trykke det danske arbejdsmarked (social dumping). I stedet skal vi opkvalificere og videreuddanne vores arbejdsstyrke og sikre et rummeligt arbejdsmarked.
+55,12/2/2022 13:15,12/2/2022 13:15,29,58,4,
+56,12/2/2022 13:15,12/2/2022 13:15,29,61,4,"Mange virksomheder har problemer med at rekruttere kvalificeret arbejdskraft her i landet. Det problem kan løses ved at give mulighed for at hente kvalificeret arbejdskraft fra lande udenfor EU. Et forslag er et pointsystem, hvor der lægges vægt på både ansøgerens uddannelse og kvalifikationer. Det er da ærgeligt med store begrænsninger for mennesker, der vil og kan bidrage positivt - især hvis der er mangel på deres specifikke kompetencer."
+57,12/2/2022 13:15,12/2/2022 13:15,29,62,3,"Så skal de forsørge sig selv. Og rejse hjem, når der ikke længere er brug for deres arbejdskraft. Men jeg anerkender, at erhvervslivet efterspørger dette."
+58,12/2/2022 13:15,12/2/2022 13:15,29,63,2,"Det er allerede nemt for virksomhederne at skaffe arbejdskraft inden for EU. Opgaven bliver snarere at sikre, at udenlandsk arbejdskraft, uanset om den kommer fra EU eller 3.-land, ikke kan udnyttes til social dumping."
+59,12/2/2022 13:15,12/2/2022 13:15,29,64,2,Der er allerede i dag flere gode muligheder.
+60,12/2/2022 13:15,12/2/2022 13:15,29,65,2,
+61,12/2/2022 13:15,12/2/2022 13:15,29,66,2,"Vi har brug for udenlandsk arbejdskraft i nogle udvalgte brancher, hvor der er mangel på arbejdskraft. Men det er der masser af ordninger allerede i dag som giver mulighed for. Og samtidig er det vigtigt, at vi bevarer kontrollen over hvor mange, der kommer til Danmark. Ellers går det galt med integrationen."
+62,12/2/2022 13:15,12/2/2022 13:15,29,67,5,"Vi har p.t. over 300.000 udlændinge i Danmark. Mange af disse udgør et vigtigt bidrag til dansk økonomi og det danske samfund. Samtidig har vi brug for, at der kommer flere til for at tage mange af de jobs, som vores virksomheder og sundhedsvæsen så brændende har behov for at få besat. Vi skal dog takke hver og én udlænding, som kommer til Danmark for at arbejde og vitterligt ønsker at bidrage til det danske samfund. Ifølge en analyse fra Dansk Erhverv, så løfter udenlandsk arbejdskraft dansk BNP med 200 mia. kr. og lægger et nettobidrag i den danske statskasse på 12,5 mia. kr. For at imødekomme efterspørgslen på arbejdskraft er det essentielt at sænke beløbsgrænsen. Den hindrer nemlig virksomhederne i at skaffe folk til de jobs, som danskerne enten ikke kan eller vil tage. Den nuværende beløbsgrænse bidrager altså til at gøre Danmark fattigere. Jeg mener derfor, at beløbsgrænsen skal sænkes til den overenskomstbestemte mindsteløn, som i dag er ca. 240.000 kr."
+63,12/2/2022 13:15,12/2/2022 13:15,29,68,5,"Danskerne har brug for flere kolleger. Hvis vi ønsker at danske virksomheder skal være med til at løse klimakrisen og at der er kollegaer nok på vores sygehuse og i vores børnehaver – ja, så er vi simpelthen nødt til at gøre det lettere for udlændige at komme til Danmark at arbejde. Derfor skal vi fjerne unødvendige bureaukratiske benspænd og sikre hurtigere og smidigere sagsbehandling ved ansøgninger om opholdstilladelser."
+64,12/2/2022 13:15,12/2/2022 13:15,29,69,2,Det er altafgørende vedkommende kan forsøger sig selv og evt. familie. Det er ligeså vigtigt det foregår således der er en kontrolleret sikring af ovenstående overholdes.
+65,12/2/2022 13:15,12/2/2022 13:15,29,70,4,
+66,12/2/2022 13:15,12/2/2022 13:15,29,71,4,"Udlændinge, der kommer for at arbejde, giver et vægtigt bidrag til dansk økonomi. Når udlændinge kommer fra vestligt orienterede lande eller fra lande i Fjernøsten, kommer de som oftest for at arbejde og falder godt ind i det danske samfund og giver sjældent problemer. Når migranter kommer fra muslimske lande i Mellemøsten og Nordafrika, er vores erfaringer meget dårlige. De er ofte ude af stand til at forsørge sig selv, og de og deres børn optræder oftere i kriminalitetsstatistikkerne. Desuden er deres kultur, når den er baseret på islamiske værdier, i stærk opposition til den danske. Der er for mange kedelige sager, hvor velfungerende udlændinge bliver ramt af lappeløsninger, som politikerne har vedtaget – dog uden den store effekt – for at dæmme op for migrationen fra de lande i Stormellemøsten, som giver os problemer. Lappeløsningerne rammer i flæng, og velfungerende udlændinge sendes ud af landet, selvom de ikke gør nogen skade, men tværtimod bidrager positivt."
+67,12/2/2022 13:15,12/2/2022 13:15,29,72,2,"Der er allerede rigtig gode muligheder for, at virksomheder kan rekruttere arbejdskraft fra EU lande. Ønsker om at rekruttere arbejdskraft uden for EU, har desværre ofte resultere i løndumping på visse arbejdsområder. Det er skævt og unødvendigt."
+68,12/2/2022 13:15,12/2/2022 13:15,29,73,2,"Som jeg ser det, så er der nogle gode muligheder for at komme her til i dag som udlænding og arbejde. Dog er der nogle skøre regler, der godt kan ryddes op i. Mange brancher skriger på arbejdskraft i dag, og jeg tror på, at en af løsningerne er at kigge mod udenlandsk arbejdskraft."
+69,12/2/2022 13:15,12/2/2022 13:15,29,74,4,
+70,12/2/2022 13:15,12/2/2022 13:15,29,75,5,
+71,12/2/2022 13:15,12/2/2022 13:15,29,76,3,
+72,12/2/2022 13:15,12/2/2022 13:15,29,77,4,"Vi har brug for mere arbejdskraft, derfor er jeg positiv overfor vi sænker beløbsgrænsen, således at vi kan tiltrække kvalificeret udenlandskarbejdskraft."
+73,12/2/2022 13:15,12/2/2022 13:15,29,79,5,
+74,12/2/2022 13:15,12/2/2022 13:15,29,80,3,
+75,12/2/2022 13:15,12/2/2022 13:15,29,81,3,
+76,12/2/2022 13:15,12/2/2022 13:15,29,82,5,"Vi mangler arbejdskraft i Danmark, og vi får brug for flere hænder til at skabe vækst og velstand, og så vores virksomheder har nok ´dygtige medarbejdere til den grønne omstilling."
+77,12/2/2022 13:15,12/2/2022 13:15,29,83,3,"Det kommer an på hvem der er tale om. Man kan nemt komme til DK, som EU-borger og da der er ca. 15 millioner arbejdsløse europæere, er der mange der kan bidrage, hvis vi mangler arbejdskraft. Der er ingen grund til at sænke lønnen ift arbejdskraft fra resten af verden og det vil ske hvis man direkte henter arbejdskraft derude til en lavere løn."
+78,12/2/2022 13:15,12/2/2022 13:15,29,84,4,"Vi har brug for arbejdskraft. Det er dog vigtigt at man kun er i Danmark, så længe man arbejder og klarer sig selv."
+79,12/2/2022 13:15,12/2/2022 13:15,29,85,5,"Vi har historisk lav ledighed i Danmark. Virksomheder, sundheds- og plejesektoren er i knæ, der kan ikke skaffes arbejdskraft nok. Der skal ikke siges nej til ordre grundet mangel på arbejdskraft, det svækker dansk økonomi og konkurrenceevne. Rekruttering inden for sundhedsvæsenet og i ældresektoren har været et velkendt problem længe. Derfor er udlændinge der vil arbejde i Danmark velkomne - så vi kan imødekomme arbejdsmarkedets behov."
+80,12/2/2022 13:15,12/2/2022 13:15,29,86,4,
+81,12/2/2022 13:15,12/2/2022 13:15,29,87,5,"Selvfølgelig skal det være det. Vi har brug for arbejdskraft, så hvorfor ikke kigge til udlandet, hvor der også er dygtige folk."
+82,12/2/2022 13:15,12/2/2022 13:15,29,89,5,"Når man matcher en udlænding med et job i Danmark, så bliver vi alle sammen rigere. Derfor er det vigtigt, når danske virksomheder står og mangler kvalificeret arbejdskraft, at disse virksomheder får dækket deres behov under ordnede forhold."
+83,12/2/2022 13:15,12/2/2022 13:15,29,90,4,
+84,12/2/2022 13:15,12/2/2022 13:15,29,91,5,Arbejdsmarkedet har brug for kvalificeret arbejdskraft udefra.
+85,12/2/2022 13:15,12/2/2022 13:15,29,92,3,"Enhedslisten har intet imod udenlandsk arbejdskraft i Danmark, men det skal være på danske løn- og arbejdsvilkår. Udenlandsk arbejdskraft bliver desværre alt for ofte brugt løntrykkende og til social dumping i Danmark."
+86,12/2/2022 13:15,12/2/2022 13:15,29,93,3,Det er jo ellerede let for alle EU borgere.
+87,12/2/2022 13:15,12/2/2022 13:15,29,94,3,
+88,12/2/2022 13:15,12/2/2022 13:15,29,95,4,"Enig, men lad os starte med at få de mange danskere i arbejde i dag, som gerne vil arbejde ved at sikre ordentlige arbejdsvilkår og ordentlige lønninger. Vi skal ikke have social dumping og underminere danske arbejdsforhold."
+89,12/2/2022 13:15,12/2/2022 13:15,29,96,4,
+90,12/2/2022 13:15,12/2/2022 13:15,29,97,3,"I de fag hvor vi mangler arbejdskraft, er det fint at rekruttere udenlandske medarbejdere. Det skal dog ske på en kontrolleret måde hvor man kan bevise at man kan forsørge sig selv og ikke ligger det danske samfund til last. Vi har behov for udenlandsk arbejdskraft og viden, så vi kan være førende inden for forskning og udvikling af nye produkter, der kan skabe danske arbejdspladser."
+91,12/2/2022 13:15,12/2/2022 13:15,29,98,4,"Det burde faktisk være sådan, at hvis du har et arbejde i Danmark på dansk overenskomst og betaler din skat, kan du være her, så længe du og din arbejdsgiver ønsker det."
+92,12/2/2022 13:15,12/2/2022 13:15,29,99,2,
+93,12/2/2022 13:15,12/2/2022 13:15,29,100,2,
+94,12/2/2022 13:15,12/2/2022 13:15,29,101,5,"Danske virksomheder siger hele tiden nej til ordrer, fordi de mangler arbejdskraft. Det går ud over hele det danske samfund. Derfor skal det være lettere at komme til Danmark og arbejde, men en præcis er så også, at man skal rejse hjem, hvis man ikke længere bidrager på arbejdsmarkedet."
+95,12/2/2022 13:15,12/2/2022 13:15,29,103,4,
+96,12/2/2022 13:15,12/2/2022 13:15,29,104,5,
+97,12/2/2022 13:15,12/2/2022 13:15,29,105,4,
+98,12/2/2022 13:15,12/2/2022 13:15,29,106,4,"Udlændinge, der kommer for at arbejde, giver et vægtigt bidrag til dansk økonomi. Når udlændinge kommer fra vestligt orienterede lande eller fra lande i Fjernøsten, kommer de som oftest for at arbejde og falder godt ind i det danske samfund og giver sjældent problemer. Men når migranter kommer fra muslimske lande i Mellemøsten og Nordafrika, er vores erfaringer meget dårlige. Der er for mange kedelige sager, hvor velfungerende udlændinge bliver ramt af lappeløsninger, som politikerne har vedtaget – dog uden den store effekt – for at dæmme op for migrationen fra de lande i Stormellemøsten, som giver os problemer. Det er på tide at kalde en spade for en spade og indrette reglerne derefter. Der skal indføres et stop for spontan asyl. Til gengæld vil vi give lettere adgang for virksomhederne til at ansætte udlændinge på den betingelse, at udlændinge, der kommer for at arbejde, skal overholde vores lovgivning. Gør de ikke det, skal opholdstilladelsen inddrages, og så må de rejse hjem igen."
+99,12/2/2022 13:15,12/2/2022 13:15,29,107,4,"Så længe vi mangler kvalificeret arbejdskraft, så skal det også være nemmere for udenlandsk kvalificeret arbejdskraft, at komme til Danmark."
+100,12/2/2022 13:15,12/2/2022 13:15,29,108,3,
+101,12/2/2022 13:15,12/2/2022 13:15,29,109,3,"Når udlændinge kommer fra vestligt orienterede lande eller fra lande i Fjernøsten, kommer de som oftest for at arbejde og falder godt ind i det danske samfund og giver sjældent problemer. Når migranter kommer fra muslimske lande i Mellemøsten og Nordafrika, er vores erfaringer meget dårlige. De er ofte ude af stand til at forsørge sig selv, og de og deres børn optræder oftere i kriminalitetsstatistikkerne. Desuden er deres kultur, når den er baseret på islamiske værdier, i stærk opposition til den danske. Der er for mange kedelige sager, hvor velfungerende udlændinge bliver ramt af lappeløsninger, som politikerne har vedtaget – dog uden den store effekt – for at dæmme op for migrationen fra de lande i Stormellemøsten, som giver os problemer. Lappeløsningerne rammer i flæng, og velfungerende udlændinge sendes ud af landet, selvom de ikke gør nogen skade, men tværtimod bidrager positivt. Det er på tide at kalde en spade for en spade og indrette reglerne derefter."
+102,12/2/2022 13:15,12/2/2022 13:15,29,110,2,
+103,12/2/2022 13:15,12/2/2022 13:15,29,111,5,"Vi mangler i den grad arbejdskraft - hoveder og hænder. Vores velstand er afhængig af at virksomhederne kan takke ja til ordrer, og at der personale der kan gribe hvis vi falder. International arbejdskraft er en af løsningerne, og bør derfor gøres mere tilgængelig."
+104,12/2/2022 13:15,12/2/2022 13:15,29,112,5,Vi bør blive bedre til at tiltrække international arbejdskraft. Det gør vi blandt andet ved at være åbne og imødekommende - især når det gælder den udlændingepolitiske retorik.
+105,12/2/2022 13:15,12/2/2022 13:15,29,113,3,
+106,12/2/2022 13:15,12/2/2022 13:15,29,114,4,
+107,12/2/2022 13:15,12/2/2022 13:15,29,115,1,"I Dansk Folkeparti er vi imod mere udenlandsk arbejdskraft, og i særdeleshed fra lande udenfor Europa. Regeringen og en række partier, heriblandt Nye Borgerlige, har for nyligt indgået aftale, der sænker beløbsgrænsen for borgere, der kunne tænke sig at komme til Danmark og arbejde. Det vil medføre mere muslimsk indvandring og være kilde til social dumping."
+108,12/2/2022 13:15,12/2/2022 13:15,29,116,5,
+109,12/2/2022 13:15,12/2/2022 13:15,29,117,3,
+110,12/2/2022 13:15,12/2/2022 13:15,29,118,5,"Hvis man har en kontrakt med en dansk virksomhed, og dermed et arbejde, på ordentligt løn og arbejdsvilkår, skal man have lov og komme ind i landet og arbejde, begår man en forbrydelse eller bliver opsagt, må man så rejse ud igen, det ville være godt for erhvervslivet, og dermed for Danmark"
+111,12/2/2022 13:15,12/2/2022 13:15,29,119,1,"Der er allerede rig mulighed for arbejdskraft fra EU. Vi skal i stedet fokusere på at opkvalificere og videreuddanne ledige og ansatte, samt sikre forhold der nedbringer sygefravær og stress."
+112,12/2/2022 13:15,12/2/2022 13:15,29,120,3,"Folk der ønsker at arbejde i Danmark skal være velkomne, der hvor der mangler arbejdskraft. Men vi skal passe på, at arbejdsgivere ikke bruger import af uorganiseret og lavtlønnet arbejdskraft til at presse løn og arbejdsforhold nedad. Det er afgørende at folk der kommer hertil arbejder på samme løn og arbejdsvilkår som deres danske kollegaer."
+113,12/2/2022 13:15,12/2/2022 13:15,29,121,1,
+114,12/2/2022 13:15,12/2/2022 13:15,29,123,3,
+115,12/2/2022 13:15,12/2/2022 13:15,29,124,5,"Udlændinge, der overholder vores lovgivning, forsørger sig selv og respekterer vores levevis er velkomne."
+116,12/2/2022 13:15,12/2/2022 13:15,29,125,5,"Vi har et presset erhvervsliv, der ikke kan finde nok arbejdskraft. Derfor skal vi sænke beløbsgrænsen. dog skal vi holde for øje, at man skal have et job for at få arbejdstilladelse. Vi skal til stadighed sørge for at vores erhvervsliv har de rette rammevilkår. Det er nødvendigt at gøre Danmark rigere, sådan vi kan give vores velfærdssamfund videre, til vores børn og børnebørn. et velfærdssamfund der er i en mere sund og robust tilstand end det er i dag."
+117,12/2/2022 13:15,12/2/2022 13:15,29,126,3,
+118,12/2/2022 13:15,12/2/2022 13:15,29,127,4,"Danske virksomheder og det offentlige skal have adgang til den kvalificerede arbejdskraft, som de har brug for. Det er godt for Danmark, når kvalificeret international arbejdskraft kommer hertil under ordnede forhold. De bidrager til at skabe vækst, velstand og velfærd i Danmark."
+119,12/2/2022 13:15,12/2/2022 13:15,29,128,2,"Jeg vil gerne have læger og ingeniører, men vi gider ikke mere social dumping."
+120,12/2/2022 13:15,12/2/2022 13:15,29,129,4,"Udlændinge, der kommer for at arbejde, giver et vægtigt bidrag til dansk økonomi. Når udlændinge kommer fra vestligt orienterede lande eller fra lande i Fjernøsten, kommer de som oftest for at arbejde og falder godt ind i det danske samfund og giver sjældent problemer. Når migranter kommer fra muslimske lande i Mellemøsten og Nordafrika, er vores erfaringer meget dårlige. De er ofte ude af stand til at forsørge sig selv, og de og deres børn optræder oftere i kriminalitetsstatistikkerne. Desuden er deres kultur, når den er baseret på islamiske værdier, i stærk opposition til den danske. Der er for mange kedelige sager, hvor velfungerende udlændinge bliver ramt af lappeløsninger, som politikerne har vedtaget – dog uden den store effekt – for at dæmme op for migrationen fra de lande i Stormellemøsten, som giver os problemer. Lappeløsningerne rammer i flæng, og velfungerende udlændinge sendes ud af landet, selvom de ikke gør nogen skade, men tværtimod bidrager positivt."
+121,12/2/2022 13:15,12/2/2022 13:15,29,130,4,"Man skal forsørge sig selv, hvis man kommer til Danmark"
+122,12/2/2022 13:15,12/2/2022 13:15,29,131,1,
+123,12/2/2022 13:15,12/2/2022 13:15,29,132,4,"Det kommer helt an på vilkårene. Det skal være lettere på de opgaver, hvor der reelt er mangel på kompetencer. Og det skal sikres, at det ikke foregår som social dumping, men derimod på danske løn- og arbejdsvilkår."
+124,12/2/2022 13:15,12/2/2022 13:15,29,133,5,vi savner i den grad arbejdskraft i pleje- og servicebranchen. Lagkagen bliver ikke større af at lukke ned pga mangel på personale.
+125,12/2/2022 13:15,12/2/2022 13:15,29,134,3,
+126,12/2/2022 13:15,12/2/2022 13:15,29,135,4,"Vi er tilhængere af midlertidig udenlandsk arbejdskraft, som mister sin ret til at være i Danmark, når de ikke længere arbejder."
+127,12/2/2022 13:15,12/2/2022 13:15,29,136,5,
+128,12/2/2022 13:15,12/2/2022 13:15,29,137,2,
+129,12/2/2022 13:15,12/2/2022 13:15,29,138,2,
+130,12/2/2022 13:15,12/2/2022 13:15,29,139,5,
+131,12/2/2022 13:15,12/2/2022 13:15,29,140,2,
+132,12/2/2022 13:15,12/2/2022 13:15,29,141,5,"I en tid med alvorlig mangel på arbejdskraft skal virksomhederne have langt bedre mulighed for at tiltrække medarbejdere. Hvis man er kvalificeret til at bestride en stilling, så er det underordnet hvor man kommer fra."
+133,12/2/2022 13:15,12/2/2022 13:15,29,142,5,"Vi skal åbne vores dør for dygtige udlændinge, der gerne vil bidrage til dansk økonomi og respektere vores lovgivning."
+134,12/2/2022 13:15,12/2/2022 13:15,29,143,1,"Vi skal ikke have underbetalte arbejdere ind på vores arbejdspladser. Kommuner, regioner og staten skal sikre, at alle anlægsopgaver varetages af folk med overenskomstmæssig løn og forhold som minimum."
+135,12/2/2022 13:15,12/2/2022 13:15,29,144,5,
+136,12/2/2022 13:15,12/2/2022 13:15,29,145,2,"Der er allerede vide muligheder for at virksomhederne kan skaffe arbejdskraft inden for EU. De muligheder skal i stedet bruges frem for at åbne op for mere udenlandsk arbejdskraft, der kan udnyttes til løn-dumping."
+137,12/2/2022 13:15,12/2/2022 13:15,29,146,4,"Vi mangler arbejdskraft i Danmark, og vi bør blive bedre til at tage imod folk udefra."
+138,12/2/2022 13:15,12/2/2022 13:15,29,147,3,
+139,12/2/2022 13:15,12/2/2022 13:15,29,148,5,"Der er stadigvæk for mange, der ikke lærer dansk eller integrerer sig i det danske samfund. F.eks. hører social kontrol ikke hjemme i Danmark og skal stoppes. Udlændinge er overrepræsenteret i statistikkerne for kriminalitet og vores domme er for milde. Så selv om man altid kan finde en historie, der virker uretfærdig, skal vi generelt set fastholde krav til de personer, der ønsker at være en del af det danske samfund."
+140,12/2/2022 13:15,12/2/2022 13:15,29,149,4,"Har man lyst til at bidrage til det danske samfund, skal man bydes velkommen og behandles godt. Det er dog vigtigt at arbejdet stadig foregår på danske løn- og arbejdsvilkår."
+141,12/2/2022 13:15,12/2/2022 13:15,29,150,4,"Nogle arbejdstagere i Danmark er udlændinge, der kan bidrage med kompetencer, som virksomhederne har brug for men ikke kan finde blandt danske arbejdere. Der er over 300.000 udlændinge i Danmark, som arbejder, betaler skat og bidrager til samfundet. De udgør derfor en stor og vigtig del af den danske arbejdsstyrke og er med til at styrke danske virksomheder. Danmark er et lille land med en lille arbejdsstyrke, så det er ofte nødvendigt for virksomheder at hyre udenlandsk arbejdskraft, hvis de skal tiltrække de rette specialister og vækste."
+142,12/2/2022 13:15,12/2/2022 13:15,29,151,4,"Danske virksomheder og det offentlige skal have adgang til den kvalificerede arbejdskraft, som de har brug for. Det er godt for Danmark, når kvalificeret international arbejdskraft kommer hertil under ordnede forhold. De bidrager til at skabe vækst, velstand og velfærd i Danmark."
+143,12/2/2022 13:15,12/2/2022 13:15,29,152,1,Der er allerede gode muligheder for at EU-borgere kan arbejde i Danmark.
+144,12/2/2022 13:15,12/2/2022 13:15,29,153,3,
+145,12/2/2022 13:15,12/2/2022 13:15,29,154,4,
+146,12/2/2022 13:15,12/2/2022 13:15,29,155,5,"Vi skal dog sikre os, at det er de rigtige, der kommer ind. Vi vil gøre det lettere for folk, der har en ansættelseskontrakt med en dansk virksomhed at komme til landet for at arbejde. Men hvis man bryder loven eller bliver arbejdsløs, så skal man rejse hjem. Danmark mister hver eneste dag penge, fordi vi ikke har hænder nok."
+147,12/2/2022 13:15,12/2/2022 13:15,29,157,4,
+148,12/2/2022 13:15,12/2/2022 13:15,29,158,5,"Arbejdskraftens fribevægelighed til andre lande, er noget jeg selv har benyttet mig af. Jeg har arbejdet i Frankrig, i Filippinerne, i Hviderusland, i Ukraine og i flere andre lande i min ungdom. Jeg tjente gode penge, jeg lærte meget både om kultur og om mig selv og jeg blev overbevist om at Danmark virkeligt er et helt særligt og dejligt land i denne verden. Men hvis der er nogle derude, der vil bidrage positivt og konstruktivt til Danmarks velstand, ved at arbejde og skabe indenfor vores nations grænser, så ville det da være utroligt snæversynet at nægte dem det. For når de bygger et hus, som en dansker skal bo i, eller når de laver en kode, som en dansk virksomhed tjener penge på, eller når de stiller varer på plads i vores supermarkeder eller hvad de nu gør, så har de forbedret vores levestandard. Det ville være kortsigtet ikke at ønske at vores levestandard blev bedre, alene for at beskytte snævre interesser."
+149,12/2/2022 13:15,12/2/2022 13:15,29,159,4,"Vi har akut behov for arbejdskraft i Danmark. I den situation vi står i nu, hvor vi mangler så mange hænder og hoveder, skal det være nemmere at arbejde i Danmark som udlænding. Udlændinge der kommer hertil og ikke vil lave noget er en helt anden snak. De behøver ikke være her"
+150,12/2/2022 13:15,12/2/2022 13:15,29,160,3,UNDER ordnede forhold og overenskomst. Ikke dumping af dansk løn og forhold
+151,12/2/2022 13:15,12/2/2022 13:15,29,161,4,
+152,12/2/2022 13:15,12/2/2022 13:15,29,162,4,
+153,12/2/2022 13:15,12/2/2022 13:15,29,163,3,
+154,12/2/2022 13:15,12/2/2022 13:15,29,164,4,Vi kommer i fremtiden til at mangle mennesker for at opretholde vores samfund. Det skal være på ordnede løn og arbejdsvilkår.
+155,12/2/2022 13:15,12/2/2022 13:15,29,165,2,"Der er masser af muligheder for at komme til Danmark og arbejde i dag. Særligt for andre EU-borgere, men faktisk også for mennesker der kommer fra ikke EU-lande. Først og fremmest skal vi sørge for, at alle i Danmark der kan og vil arbejde, kan få et arbejde."
+156,12/2/2022 13:15,12/2/2022 13:15,29,166,5,"Hvis erhvervslivet stadig har behov for flygtninges arbejdskraft, skal flygtningen have mulighed for at konvertere sin flygtningestatus til arbejdstilladelse, så arbejdsmarkedet i Danmark ikke svækkes. I dag forhindrer vores system flygtninge muligheden for at betale tilbage på deres omkostninger for staten og styrke dansk økonomi, hvilket virker ulogisk."
+157,12/2/2022 13:15,12/2/2022 13:15,29,167,5,Vi har brug for arbejdskraft.
+158,12/2/2022 13:15,12/2/2022 13:15,29,168,5,"Udlændinge, der kan og vil bidrage skal have lettere adgang til Danmark. Mister de deres arbejde, så er det hjem."
+159,12/2/2022 13:15,12/2/2022 13:15,29,169,3,
+160,12/2/2022 13:15,12/2/2022 13:15,29,170,2,"Det er afgørende, at beskæftigelse af udlændinge på det danske arbejdsmarked ikke fører til undergravning af løn- og arbejdsvilkår."
+161,12/2/2022 13:15,12/2/2022 13:15,29,171,4,"Venstre har foreslået, at det skal være lettere at komme til Danmark at arbejde på den såkaldte beløbsordning. Det vil sikre flere hænder til gavn for de danske virksomheder og dermed gøre Danmark rigere som samfund."
+162,12/2/2022 13:15,12/2/2022 13:15,29,172,4,"Så længe det ikke er forklædt social dumping, der handler om at udnytte, at nogle mennesker i verden står i en ringere livssituation til at presse løn- og ansættelsesvilkår for lønmodtagerne, så har vi flere forslag, der ville kunne forbedre mulighederne for udlændinge."
+163,12/2/2022 13:15,12/2/2022 13:15,29,173,5,
+164,12/2/2022 13:15,12/2/2022 13:15,23,1,1,
+165,12/2/2022 13:15,12/2/2022 13:15,23,2,1,
+166,12/2/2022 13:15,12/2/2022 13:15,23,3,3,
+167,12/2/2022 13:15,12/2/2022 13:15,23,4,2,
+168,12/2/2022 13:15,12/2/2022 13:15,23,5,1,
+169,12/2/2022 13:15,12/2/2022 13:15,23,6,2,
+170,12/2/2022 13:15,12/2/2022 13:15,23,7,5,"SF ønsker et system der modsat det nuværende, ikke er styret af menneskesmuglere og despoter. Vi ønsker ikke, at Danmark skal betale lande der ikke beskytter menneskerettigheder for at huse flygtninge. SF arbejder på, at der dannes et fælles EU strategi for modtagning af flygtninge og migranter i vores nærområde."
+171,12/2/2022 13:15,12/2/2022 13:15,23,8,2,
+172,12/2/2022 13:15,12/2/2022 13:15,23,9,3,Jeg mener den nuværende asylsystem bør laves om. Alt alt for mange migranter drukner i Middelhavet - og her kan vi ikke bare vende det blinde øje til. Derfor bør øget hjælp i nærområderne sættes højere på den politiske dagsorden.
+173,12/2/2022 13:15,12/2/2022 13:15,23,10,4,"Regeringens idé om et modtage center i Rwanda synes jeg er en rigtig dårlig idé. Men jeg ville ønske at vi kunne lave en fælles løsning i EU med et modtagecenter, så flygtninge ikke behøver at tage den farlige vej henover havet i en gummibåd for at søge asyl."
+174,12/2/2022 13:15,12/2/2022 13:15,23,11,1,
+175,12/2/2022 13:15,12/2/2022 13:15,23,12,1,"9 ud af 10 asylansøgere kommer til Danmark igennem menneskesmuglere og farlige rejser over middelhavet. Det mener jeg ikke er et humant asylsystem, og vi skal derfor fjerne incitamentet til at rejse med menneskesmuglere over middelhavet. Dette gør vi ved at skabe et humant asylsystem i nærområdet, hvor asylansøgere til Danmark får behandlet deres sag."
+176,12/2/2022 13:15,12/2/2022 13:15,23,13,1,"Det vil være en billigere løsning for Danmark indtil man har fundet ud af om deres ansøgning kan blive godkendt eller ej. Vi vil kunne bruge pengene mere effektivt og det vil formentligt også medvirke til, at færre vil søge om dansk asyl."
+177,12/2/2022 13:15,12/2/2022 13:15,23,14,2,I dag tager alt for mange en farlig rejse overmiddelhavet og betaler store summer til udspekulerede mellemmænd. Alt for ofte ender flugten tragisk. De flygtninge der kommer til Danmark skal som udgangspunkt have deres sag behandlet her. Men et dansk asylcenter i f.eks. Rwanda skal selvfølgelig svare til dansk standard.
+178,12/2/2022 13:15,12/2/2022 13:15,23,15,1,
+179,12/2/2022 13:15,12/2/2022 13:15,23,16,1,
+180,12/2/2022 13:15,12/2/2022 13:15,23,18,1,
+181,12/2/2022 13:15,12/2/2022 13:15,23,19,5,"Nej. Ikke bare har fremtrædende eksperter på området advaret om potentielle menneskerettighedskrænkelser ved et modtagecenter i Rwanda - Danmark fralægger os også vores ansvar i verden ved at gå enegang på det her spørgsmål og sende mennesker ud af landet. Hvis man vil lidt dybere ned i problematikken, har jeg skrevet et længere indlæg her om, hvorfor det er så dårlig en idé: https://www.information.dk/debat/2022/05/sf-hjaelpe-flere-flygtninge-bedre-regeringens-rwanda-model-loesning"
+182,12/2/2022 13:15,12/2/2022 13:15,23,20,2,
+183,12/2/2022 13:15,12/2/2022 13:15,23,21,3,Her har jeg brug for større indsigt.
+184,12/2/2022 13:15,12/2/2022 13:15,23,22,5,"Vi skal have et markant mere humant asylsystem end det nuværende, hvor menneskesmuglere og despoter sætter reglerne. Jeg ønsker, at FN’s kvotesystem skal gælde, men jeg ønsker på ingen måde at Danmark skal betale menneskerettighedsfjendske regimer for at huse flygtninge. SF arbejder for at EU finder en samlet strategi og aftale for modtagelse af flygtninge og migranter i EU-området. Derfor giver det ikke mening at flyve asylansøger – der allerede har taget turen til et 3. land. Det vil ikke begrænse de inhumane menneskesmuglere eller de farlige flugtruter i fortsat at eksistere."
+185,12/2/2022 13:15,12/2/2022 13:15,23,24,5,"Det er en ineffektiv, og dyr løsning som på sigt kan give flere udfordringer med flygtninge"
+186,12/2/2022 13:15,12/2/2022 13:15,23,25,1,"Socialdemokratiet vil skabe et mere retfærdigt og humant asylsystem. Vores nuværende asylsystem er grundlæggende uretfærdigt og dysfunktionelt. I dag er det sådan, at mennesker på flugt sætter livet på spil på farlige migrationsruter igennem Sahara-ørkenen og i små både over Middelhavet. Samtidig tjener menneskesmuglere styrtende på at udnytte situationen. En stor del af de mennesker, der lykkes med at komme til Europa, har ikke ret til asyl. Derfor bruger vi rigtig mange midler på at håndtere asylansøgere, som kunne være brugt meget bedre i nærområderne på dem, som har det største behov. Socialdemokratiet vil skabe et nyt asylsystem, hvor asylbehandlingen foregår i et sikkert land uden for Europa, f.eks. i Rwanda. Til gengæld skal Danmark tage imod af FNs kvoteflygtninge, som typisk er de flygtninge, som har det allerstørste behov for beskyttelse. På den måde kan vi skabe mere kontrol over flygtningestrømmene, og samtidig skabe et mere retfærdigt og humant asylstem."
+187,12/2/2022 13:15,12/2/2022 13:15,23,26,4,"Dette spørgsmål mangler nuancer. Jeg er for et modtagecenter i udlandet, HVIS 1) flygtninge kan søge asyl direkte på centeret og ikke først skal til Danmark, 2) asylbehandlingen er hurtig, 3) centeret yder sikkerhed for flygtningene, 4) centeret drives af den danske forvaltning, EU eller FN og 5) centret opretholder menneskerettighederne. Socialdemokratiets planer om et modtagecenter i Rwanda opfylder ikke disse kriterier, og det skaber en endnu værre situation for mennesker på flugt. Et modtagecenter der kan opfylde de 5 kriterier er en god ide, fordi vi så kan undgå at flygtninge skal flygte over Middelhavet."
+188,12/2/2022 13:15,12/2/2022 13:15,23,27,4,
+189,12/2/2022 13:15,12/2/2022 13:15,23,28,2,
+190,12/2/2022 13:15,12/2/2022 13:15,23,29,1,
+191,12/2/2022 13:15,12/2/2022 13:15,23,30,2,"Asylbehandling i nærområdet er en god ide. Venstre bakker op om et modtagecenter i et tredjeland, da det er med til at begrænse tilstrømningen af asylansøgere til Danmark og Europa. Vi skal bare sikre os at det sker under ordnede forhold."
+192,12/2/2022 13:15,12/2/2022 13:15,23,31,1,
+193,12/2/2022 13:15,12/2/2022 13:15,23,32,1,
+194,12/2/2022 13:15,12/2/2022 13:15,23,33,5,
+195,12/2/2022 13:15,12/2/2022 13:15,23,34,1,
+196,12/2/2022 13:15,12/2/2022 13:15,23,35,1,"Venstre støtter etablering af et modtagecenter i et tredjeland. Vi har brug for et nyt asylsystem som hjælper endnu mere i nærområderne, så vi kan hjælpe flere"
+197,12/2/2022 13:15,12/2/2022 13:15,23,36,2,"Det skal være en forudsætning, at det sker under ordnede forhold og , at det pågældende land overholder menneskerettighederne."
+198,12/2/2022 13:15,12/2/2022 13:15,23,37,1,Har selv været i Rwanda og jeg syntes det er et glimrende initiativ at flytte asylbehandling og modtagecenter til Afrika. Ligeledes bør vi gøre på fængselsområdet og få sikret en aftale med myndigheder i Baltikum mv.
+199,12/2/2022 13:15,12/2/2022 13:15,23,38,2,
+200,12/2/2022 13:15,12/2/2022 13:15,23,39,5,Det er en grotesk idé. Danmark skal tage sin del af ansvaret for verdens flygtninge og vi kan sagtens tilbyde dem beskyttelse og en tryg tilværelse her.
+201,12/2/2022 13:15,12/2/2022 13:15,23,40,3,"Jeg anerkender vi har et stort problem, hvor modtagecenteret kan løse problemet. Men grundtanken er inhuman."
+202,12/2/2022 13:15,12/2/2022 13:15,23,41,1,
+203,12/2/2022 13:15,12/2/2022 13:15,23,42,5,
+204,12/2/2022 13:15,12/2/2022 13:15,23,43,1,
+205,12/2/2022 13:15,12/2/2022 13:15,23,44,2,
+206,12/2/2022 13:15,12/2/2022 13:15,23,46,2,"Det er godt, hvis asylansøgere kan få behandlet deres ansøgning uden for Danmark, men det skal ske under danske regler og vilkår med overholdelse af menneskerettighederne."
+207,12/2/2022 13:15,12/2/2022 13:15,23,47,4,"SF arbejder for at EU finder en samlet løsning for ordentlige modtagecentre uden for Europas grænser, men det skal være med ordentlige vilkår, uddannelse og job og hvor man overholder menneskerettighederne. Det kan jeg ikke forestille mig at Rwanda kommer til at gøre (hvis det da nogensinde bliver til noget) og SF er imod Rwanda-projektet."
+208,12/2/2022 13:15,12/2/2022 13:15,23,48,2,"Det nuværende asylsystem fungerer ikke, når så mange mennesker drukner i Middelhavet. Det er dybt tragisk. Det illustrerer, at der er behov for et nyt asylsystem, som hjælper i nærområderne, da vi derved kan hjælpe flere flygtninge og asylansøgere på en bedre måde."
+209,12/2/2022 13:15,12/2/2022 13:15,23,49,4,Moderaterne ønsker ikke at sende ukrainske flygtninge til Afrika.
+210,12/2/2022 13:15,12/2/2022 13:15,23,50,4,
+211,12/2/2022 13:15,12/2/2022 13:15,23,51,1,"Det vil være en rigtig god løsning. Der er jo ikke noget behov for, at asylansøgerne skulle være i Danmark mens deres sag behandles."
+212,12/2/2022 13:15,12/2/2022 13:15,23,52,2,
+213,12/2/2022 13:15,12/2/2022 13:15,23,53,1,
+214,12/2/2022 13:15,12/2/2022 13:15,23,54,2,"Ni ud af ti flygtninge er mænd. Vi skal have et mere fair asylsystem, så vi kan hjælpe dem, med størst behov. Vigtigt at Danmark går forrest. Resten af EU skal med på sigt."
+215,12/2/2022 13:15,12/2/2022 13:15,23,55,4,"Det er absolut en udemærket idé at se på, hvordan vi kan asylbehandle i nærområderne. I dag kommer kun de stærkeste flygtninge ud af landet, fordi magten ligger i pengepungen og betales til menneskesmuglere. Så tanken om at skabe noget lokalt er god - men den skal være mere end symbolpolitik. Rwanda virker mest som et fatamorgana, der har til formål at vise handlekraft - mere end det virker som noget, der kan blive virkelighed."
+216,12/2/2022 13:15,12/2/2022 13:15,23,56,2,"Selvfølgelig under forudsætning af, at det hele organiseres og fungerer ordentligt og indenfor Danmarks internationale forpligtelser. Det dur ikke, at vi lader et ikke-fungerende asylsystem fortsætte. Kun menneskesmuglere kan være tjent med det, hvis det hele bare skulle fortsætte som nu."
+217,12/2/2022 13:15,12/2/2022 13:15,23,57,5,Danmark er et rigt land og vi skal tage vores andel af verdens flygtninge - og i øvrigt give dem gode betingelser for hurtigt at blive selvhjulpne.
+218,12/2/2022 13:15,12/2/2022 13:15,23,58,5,
+219,12/2/2022 13:15,12/2/2022 13:15,23,61,3,
+220,12/2/2022 13:15,12/2/2022 13:15,23,62,1,"Som asylansøger skal man søge asyl i det første sikre land man kommer til, og ikke rejse hele vejen til Danmark"
+221,12/2/2022 13:15,12/2/2022 13:15,23,63,5,"Det nuværende asylsystem er ikke godt nok. Vi ønsker et markant mere humant asylsystem, hvor menneskesmuglere og despoter ikke sætter reglerne. FN’s kvotesystem skal gælde, men vi ønsker på ingen måde at Danmark skal betale menneskerettighedsfjendske regimer for at huse flygtninge. Her skal EU på banen med en samlet strategi og aftale for modtagelse af flygtninge og migranter i EU-området."
+222,12/2/2022 13:15,12/2/2022 13:15,23,64,3,"Eventuelle modtagecentre skal organiseres gennem EU eller FN og overholde relevante konventioner. Den nuværende flygtningepolitik er inhuman, som fører til den ene tragedie efter den anden."
+223,12/2/2022 13:15,12/2/2022 13:15,23,65,3,
+224,12/2/2022 13:15,12/2/2022 13:15,23,66,1,
+225,12/2/2022 13:15,12/2/2022 13:15,23,67,2,"Jeg ser ingen problemer i at et sådan lægges i udlandet så længe Danmark sikre sig, at lovgivning og menneskerettigheder overholdes."
+226,12/2/2022 13:15,12/2/2022 13:15,23,68,5,"Det er et kæmpe NEJ. Regeringens idé om et flygtningecenter i Rwanda er ikke et center, der hjælper flygtninge – men et center, hvor Socialdemokratiet vil eksportere flygtninge hen. Det er umenneskeligt, uansvarligt og ikke Danmark værdigt. Rwanda er et land med store menneskerettighedsproblemer, som vi på ingen måde bør sende udsatte mennesker til, når de er kommet til vores land. Samtidig giver det absolut ingen mening for Danmark at gå enegang på flygtningespørgsmål. I stedet bør vi bakke meget mere op om kvotesystemet og hjælpe flere flygtninge i deres nærområder."
+227,12/2/2022 13:15,12/2/2022 13:15,23,69,1,"Det vil fjerne initiativet for at rejse gennem flere sikre lande, for at nå det forjættede Danmark, eller en anden af vores nordiske velfærdsstater."
+228,12/2/2022 13:15,12/2/2022 13:15,23,70,3,
+229,12/2/2022 13:15,12/2/2022 13:15,23,71,2,"Behovet for et nyt asylsystem er indlysende og står klart for de fleste på tværs af det politiske spektrum. Med det nuværende system får migranter, der blot søger et bedre liv, men ikke er forfulgte, lov til at fylde op i asylcentre i alle vestlige lande og kan kun med besvær udsendes igen. Erfaringerne viser, at migranter, der får midlertidig beskyttelse, bliver til indvandrere, får familiesammenføring og skaber varige og voldsomme integrationsproblemer for de samfund, de ankommer til. Sådan har det været i 40 til 50 år, og det bliver ikke løst, før vi erkender, at det nuværende asylsystem skal erstattes af et helt nyt. Lappeløsninger virker ikke. Asylsystemet er frygteligt inhumant. Migranter fra fjerne lande sendes ud på farefulde rejser, hvor mange omkommer undervejs. Systemet hjælper kun de få på bekostning af de mange, der sidder tilbage i FN’s flygtningelejre. Nye Borgerlige mener, at retten i udlændingeloven til at søge spontan asyl i Danmark bør afskaffes,"
+230,12/2/2022 13:15,12/2/2022 13:15,23,72,4,"SF ønsker et markant mere humant asylsystem end det nuværende, hvor menneskesmuglere og despoter sætter reglerne. Vi ønsker at FN’s kvotesystem skal være grundlaget, men vi ønsker på ingen måde at Danmark skal betale menneskerettighedsfjendske regimer for at huse flygtninge."
+231,12/2/2022 13:15,12/2/2022 13:15,23,73,1,
+232,12/2/2022 13:15,12/2/2022 13:15,23,74,1,
+233,12/2/2022 13:15,12/2/2022 13:15,23,75,3,"Grundtanken er udmærket. Men det skal absolut være i et land, der overholder menneskerettighederne til punkt og prikke. Det er mennesker på flugt vi har med at gøre."
+234,12/2/2022 13:15,12/2/2022 13:15,23,76,2,
+235,12/2/2022 13:15,12/2/2022 13:15,23,77,1,"Jeg mener det er en god idé, at asylansøger opholder sig i deres nærområde mens deres sag bliver behandlet."
+236,12/2/2022 13:15,12/2/2022 13:15,23,79,1,Jo tættere på hjemmet jo bedre.
+237,12/2/2022 13:15,12/2/2022 13:15,23,80,1,
+238,12/2/2022 13:15,12/2/2022 13:15,23,81,1,
+239,12/2/2022 13:15,12/2/2022 13:15,23,82,2,Det nuværende asylsystem virker ikke. Det er klart en mulighed at hjælpe i nærområderne i stedet.
+240,12/2/2022 13:15,12/2/2022 13:15,23,83,5,"Det er hul i hovedet og inhumant at oprette et asylcenter i Rwanda, et land der er kendt for at overtræde menneskerettighederne. Desuden vil det være asocialt overfor de andre EU lande, at vi ikke tager vores andel. Derfor skal vi leve op til - og forbedre - FN's kvotesystem og vi skal sikre et mere humant asylsystem. Og så skal vi ikke sende folk tilbage til usikre områder!"
+241,12/2/2022 13:15,12/2/2022 13:15,23,84,1,
+242,12/2/2022 13:15,12/2/2022 13:15,23,85,1,
+243,12/2/2022 13:15,12/2/2022 13:15,23,86,5,
+244,12/2/2022 13:15,12/2/2022 13:15,23,87,2,
+245,12/2/2022 13:15,12/2/2022 13:15,23,89,2,"Det nuværende asylsystem fungerer ikke. I dag er det menneskesmuglere, der fylder Europa med mennesker, der søger asyl. Det betyder, at det er de mest ressourcestærke flygtninge, vi hjælper. Et opgør med det eksisterende asylsystem vil betyde, at vi kan hjælpe de svageste flygtninge, eksempelvis gennem FNs kvotesystem. Det kan vise sig, at et modtagecenter i Rwanda er en dårlig idé. Måske kan vi ikke få det etableret i overenstemmelse til de krav, vi måtte stille til et sådan center. Men det betyder ikke, at det ikke kan lade sig gøre andetsteds. Det er en idé, som det er værd at arbejde videre med."
+246,12/2/2022 13:15,12/2/2022 13:15,23,90,1,
+247,12/2/2022 13:15,12/2/2022 13:15,23,91,1,Vi skal have etableret et asylcenter udenfor Europas grænser og i England har man allerede en aftale med Rwanda. Derfor bør Danmark hurtigst muligt kunne lave en lignende aftale.
+248,12/2/2022 13:15,12/2/2022 13:15,23,92,5,"Jeg er dybt forarget over, at regeringen vil eksportere mennesker på flugt til Rwanda. Danmark bør ikke overlade ansvaret til et udemokratisk land, der ikke har styr på overholdelse af menneskerettighederne. Jeg mener ikke, vi skal eksportere en eneste flygtning til et andet sted. Tiden er inde til at skabe gode processer og ordentlige forhold for mennesker, der søger asyl i Danmark."
+249,12/2/2022 13:15,12/2/2022 13:15,23,93,2,
+250,12/2/2022 13:15,12/2/2022 13:15,23,94,1,
+251,12/2/2022 13:15,12/2/2022 13:15,23,95,4,Jeg synes at EU skal lave en samlet strategi og aftale for modtagelse af flygtninge og migranter i EU-området.
+252,12/2/2022 13:15,12/2/2022 13:15,23,96,2,
+253,12/2/2022 13:15,12/2/2022 13:15,23,97,1,"Danmarksdemokraterne støtter et modtagecenter uden for Danmark, da det formodentligt kan få færre til at søge om dansk asyl, da de ikke skal hele vejen til Danmark og bo i årevis imens deres asylansøgning behandles. Det giver mening at hjælpe asylansøgere i nærområdet, så undgår de også at krydse Middelhavet."
+254,12/2/2022 13:15,12/2/2022 13:15,23,98,4,"Synes det vil være forkert og udansk, hvis Danmark ene land etablerer sådan et center i Rwanda, hvis behandling af flygtninge mildest talt ikke lever op til de mest basale rettigheder. Derudover er der faktisk ikke tale om et asylmodtagecenter, men om et permanent ophold i landet. Til gengæld er jeg åben over for at etablere et egentligt asylmodtagecenter i EU regi, der både kan sikre en bedre beskyttelse af flygtningene og en mere robust beskyttelse af EU's ydre grænser."
+255,12/2/2022 13:15,12/2/2022 13:15,23,99,2,
+256,12/2/2022 13:15,12/2/2022 13:15,23,100,1,
+257,12/2/2022 13:15,12/2/2022 13:15,23,101,2,
+258,12/2/2022 13:15,12/2/2022 13:15,23,103,3,
+259,12/2/2022 13:15,12/2/2022 13:15,23,104,4,
+260,12/2/2022 13:15,12/2/2022 13:15,23,105,5,
+261,12/2/2022 13:15,12/2/2022 13:15,23,106,2,"Behovet for et nyt asylsystem er indlysende, da det nuværende system får migranter, som blot søger et bedre liv, men ikke er forfulgte, lov til at fylde op i asylcentre i alle vestlige lande og kan kun med besvær udsendes igen. Erfaringerne viser, at migranter, der får midlertidig beskyttelse, bliver til indvandrere, får familiesammenføring og skaber varige og voldsomme integrationsproblemer for de samfund, de ankommer til. Sådan har det været i 40 til 50 år, og det bliver ikke løst, før vi erkender, at det nuværende asylsystem skal erstattes af et helt nyt. Asylsystemet er frygteligt inhumant. Migranter fra fjerne lande sendes ud på farefulde rejser, hvor mange omkommer undervejs. Systemet hjælper kun de få på bekostning af de mange, der sidder tilbage i FN’s flygtningelejre. I Nye Borgerlige mener vi, at retten i udlændingeloven til at søge spontan asyl i Danmark bør afskaffes. Flygtninge skal som en altovervejende hovedregel hjælpes i nærområderne."
+262,12/2/2022 13:15,12/2/2022 13:15,23,107,1,"Vi skal have skabt et modtagercenter tæt på, hvorfra asylansøgerne kommer fra. For vi kan ikke være en asylmagnet i Danmark."
+263,12/2/2022 13:15,12/2/2022 13:15,23,108,3,
+264,12/2/2022 13:15,12/2/2022 13:15,23,109,1,"Argumentet for Rwanda-løsningen er, at vi undgår at hænge på asylansøgere, der får afvist deres ansøgning om asyl. I dag lever mange afviste asylansøgere på udrejsecentre og nægter at rejse, selvom de har fået afslag på asyl i Danmark. Men i udgangspunktet bør Danmark have et totalt stop for asyl. Det er Nye Borgerliges politik. Erfaringerne viser, at migranter, der får midlertidig beskyttelse, bliver til indvandrere, får familiesammenføring og skaber varige og voldsomme integrationsproblemer for de samfund, de ankommer til. Sådan har det været i 40 til 50 år, og det bliver ikke løst, før vi erkender, at det nuværende asylsystem skal erstattes af et helt nyt. Nye Borgerlige mener, at retten i udlændingeloven til at søge spontan asyl i Danmark bør afskaffes, medmindre man kommer fra Danmarks nærområde. Flygtninge skal som en altovervejende hovedregel hjælpes i nærområderne. Som gæst i landet forsørger man selvfølgelig sig selv - og begår man kriminalitet, bør man udvises."
+265,12/2/2022 13:15,12/2/2022 13:15,23,110,1,
+266,12/2/2022 13:15,12/2/2022 13:15,23,111,2,Hvorfor Rwanda? Det mangler jeg svar på. Men jeg kan godt se ideen med at asylansøgningen ikke behøver foregå i Danmark.
+267,12/2/2022 13:15,12/2/2022 13:15,23,112,5,Vi kan ikke tillade os at behandle flygtninge som om de er afskum vi ikke vil have i Danmark. Vi har et etisk og moralsk ansvar for at hjælpe folk på flugt. Jeg er selv barn af en flygtning og det her forslag om Rwanda er jeg dybt uenig i. Vi kan jo ikke sikre at menneskerettighederne overholder dér.
+268,12/2/2022 13:15,12/2/2022 13:15,23,113,1,
+269,12/2/2022 13:15,12/2/2022 13:15,23,114,2,
+270,12/2/2022 13:15,12/2/2022 13:15,23,115,1,"Mennesker på flugt bør hjælpes i nærområdet. Derfor er det også en glimrende ide, at oprette et asylmodtagercenter i Rwanda. Asylansøgere skal ikke bo og opholde sig i Danmark, imens deres sag behandles."
+271,12/2/2022 13:15,12/2/2022 13:15,23,116,4,
+272,12/2/2022 13:15,12/2/2022 13:15,23,117,1,
+273,12/2/2022 13:15,12/2/2022 13:15,23,118,1,
+274,12/2/2022 13:15,12/2/2022 13:15,23,119,5,
+275,12/2/2022 13:15,12/2/2022 13:15,23,120,5,
+276,12/2/2022 13:15,12/2/2022 13:15,23,121,2,
+277,12/2/2022 13:15,12/2/2022 13:15,23,123,1,
+278,12/2/2022 13:15,12/2/2022 13:15,23,124,2,"Vi skal have et nyt asylsystem, hvor m Rwanda er løsningen er tvivlsomt."
+279,12/2/2022 13:15,12/2/2022 13:15,23,125,2,
+280,12/2/2022 13:15,12/2/2022 13:15,23,126,2,
+281,12/2/2022 13:15,12/2/2022 13:15,23,127,2,"Det nuværende asylsystem fungerer ikke, når tusindvis af migranter drukner i Middelhavet. Venstre mener, at der er behov for et nyt asylsystem, som hjælper i nærområderne, da vi derved kan hjælpe flere på en bedre måde. Venstre bakker op om at lave et modtagecenter i et tredjeland, da det er med til at begrænse tilstrømningen af asylansøgere til Danmark og Europa."
+282,12/2/2022 13:15,12/2/2022 13:15,23,128,1,
+283,12/2/2022 13:15,12/2/2022 13:15,23,129,2,"Behovet for et nyt asylsystem er indlysende og står klart for de fleste på tværs af det politiske spektrum. Med det nuværende system får migranter, der blot søger et bedre liv, men ikke er forfulgte, lov til at fylde op i asylcentre i alle vestlige lande og kan kun med besvær udsendes igen. Erfaringerne viser, at migranter, der får midlertidig beskyttelse, bliver til indvandrere, får familiesammenføring og skaber varige og voldsomme integrationsproblemer for de samfund, de ankommer til. Sådan har det været i 40 til 50 år, og det bliver ikke løst, før vi erkender, at det nuværende asylsystem skal erstattes af et helt nyt. Lappeløsninger virker ikke. Asylsystemet er frygteligt inhumant. Migranter fra fjerne lande sendes ud på farefulde rejser, hvor mange omkommer undervejs. Systemet hjælper kun de få på bekostning af de mange, der sidder tilbage i FN’s flygtningelejre. Nye Borgerlige mener, at retten i udlændingeloven til at søge spontan asyl i Danmark bør afskaffes."
+284,12/2/2022 13:15,12/2/2022 13:15,23,130,1,Vi skal hjælpe flygtninge i nærområderne.
+285,12/2/2022 13:15,12/2/2022 13:15,23,131,1,
+286,12/2/2022 13:15,12/2/2022 13:15,23,132,5,SF er imod den løsning. Desuden tvivler vi på at det i praksis lader sig gøre.
+287,12/2/2022 13:15,12/2/2022 13:15,23,133,1,
+288,12/2/2022 13:15,12/2/2022 13:15,23,134,2,
+289,12/2/2022 13:15,12/2/2022 13:15,23,135,3,
+290,12/2/2022 13:15,12/2/2022 13:15,23,136,3,
+291,12/2/2022 13:15,12/2/2022 13:15,23,137,2,
+292,12/2/2022 13:15,12/2/2022 13:15,23,138,1,
+293,12/2/2022 13:15,12/2/2022 13:15,23,139,3,
+294,12/2/2022 13:15,12/2/2022 13:15,23,140,5,
+295,12/2/2022 13:15,12/2/2022 13:15,23,141,5,"Asylansøgere i Danmark skal behandles fair og ordentligt. Det er ikke acceptabelt at sende udlændinge, der søger asyl til et land der har problemer med at overholde menneskerettighederne."
+296,12/2/2022 13:15,12/2/2022 13:15,23,142,1,
+297,12/2/2022 13:15,12/2/2022 13:15,23,143,3,"Det er svært at se mening i, at eks. en Hviderusser der søger Asyl for Lukasjenkos politik og forfølgelse i Danmark. Skal sendes med fly til Rwanda, for så at sidde i en lejr indtil ansøgningen er behandlet. Omvendt så skal vi havde gjort op med de immigrationsstrømme der foregår fra især Afrika. Vi skal hjælpe folk i deres nærområder i stedet"
+298,12/2/2022 13:15,12/2/2022 13:15,23,144,5,
+299,12/2/2022 13:15,12/2/2022 13:15,23,145,4,"Der er brug for et markant mere humant asylsystem end det nuværende, hvor menneskesmuglere og despoter sætter reglerne. Vi ønsker at FN’s kvotesystem skal være udgangspunktet for fordeling af flygtninge i EU, men vi ønsker på ingen måde at Danmark skal betale menneskerettighedsfjendske regimer for at huse flygtninge."
+300,12/2/2022 13:15,12/2/2022 13:15,23,146,5,Danmark bør tage flere kvoteflygtninge og sikre en human modtagelse af folk på flugt.
+301,12/2/2022 13:15,12/2/2022 13:15,23,147,1,
+302,12/2/2022 13:15,12/2/2022 13:15,23,148,5,
+303,12/2/2022 13:15,12/2/2022 13:15,23,149,5,"Mennesker der er flygtet har ret til en værdig behandling, derfor skal de selvfølgelig ikke sættes på et fly til Rwanda. Ligesom vi selvfølgelig heller ikke skal skubbe vores udfordringer over på andre lande."
+304,12/2/2022 13:15,12/2/2022 13:15,23,150,2,
+305,12/2/2022 13:15,12/2/2022 13:15,23,151,2,"Det nuværende asylsystem fungerer ikke, når tusindvis af migranter drukner i Middelhavet. Venstre mener, at der er behov for et nyt asylsystem, som hjælper i nærområderne, da vi derved kan hjælpe flere på en bedre måde. Venstre bakker op om at lave et modtagecenter i et tredjeland, da det er med til at begrænse tilstrømningen af asylansøgere til Danmark og Europa."
+306,12/2/2022 13:15,12/2/2022 13:15,23,152,5,"Internationale konventioner skal overholdes, bl.a. derfor er Enhedslisten imod et modtagecenter i Rwanda."
+307,12/2/2022 13:15,12/2/2022 13:15,23,153,1,
+308,12/2/2022 13:15,12/2/2022 13:15,23,154,1,
+309,12/2/2022 13:15,12/2/2022 13:15,23,155,1,"Det er en god idé, men det behøver ikke at være Rwanda. Vi kan hjælpe flere mennesker for de samme penge, når det gøres i nærområderne. Det er ikke fair, at man kommer foran i køen, og overhaler kvinder og børn, der er fanget i krigszoner, bare fordi man er en ung mand, der formår at dukke fysisk op i Danmark. Vi skal til gengæld sørge for, at forholdene er okay i Rwanda."
+310,12/2/2022 13:15,12/2/2022 13:15,23,157,1,
+311,12/2/2022 13:15,12/2/2022 13:15,23,158,2,"Generelt er det et problem at vi modtager asylansøgere i Europa, der kommer uden om kvoteflygtninge programmet. Den spontane asyl er reelt en vej foran i køen, der er uretfærdig overfor de reelle flygtninge der sidder i lejre i nærområdet, som vi kunne have hjulpet i stedet. Vi skal derfor have sat en eller anden form stopper for den spontane asyl, der går på tværs af flere ganske sikre lande, for at ankomme i Danmark på egen hånd. Det er uholdbart og har skabt et forkert incitament blandt særligt unge mænd i Mellemøsten og Nordafrika til at søge lykken her højt mod nord. Om løsningen så reelt kan være at sende dem til Rwanda er en anden ting."
+312,12/2/2022 13:15,12/2/2022 13:15,23,159,1,
+313,12/2/2022 13:15,12/2/2022 13:15,23,160,5,
+314,12/2/2022 13:15,12/2/2022 13:15,23,161,5,
+315,12/2/2022 13:15,12/2/2022 13:15,23,162,2,
+316,12/2/2022 13:15,12/2/2022 13:15,23,163,1,
+317,12/2/2022 13:15,12/2/2022 13:15,23,164,2,
+318,12/2/2022 13:15,12/2/2022 13:15,23,165,2,Der er brug for et mere humant asylsystem. Vi skal hjælpe så mange som muligt og det kan vi bedst gøre i nærområderne.
+319,12/2/2022 13:15,12/2/2022 13:15,23,166,2,"Flygtningelejre skal oprettes gennem FN i nærområderne, hvor flygtningene kommer fra. Det vil være mere effektivt og koste mindre ressourcer at håndtere kriser i nærområderne."
+320,12/2/2022 13:15,12/2/2022 13:15,23,167,5,Uværdig og uanstændig politik.
+321,12/2/2022 13:15,12/2/2022 13:15,23,168,1,Det skal ske i respekt for internationale konventioner og menneskerettigheder
+322,12/2/2022 13:15,12/2/2022 13:15,23,169,1,
+323,12/2/2022 13:15,12/2/2022 13:15,23,170,5,
+324,12/2/2022 13:15,12/2/2022 13:15,23,171,2,"Det nuværende asyl-system fungerer ikke. Venstre støtter tankerne om et nyt asyl-system, der er forankret i relevante nærområder og derfor bakker Venstre også op om et modtagecenter i et tredjeland."
+325,12/2/2022 13:15,12/2/2022 13:15,23,172,5,
+326,12/2/2022 13:15,12/2/2022 13:15,23,173,5,"Nej, nej og atter nej. At sende asylansøgere til et modtagecenter udenfor Europa ville være dybt usolidarisk både over for de mennesker, der flygter fra krig og ødelæggelse, vores nabolande og de lande, der i dag allerede huser hovedparten af verdens flygtninge. Som folketingsmedlem kommer jeg ALDRIG til at acceptere Rwanda-modellen eller støtte en regering, der arbejder på at realisere den."
+327,12/2/2022 13:15,12/2/2022 13:15,30,1,1,
+328,12/2/2022 13:15,12/2/2022 13:15,30,2,2,
+329,12/2/2022 13:15,12/2/2022 13:15,30,3,4,
+330,12/2/2022 13:15,12/2/2022 13:15,30,4,1,
+331,12/2/2022 13:15,12/2/2022 13:15,30,5,1,
+332,12/2/2022 13:15,12/2/2022 13:15,30,6,1,
+333,12/2/2022 13:15,12/2/2022 13:15,30,7,4,"SF ønsker en udlændingepolitik, hvor flygtninge ikke bliver sendt hjem til områder FN vurderer som farlige. Vi skal også leve op til vores internationale forpligtelser og tage 500 kvoteflygtninge om året."
+334,12/2/2022 13:15,12/2/2022 13:15,30,8,2,
+335,12/2/2022 13:15,12/2/2022 13:15,30,9,1,"Vi skal kunne følge med til at integrere de flygtninge, som kommer til landet. Derfor er der heller ikke brug for at lempe på udlændingepolitikken - da dette kan medføre en øget flygtningetilstrømning."
+336,12/2/2022 13:15,12/2/2022 13:15,30,10,4,"SF ønsker mere hjerte i udlændingepolitikken og en politik med et menneskeligt ansigt. Vi skal bl.a. stoppe med at sende flygtninge hjem til områder, som af FN ikke betragtes som sikre. Og så skal Danmark tage 500 kvoteflygtninge om året igen."
+337,12/2/2022 13:15,12/2/2022 13:15,30,11,1,
+338,12/2/2022 13:15,12/2/2022 13:15,30,12,1,
+339,12/2/2022 13:15,12/2/2022 13:15,30,13,1,Danmark har brug for en strammere udlændingepolitik end den nuværende regering har ført. Der er brug for opstramning af integrationsydelse samt kontanthjælp.
+340,12/2/2022 13:15,12/2/2022 13:15,30,14,2,
+341,12/2/2022 13:15,12/2/2022 13:15,30,15,3,
+342,12/2/2022 13:15,12/2/2022 13:15,30,16,1,
+343,12/2/2022 13:15,12/2/2022 13:15,30,18,1,
+344,12/2/2022 13:15,12/2/2022 13:15,30,19,5,
+345,12/2/2022 13:15,12/2/2022 13:15,30,20,1,
+346,12/2/2022 13:15,12/2/2022 13:15,30,21,3,
+347,12/2/2022 13:15,12/2/2022 13:15,30,22,5,"SF ønsker en udlændingepolitik med et menneskeligt ansigt. Vi skal stoppe med at sende flygtninge hjem til områder, som af FN ikke betragtes som sikre. Og så skal Danmark tage 500 kvoteflygtninge om året igen!"
+348,12/2/2022 13:15,12/2/2022 13:15,30,24,5,Den er hverken værdig eller effektiv
+349,12/2/2022 13:15,12/2/2022 13:15,30,25,1,
+350,12/2/2022 13:15,12/2/2022 13:15,30,26,5,"Vi er nået langt udover en grænse i dag, som får rigtig mange danskere med mørk hudfarve til at føle sig fremmedgjorte. I Ishøj Kommune kan hver fjerde voksen ikke stemme til folketingsvalg, fordi det er blevet så svært at blive dansk statsborger. Det kan vi ikke være bekendt som fællesskab! Udlændingepolitik skal få folk til at blive integrereret, og det gør den nuværende ikke. Den forværrer og skubber folk væk. Vi skal i stedet tilbage til en fagligt funderet udlændingepolitik."
+351,12/2/2022 13:15,12/2/2022 13:15,30,27,2,
+352,12/2/2022 13:15,12/2/2022 13:15,30,28,1,
+353,12/2/2022 13:15,12/2/2022 13:15,30,29,1,
+354,12/2/2022 13:15,12/2/2022 13:15,30,30,1,"Jeg mener der skal være en stram og konsekvent udlændingepolitik. Mange indvandrere lever på offentlig forsørgelse, hvilket regeringen har valgt at hæve ydelserne til - og vi fremmer ikke integrationen hvis vi ikke skaber motivation for at tage sig et arbejde."
+355,12/2/2022 13:15,12/2/2022 13:15,30,31,2,
+356,12/2/2022 13:15,12/2/2022 13:15,30,32,2,
+357,12/2/2022 13:15,12/2/2022 13:15,30,33,5,
+358,12/2/2022 13:15,12/2/2022 13:15,30,34,1,
+359,12/2/2022 13:15,12/2/2022 13:15,30,35,1,"Vi skal have en stram og konsekvent udlændingepolitik. Derfor skal vi også rulle de højere ydelser til især arbejdsløse indvandrere tilbage, som regeringen har indført og dermed lempet udlændingepolitikken."
+360,12/2/2022 13:15,12/2/2022 13:15,30,36,1,
+361,12/2/2022 13:15,12/2/2022 13:15,30,37,1,"Den er jo netop ikke stram, så noget af en kreativ sætning i det spørgsmål. Vi skal straks have tilbagerullet alle Mette Frederiksens lempelser fra en kant af... det kan kun gå for langsomt"
+362,12/2/2022 13:15,12/2/2022 13:15,30,38,1,
+363,12/2/2022 13:15,12/2/2022 13:15,30,39,5,
+364,12/2/2022 13:15,12/2/2022 13:15,30,40,2,"Der er behov for en stram udlændingepolitik. Men indimellem er der enkeltsager om personer, som kommer i klemme i systemet, og det kan være både hjerteskærende og samfundsmæssigt ufornuftigt."
+365,12/2/2022 13:15,12/2/2022 13:15,30,41,1,
+366,12/2/2022 13:15,12/2/2022 13:15,30,42,3,
+367,12/2/2022 13:15,12/2/2022 13:15,30,43,2,"Jeg mener vi skal holde fast i den stramme udlændige politik, men være åben for at der kan være elementer der virker modsat af hvad hensigten er."
+368,12/2/2022 13:15,12/2/2022 13:15,30,44,3,
+369,12/2/2022 13:15,12/2/2022 13:15,30,46,1,"Der er brug for at opretholde den stramme udlændingepolitik, så vi kan håndtere integrationen af dem, der er kommet til landet, og som skal blive."
+370,12/2/2022 13:15,12/2/2022 13:15,30,47,3,"Jeg mener ikke, det er afgørende om udlændingepolitikken er stram og slap. Det er bare politikerord. Udlændingepolitikken skal være fornuftig. Det er ikke fornuftigt at udvise folk, der er ordentlige og passer deres uddannelse og arbejde i Danmark. De regler skal laves om. Til gengæld skal man have meget hårde regler overfor kriminelle udlændinge."
+371,12/2/2022 13:15,12/2/2022 13:15,30,48,1,"Venstre ønsker en stram og konsekvent udlændingepolitik med plads til dem, der vil fællesskabet. Venstre har tre principper for vores udlændingepolitik. 1. Der skal være respekt for danske værdier – og styr på integrationen. 2. Danmark skal ikke være en asylmagnet. 3. Erhvervslivet skal have adgang til den kvalificerede arbejdskraft. Desværre har regeringen valgt at lempe udlændingepolitikken ved bl.a. at hæve ydelserne til især arbejdsløse indvandrere med 2.000 kr. skattefrit om måneden. Det er den forkerte vej at gå. Venstre vil tilbagerulle de højere ydelser, som regeringen har indført, og så vil vi lave en arbejdspligt til flygtninge og indvandrere, så vi sikrer, at flere bidrager til samfundet."
+372,12/2/2022 13:15,12/2/2022 13:15,30,49,2,
+373,12/2/2022 13:15,12/2/2022 13:15,30,50,3,
+374,12/2/2022 13:15,12/2/2022 13:15,30,51,1,"Vi har i Danmark brug for at der er en stram udlændingepolitik. Der er derfor ikke brug for lempelser, men tværtimod at få strammet op igen."
+375,12/2/2022 13:15,12/2/2022 13:15,30,52,2,
+376,12/2/2022 13:15,12/2/2022 13:15,30,53,1,
+377,12/2/2022 13:15,12/2/2022 13:15,30,54,2,
+378,12/2/2022 13:15,12/2/2022 13:15,30,55,2,"Vi er forpligtet af fællesskabet - også med dem, der er ringere stillet end os selv, men vi skal være bevidste om den opgave, vi påtager os, så vi får skabt en meningsfyldt integrationspolitik, som skal være grundlag for udlændigepolitikken. Vi skal stille krav til de mennesker, der ønsker eller har brug for at opholde sig i Danmark; men vi skal også være i stand til at løfte den opgave, vi påtager os."
+379,12/2/2022 13:15,12/2/2022 13:15,30,56,2,
+380,12/2/2022 13:15,12/2/2022 13:15,30,57,4,"Der er mange umenneskelige regler, der skal laves om, men ""lempelse af stram udlændingepolitik"" er ikke veldefineret."
+381,12/2/2022 13:15,12/2/2022 13:15,30,58,3,
+382,12/2/2022 13:15,12/2/2022 13:15,30,61,3,
+383,12/2/2022 13:15,12/2/2022 13:15,30,62,1,
+384,12/2/2022 13:15,12/2/2022 13:15,30,63,4,"SF ønsker en udlændingepolitik med et menneskeligt ansigt. Vi skal stoppe med at sende flygtninge hjem til områder, som af FN ikke betragtes som sikre. Og så skal Danmark tage 500 kvoteflygtninge om året igen!"
+385,12/2/2022 13:15,12/2/2022 13:15,30,64,4,Der er mange uforståelige og meningsløse udvisninger. Flygtningen skal ikke sendes tilbage til farlige og usikre lande.
+386,12/2/2022 13:15,12/2/2022 13:15,30,65,2,
+387,12/2/2022 13:15,12/2/2022 13:15,30,66,2,"En stram udlændingepolitik er afgørende for vores samfund. Hvis vi ikke har styr på hvor mange, der kommer til Danmark, kan vi ikke få integrationen til at fungere. Det er en bombe under vores velfærd og samfundsmodel. Derfor kan der jo godt være enkelte regler, som ikke giver mening eller har nogle forkerte konsekvenser. Dem skal vi se på - men den grundlæggende stramme udlændingepolitik skal bestå."
+388,12/2/2022 13:15,12/2/2022 13:15,30,67,3,"Udlændinge politikken skal være stram når det gælder asylansøgere, migranter og kriminelle herboende udlændinge. Det danske statsborgerskab skal så absolut heller ikke være alle forundt. Vi har p.t. over 300.000 udlændinge i Danmark. Mange af disse udgør et vigtigt bidrag til dansk økonomi og det danske samfund. Samtidig har vi brug for, at der kommer flere til for at tage mange af de jobs, som vores virksomheder og sundhedsvæsen så brændende har behov for at få besat. For at imødekomme efterspørgslen på arbejdskraft er det essentielt at sænke beløbsgrænsen. Den hindrer nemlig virksomhederne i at skaffe folk til de jobs, som danskerne enten ikke kan eller vil tage. Den nuværende beløbsgrænse bidrager altså til at gøre Danmark fattigere. Jeg mener derfor, at beløbsgrænsen skal sænkes til den overenskomstbestemte mindsteløn, som i dag er ca. 240.000 kr. De, der kan få job i Danmark til danske løn- og arbejdsvilkår, er velkomne."
+389,12/2/2022 13:15,12/2/2022 13:15,30,68,5,"Vi bliver ved med at se eksempler på, at den såkaldte stramme udlændingepolitik er blevet ulogisk og skør. Reglerne forhindrer danskere i at bo i vores land med den de elsker, de tæller ikke studietiden med i unge menneskers kamp for at få permanent ophold og de sender flygtninge tilbage til usikre vilkår. Det nytter ikke noget at stramme skruen mere og mere, bare for at nogle politikere kan råbe af andre og sige, at de selv er hårdest mod ""de andre"". Det kan og skal vi gøre bedre."
+390,12/2/2022 13:15,12/2/2022 13:15,30,69,1,"Det har gennem årene vist sig meget vigtigt vi fører en stram udlændinge politik. Efter vi har set flere lempelser, trods en valgkamp i 2019 hvor der blev lovet det modsatte af Mette Frederiksen, er det nødvendigt med opstramninger efter denne regerings lempelser."
+391,12/2/2022 13:15,12/2/2022 13:15,30,70,2,
+392,12/2/2022 13:15,12/2/2022 13:15,30,71,1,"Nye Borgerlige foreslår at gennemføre en udlændingepolitik, der griber fat om nældens rod og løser problemerne fra bunden. Hvor lappeløsninger hører fortiden til. Vi har tre ufravigelige krav til enhver borgerlig statsministerkandidat, der vil danne regering med støtte fra Nye Borgerlige: der skal indføres et nyt asylsystem med stop for spontan asyl, udlændinge skal forsørge sig selv, og udlændinge, der dømmes for kriminalitet, skal udvises efter første dom. Vi kan løse udlændingepolitikken fra bunden – hvis vi vil. Det kræver politisk vilje, brud med gamle dogmer og samarbejde på tværs af partier. Men gevinsten for Danmark og danskerne vil være stor. Vi skylder dem, der før os byggede Danmark, og vi skylder vores børn og børnebørn, der skal overtage efter os at få det gjort."
+393,12/2/2022 13:15,12/2/2022 13:15,30,72,4,Skøre regler skal afskaffes.
+394,12/2/2022 13:15,12/2/2022 13:15,30,73,2,"Grundlæggende bakker jeg op om, at vi har en stram udlængepolitik, men vi skal også se på, om symbolpolitikken har været for stærk, ligesom retorikken i debatten desværre ofte lader meget tilbage at ønske"
+395,12/2/2022 13:15,12/2/2022 13:15,30,74,1,
+396,12/2/2022 13:15,12/2/2022 13:15,30,75,3,"Det skal gøres meget lettere for udenlandsk arbejdskraft at komme til Danmark. Vi mangler hænder i en grad, der aldrig er set før. Det betyder dog ikke, at alle bare skal have fri adgang til Danmark. Du skal have et positivt formål og du skal have ønsket om at ""ville"" Danmark."
+397,12/2/2022 13:15,12/2/2022 13:15,30,76,1,
+398,12/2/2022 13:15,12/2/2022 13:15,30,77,1,"Jeg mener der fortsat skal førers en stram udlændingepolitik, for at kunne opretholde det danske velfærdsamfund."
+399,12/2/2022 13:15,12/2/2022 13:15,30,79,4,Jeg mangler arbejdskraft. Jeg kan få kompetencer fra USA og England. Det er et bureaukratisk helvede at få arbejds og opholdstilldelser - og reglerne ændrer sig hele tiden. IT-systemerne er utroligt ringe. Det skal bl.a. forbedres.
+400,12/2/2022 13:15,12/2/2022 13:15,30,80,1,
+401,12/2/2022 13:15,12/2/2022 13:15,30,81,1,
+402,12/2/2022 13:15,12/2/2022 13:15,30,82,1,
+403,12/2/2022 13:15,12/2/2022 13:15,30,83,5,"SF ønsker en udlændingepolitik med et menneskeligt ansigt. Vi skal stoppe med at sende flygtninge hjem til områder, som af FN ikke betragtes som sikre. Og så skal Danmark tage 500 kvoteflygtninge om året igen!"
+404,12/2/2022 13:15,12/2/2022 13:15,30,84,1,
+405,12/2/2022 13:15,12/2/2022 13:15,30,85,1,
+406,12/2/2022 13:15,12/2/2022 13:15,30,86,4,
+407,12/2/2022 13:15,12/2/2022 13:15,30,87,3,Det skal være lettere at tiltrække udlandsk arbejdskraft i Danmark.
+408,12/2/2022 13:15,12/2/2022 13:15,30,89,2,"Det er vigtig med en stram udlændingepolitik, der sørger for, at der er styr på asyltilstrømningen til Danmark. Der skal dog løbende laves ændringer af vores erhvervsordninger, så de passer til at kunne matche udlændinge med jobs i Danmark. Samtidig har reglerne for familiesammenføring brug for grundig eftersyn."
+409,12/2/2022 13:15,12/2/2022 13:15,30,90,2,
+410,12/2/2022 13:15,12/2/2022 13:15,30,91,1,Vi står på mål for en stram udlændingepolitik. Med nuancer. Man må gerne komme til Danmark som kvalificeret arbejdskraft - for det mangler vi. Men vi skal give statsborgerskab til færre end vi gør i dag.
+411,12/2/2022 13:15,12/2/2022 13:15,30,92,5,"Udlændingepolitikken i Danmark er blevet alt for umenneskelig. Vi skal have en ny udlændingepolitik med hjerterum og hjælp i centrum. I årtier har vi strammet udlændingereglerne så meget, at de i dag er ugennemskuelige og dybt urimelige. De regler, vi har nu, gør, at familier bliver splittet op, at danskere ikke kan bo i Danmark med deres familier og at vores asylsystem behandler dem, der har det værst, forfærdeligt. Det skal laves om. Samtidig bør Danmark tage mindst 2000 kvoteflygtninge om året - for selvfølgelig har et rigt land som Danmark plads til at hjælpe mennesker på flugt."
+412,12/2/2022 13:15,12/2/2022 13:15,30,93,2,
+413,12/2/2022 13:15,12/2/2022 13:15,30,94,1,
+414,12/2/2022 13:15,12/2/2022 13:15,30,95,4,"Jeg vil have mere hjerte i flygtningepolitikken. Det er en fælles opgave at hjælpe familier og børn, som er blevet tvunget til at flygte eller som ikke længere kan leve i deres land pga. klimaforandringerne fx"
+415,12/2/2022 13:15,12/2/2022 13:15,30,96,2,
+416,12/2/2022 13:15,12/2/2022 13:15,30,97,1,"Danmark skal have en stram udlændingepolitik. Der er behov for stramme regler af hensyn til økonomi og vores velfærdssamfund. Endvidere ønsker vi ikke tilstande, som dem vi ser i Malmø."
+417,12/2/2022 13:15,12/2/2022 13:15,30,98,3,"Jeg er træt af at gøre udlændingepolitik op i ""strammere"" og ""slappere"". Jeg vil gerne have de mest skøre ting ud af den nuværende udlændingelov, fx at danske statsborgere ikke kan bo med deres ægtefæller i landet, ligesom jeg synes det er mærkeligt, at unge, der er opvokset i Danmark hele deres liv, intet kriminelt har gjort og nu læser til at gøre god nytte i samfundet heller ikke kan få statsborgerskab. Men jeg ønsker omvendt ikke at åbne for grænserne og mener kontrol med migration er afgørende."
+418,12/2/2022 13:15,12/2/2022 13:15,30,99,3,
+419,12/2/2022 13:15,12/2/2022 13:15,30,100,1,
+420,12/2/2022 13:15,12/2/2022 13:15,30,101,1,"Jeg mener grundlæggende, at vi har en fornuftig og stram udlændigepolitik i Danmark. Men der er eksempler på sager, fx i forhold til ægtefællesammenføring, hvor reglerne er for rigide i dag. Det er de fleste i Folketinget enige om, og det vil vi gerne være med til at justere."
+421,12/2/2022 13:15,12/2/2022 13:15,30,103,3,
+422,12/2/2022 13:15,12/2/2022 13:15,30,104,3,
+423,12/2/2022 13:15,12/2/2022 13:15,30,105,4,
+424,12/2/2022 13:15,12/2/2022 13:15,30,106,1,"Danmark skal kunne tiltrække de dygtige, som vil bidrage positivt og øge vores velstand, så vi kan aflevere et rigt og trygt samfund til vores børn og børnebørn. Men de udlændinge, som ikke ønsker at tilpasse sig livet i Danmark på danskernes værdier og ikke evner at forsørge sig selv, skal vi slet ikke lukke ind. Politikerne har igennem mange år forsøgt at reparere på den skade, som udlændingeloven fra 1983 har påført det danske samfund. De har kaldt det stramninger, men problemerne er ikke blevet løst - de er kun blevet lappet på. I Nye Borgerlige foreslår vi at gennemføre en udlændingepolitik, der griber fat om nældens rod og løser problemerne fra bunden. Stop for spontan asyl, udlændinge skal forsørge sig selv, og kriminelle udlændinge skal udvises efter første dom. Vi kan løse udlændingepolitikken fra bunden – hvis vi vil. Det kræver politisk vilje, brud med gamle dogmer og samarbejde på tværs af partier. Det skylder vi vores børn og børnebørn, der skal overtage efter os."
+425,12/2/2022 13:15,12/2/2022 13:15,30,107,1,Tværtimod skal Socialdemokratiets lempelser føres tilbage.
+426,12/2/2022 13:15,12/2/2022 13:15,30,108,3,
+427,12/2/2022 13:15,12/2/2022 13:15,30,109,1,"I alt for mange år har udlændingepolitikken nok været til gavn for de migranter og indvandrere, Danmark har lukket ind – men ikke til gavn for danskerne og det danske folkelige fællesskab. Udlændinge, som ikke ønsker at tilpasse sig livet i Danmark på danskernes værdier og ikke evner at forsørge sig selv, skal vi slet ikke lukke ind. Politikerne har igennem mange år forsøgt at reparere på den skade, som den lempelige udlændingepolitik har påført det danske samfund. De har kaldt det stramninger, men problemerne er ikke blevet løst - de er kun blevet lappet på. Nye Borgerlige foreslår at gennemføre en udlændingepolitik, der løser problemerne fra bunden. Hvor lappeløsninger hører fortiden til. Vi har tre ufravigelige krav til enhver, der vil danne regering med støtte fra Nye Borgerlige: Vi skal have et stop for spontan asyl, udlændinge skal forsørge sig selv, og kriminelle udlændinge skal udvises efter første dom. Vi kan løse udlændingepolitikken fra bunden – hvis vi vil."
+428,12/2/2022 13:15,12/2/2022 13:15,30,110,1,
+429,12/2/2022 13:15,12/2/2022 13:15,30,111,2,"Det kan jeg ikke se nogen grund til. Der er styr på flygtningestrømmen, men der hvor vi bør sætte ind er når stramningerne er uhensigtsmæssige. Det dur ikke når velfungerende udlændige i job ikke kan få lov at blive. Vi har faktisk brug for deres indsats."
+430,12/2/2022 13:15,12/2/2022 13:15,30,112,4,"Der skal ryddes op i udlængingepolitikken. Der er alt for mange tilfælde af, at reglerne rammer skævt. Desuden mener jeg, at unge, der er født og opvokset i Danmark, har fulgt deres skole og ikke begået kriminalitet, bør få automatisk statsborgerskab, når de fylder 18 år."
+431,12/2/2022 13:15,12/2/2022 13:15,30,113,1,
+432,12/2/2022 13:15,12/2/2022 13:15,30,114,1,
+433,12/2/2022 13:15,12/2/2022 13:15,30,115,1,"Helt uenig. For mange udlændinge er fortsat ikke at regne for en del af det danske fællesskab. De er overrepræsenterede i kriminalitetsstatistikkerne, de har lavere beskæftigelsesgrad og de lever i parallelsamfund, hvor kvindeundertrykkende værdier og dominanskultur råder. Det skal vi have gjort op med. Der skal ikke være områder i Danmark, hvor det er utrygt at færdes pga. muslimsk indvandring. Bl.a. skal kriminelle udlændinge udvises og den muslimske hovedbeklædning skal forbydes i skoler og alle andre offentlige institutioner."
+434,12/2/2022 13:15,12/2/2022 13:15,30,116,4,
+435,12/2/2022 13:15,12/2/2022 13:15,30,117,1,
+436,12/2/2022 13:15,12/2/2022 13:15,30,118,1,
+437,12/2/2022 13:15,12/2/2022 13:15,30,119,5,
+438,12/2/2022 13:15,12/2/2022 13:15,30,120,5,
+439,12/2/2022 13:15,12/2/2022 13:15,30,121,1,
+440,12/2/2022 13:15,12/2/2022 13:15,30,123,2,
+441,12/2/2022 13:15,12/2/2022 13:15,30,124,1,
+442,12/2/2022 13:15,12/2/2022 13:15,30,125,3,
+443,12/2/2022 13:15,12/2/2022 13:15,30,126,2,
+444,12/2/2022 13:15,12/2/2022 13:15,30,127,1,"Venstre kæmper for en stram og konsekvent udlændingepolitik, hvor der er styr på tilstrømningen, og hvor de offentlige ydelser aldrig må være så høje, at de gør Danmark til en attraktiv destination for asylansøgere. Regeringen har lempet udlændinge-politikken ved at hæve ydelserne til især arbejdsløse indvandrere med 2.000 kr. skattefrit om måneden. Venstre vil tilbagerulle de højere ydelser, som regeringen har indført, og så vil vi indføre en arbejdspligt til flygtninge og indvandrere, så vi sikrer, at flere bidrager til samfundet. Vi mener, at integration er et personligt ansvar. Derfor skal vi stille krav til de mennesker, der kommer hertil. Hvis man vil være i Danmark, skal man lære dansk, acceptere de danske værdier og forsørge sig selv."
+445,12/2/2022 13:15,12/2/2022 13:15,30,128,1,
+446,12/2/2022 13:15,12/2/2022 13:15,30,129,1,"I  alt for mange år har udlændingepolitikken nok været til gavn for de migranter og indvandrere, Danmark har lukket ind – men ikke til gavn for danskerne og det danske folkelige fællesskab. De udlændinge, som ikke ønsker at tilpasse sig livet i Danmark på danskernes værdier og ikke evner at forsørge sig selv, skal vi slet ikke lukke ind. Politikerne har igennem mange år forsøgt at reparere på den skade, som udlændingeloven fra 1983 har påført det danske samfund. De har kaldt det stramninger, men problemerne er ikke blevet løst - de er kun blevet lappet på. Nye Borgerlige foreslår at gennemføre en udlændingepolitik, der griber fat om nældens rod. Vi har tre ufravigelige krav til enhver borgerlig statsministerkandidat, der vil danne regering med støtte fra Nye Borgerlige: der skal indføres et nyt asylsystem med stop for spontan asyl, udlændinge skal forsørge sig selv, og udlændinge, der dømmes for kriminalitet, skal udvises efter første dom."
+447,12/2/2022 13:15,12/2/2022 13:15,30,130,1,
+448,12/2/2022 13:15,12/2/2022 13:15,30,131,1,
+449,12/2/2022 13:15,12/2/2022 13:15,30,132,3,"Der er igen og igen nogle helt åbenlyst tåbelige sager, hvor velgungerende mennesker med uddannelse og job, udvises. Omvendt er det vigtigt at der ikke kommer flere til Danmark end vi kan håndtere integrationsmæssigt. Dog skal Danmark tage imod flere kvoteflygtninge."
+450,12/2/2022 13:15,12/2/2022 13:15,30,133,3,"vi skal f.sv. opretholde den, men det at være i arbejde skal vægtes mere, så vi i mindre omfang udviser folk, der er i arbejde"
+451,12/2/2022 13:15,12/2/2022 13:15,30,134,2,
+452,12/2/2022 13:15,12/2/2022 13:15,30,135,1,
+453,12/2/2022 13:15,12/2/2022 13:15,30,136,4,"Det skal være lettere at få udenlandsk arbejdskraft, og vi skal ikke sende højtuddannede ud fordi vi har en maskinel tilgang som følge af fejlagtige regler indført af DF. Til gengæld skal den ikke lempes hvad angår straf for kriminalitet mv."
+454,12/2/2022 13:15,12/2/2022 13:15,30,137,2,
+455,12/2/2022 13:15,12/2/2022 13:15,30,138,1,
+456,12/2/2022 13:15,12/2/2022 13:15,30,139,5,
+457,12/2/2022 13:15,12/2/2022 13:15,30,140,5,
+458,12/2/2022 13:15,12/2/2022 13:15,30,141,5,"I kapløbet om at være strammest på udlændingeområdet er reglerne på lange stræk blevet så skøre, at det har alvorlige konsekvenser for mennesker i Danmark. Det kunne fx være de unge som er født/opvokset i Danmark og som skal leve op til nogle vanvittigt stramme krav om beskæftigelse for at få permanent opholdstilladelse og statsborgerskab. Det kunne også være de danske statsborgere som forelsker sig i en udlænding, men ikke må bo i Danmark fordi ægtefællen er 'udlænding'. Og det kunne være de unge kvinder som udvises til Syrien - et land, hvor der på ingen måde er fred"
+459,12/2/2022 13:15,12/2/2022 13:15,30,142,1,
+460,12/2/2022 13:15,12/2/2022 13:15,30,143,2,"Jeg synes vi skal holde fast i linjen, men vi må gerne have hovedet og hjertet med os. Der har været eksempler på sager hvor man simpelthen ikke forstår, hvorfor familier og personer der gerne vil og bidrager smides ud af landet."
+461,12/2/2022 13:15,12/2/2022 13:15,30,144,5,
+462,12/2/2022 13:15,12/2/2022 13:15,30,145,4,"Der skal findes en bedre balance i dansk udlændingepolitik. Den skal hverken være blød eller stram, men den skal være rimelig og menneskelig. Vi skal for eksempel med stoppe med at sende flygtninge hjem til områder, som af FN ikke betragtes som sikre."
+463,12/2/2022 13:15,12/2/2022 13:15,30,146,4,"Vi skal stoppe med at sende flygtninge hjem til usikre områder, tage imod flere kvoteflygtninge og sikre en bedre modtagelse af asylansøgere."
+464,12/2/2022 13:15,12/2/2022 13:15,30,147,1,
+465,12/2/2022 13:15,12/2/2022 13:15,30,148,5,"Udlændingepolitikken er på en række punkter blevet for stram og hindrer blandt andet danskere i at bo i deres hjemland med den, de elsker. Flygtninge skal ikke sendes tilbage til usikre forhold, ligesom udlændinge, der bidrager og integrerer sig, skal have mulighed for at blive i Danmark."
+466,12/2/2022 13:15,12/2/2022 13:15,30,149,5,Dansk politik er gået strammeramok og det er dybt skadeligt for minoritetsetniske danskere og skaber voldsom splittelse i vores samfund.
+467,12/2/2022 13:15,12/2/2022 13:15,30,150,2,
+468,12/2/2022 13:15,12/2/2022 13:15,30,151,1,"Venstre kæmper for en stram og konsekvent udlændingepolitik, hvor der er styr på tilstrømningen, og hvor de offentlige ydelser aldrig må være så høje, at de gør Danmark til en attraktiv destination for asylansøgere. Regeringen har lempet udlændingepolitikken ved at hæve ydelserne til især arbejdsløse indvandrere med 2.000 kr. skattefrit om måneden. Venstre vil tilbagerulle de højere ydelser, som regeringen har indført, og så vil vi indføre en arbejdspligt til flygtninge og indvandrere, så vi sikrer, at flere bidrager til samfundet. Vi mener, at integration er et personligt ansvar. Derfor skal vi stille krav til de mennesker, der kommer hertil. Hvis man vil være i Danmark, skal man lære dansk, acceptere de danske værdier og forsørge sig selv."
+469,12/2/2022 13:15,12/2/2022 13:15,30,152,4,
+470,12/2/2022 13:15,12/2/2022 13:15,30,153,1,
+471,12/2/2022 13:15,12/2/2022 13:15,30,154,1,
+472,12/2/2022 13:15,12/2/2022 13:15,30,155,1,"Der er for mange, der ikke lærer det danske sprog, der er for mange udlændinge med en plet på straffeattesten, og der er ikke nok, som arbejder. Vi stiller ikke nok krav. Socialdemokratiet har ikke videreført den kontante udlændingepolitik som de lovede."
+473,12/2/2022 13:15,12/2/2022 13:15,30,157,2,
+474,12/2/2022 13:15,12/2/2022 13:15,30,158,3,
+475,12/2/2022 13:15,12/2/2022 13:15,30,159,1,"Det er vigtigt, at vi fastholder en stram udlændingepolitik i Danmark. Vi skal passe på det kulturelle fundament, som vores samfund hviler på."
+476,12/2/2022 13:15,12/2/2022 13:15,30,160,5,
+477,12/2/2022 13:15,12/2/2022 13:15,30,161,5,
+478,12/2/2022 13:15,12/2/2022 13:15,30,162,1,
+479,12/2/2022 13:15,12/2/2022 13:15,30,163,1,
+480,12/2/2022 13:15,12/2/2022 13:15,30,164,2,
+481,12/2/2022 13:15,12/2/2022 13:15,30,165,3,"Den nuværende linje er ok. Men der skal ryddes op i tumpede regler, der ikke er til andet end besvær for mange mennesker."
+482,12/2/2022 13:15,12/2/2022 13:15,30,166,4,"Hvis erhvervslivet stadig har behov for flygtninges arbejdskraft, skal flygtningen have mulighed for at konvertere sin flygtningestatus til arbejdstilladelse, så arbejdsmarkedet i Danmark ikke svækkes. I dag forhindrer vores system flygtninge muligheden for at betale tilbage på deres omkostninger for staten og styrke dansk økonomi, hvilket virker ulogisk. Vi mener derfor også at flygtninge fra det start skal tilbyde et job, så de kan forsørge sig selv, hvis de kan. Samtidig skal udlændinge vise viljen til at blive en del af det danske samfund Kærlighed er ikke styret af landegrænser, og landegrænser skal ikke bestemme over vores kærlighedsliv. Udlændinge under ægteskab skal have ret til at etablere sig permanent i Danmark."
+483,12/2/2022 13:15,12/2/2022 13:15,30,167,4,"Der er dele af udlændinge politikken, der efterhånden er uværdig og udansk."
+484,12/2/2022 13:15,12/2/2022 13:15,30,168,1,
+485,12/2/2022 13:15,12/2/2022 13:15,30,169,1,
+486,12/2/2022 13:15,12/2/2022 13:15,30,170,5,
+487,12/2/2022 13:15,12/2/2022 13:15,30,171,1,"Venstre står vagt om en fast og fair udlændingepolitik, hvor der er styr på tilstrømningen og hvor de offentlige ydelser aldrig må blive så attraktive, at det gør Danmark til en attraktiv destination for asylansøgere."
+488,12/2/2022 13:15,12/2/2022 13:15,30,172,5,
+489,12/2/2022 13:15,12/2/2022 13:15,30,173,5,"Mange danskere og velintegrerede udlændinge bliver ramt af helt urimelige regler, der hverken er til gavn for dem eller Danmark."
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,

@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_07_173921) do
+ActiveRecord::Schema.define(version: 2022_12_07_185247) do
+
+  create_table "causes", force: :cascade do |t|
+    t.integer "politician_id"
+    t.integer "industry_id"
+    t.string "priority"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "districts", force: :cascade do |t|
     t.string "name"
@@ -81,6 +89,7 @@ ActiveRecord::Schema.define(version: 2022_12_07_173921) do
     t.integer "policy_id"
     t.integer "politician_id"
     t.integer "sentiment_score"
+    t.string "comment"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

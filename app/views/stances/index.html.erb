@@ -39,6 +39,14 @@
         <input type="text" id="sentiment_score_box" name="query_sentiment_score">
       </div>
 
+      <div>
+        <label for="comment_box">
+          Comment
+        </label>
+
+        <input type="text" id="comment_box" name="query_comment">
+      </div>
+
       <button>
         Create stance
       </button>
@@ -65,6 +73,10 @@
 
         <th>
           Sentiment score
+        </th>
+
+        <th>
+          Comment
         </th>
 
         <th>
@@ -95,6 +107,10 @@
 
         <td>
           <%= a_stance.sentiment_score %>
+        </td>
+
+        <td>
+          <%= a_stance.comment %>
         </td>
 
         <td>
