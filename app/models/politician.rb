@@ -7,7 +7,7 @@
 #  name         :integer
 #  party        :string
 #  photo        :string
-#  spokesperson :boolean
+#  spokesperson :string
 #  username     :string
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null

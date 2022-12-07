@@ -3,7 +3,7 @@
 # Table name: causes
 #
 #  id            :integer          not null, primary key
-#  priority      :boolean
+#  priority      :string
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
 #  industry_id   :integer
