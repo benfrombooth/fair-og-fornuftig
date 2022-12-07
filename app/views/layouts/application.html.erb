@@ -52,20 +52,40 @@
 </head>
 
 <body>
-  <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/policies">Policies</a>
-      </li> 
-      <li>
-        <a href="/examples">Examples</a> 
-      </li>
-      <li>
-        <a href="/politicians">Politicians</a>
-      </li>
+  
+  <table style="width: 100%" border="1">
+      <tr>
+        <td>
+          <strong>Menu Options</strong>
+        </td>
 
+        <td>
+          <a href="/">
+            Home
+          </a>
+        </td>
+
+        <td>
+          <a href="/policies/overview">
+            Policies
+          </a>
+        </td>
+
+        <td>
+          <a href="/examples/overview">
+            Examples
+          </a>
+        </td>
+
+        <td>
+          <a href="/politicians/overview">
+            Politicians
+          </a>
+        </td>
+      </tr>
+    </table>
+
+    <ul>
       <% if session.fetch(:user_name) == nil %>
         <li>
           <a href="/member_sign_up">Sign up</a>
