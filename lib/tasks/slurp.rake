@@ -1,22 +1,23 @@
 namespace :slurp do
   desc "TODO"
-  task anonymity_levels: :environment do
+  task causes: :environment do
 
   require "csv"
 
-  csv_text = File.read(Rails.root.join("lib", "csvs", "anonymity_levels.csv"))
+  csv_text = File.read(Rails.root.join("lib", "csvs", "causes.csv"))
   csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
   csv.each do |row|
-  t = Anonymity_Level.new
-  t.name = row["permission_name"]
-  t.photo = row["permission_photo"]
-  t.story = row["permission_story"]
-  t.media = row["permission_media"]
-  t.save
-end
+    t = Cause.new
+    t.politician_id = row["politician_id"]
+    t.industry_id = row["industry_id"]
+    t.priority = row["priority"]
+ 
+    t.save
+      puts "New cause saved"
+    end
 
-puts "There are now #{Anonymity_Level.count} rows in the anonymity_levels table"
+  puts "There are now #{Cause.count} rows in the causes table"
 
-end
+  end
 
 end

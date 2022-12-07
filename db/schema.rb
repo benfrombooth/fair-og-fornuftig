@@ -12,15 +12,6 @@
 
 ActiveRecord::Schema.define(version: 2022_12_06_175914) do
 
-  create_table "anonymity_levels", force: :cascade do |t|
-    t.string "permission_name"
-    t.string "permission_photo"
-    t.string "permission_story"
-    t.string "permission_media"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "causes", force: :cascade do |t|
     t.integer "politician_id"
     t.integer "industry_id"
@@ -97,10 +88,14 @@ ActiveRecord::Schema.define(version: 2022_12_06_175914) do
     t.string "nationality"
     t.string "username"
     t.integer "industry_id"
-    t.integer "anonymity_id"
+    t.boolean "permission_name"
+    t.boolean "permission_photo"
+    t.boolean "permission_story"
+    t.boolean "permission_media"
     t.integer "municipality_id"
     t.string "personal_story"
     t.string "photo"
+    t.string "password"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
