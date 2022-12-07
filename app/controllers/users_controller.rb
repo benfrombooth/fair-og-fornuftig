@@ -1,4 +1,8 @@
 class UsersController < ApplicationController
+  def landing
+    render({ :template => "users/landing.html.erb" })
+  end
+  
   def index
     matching_users = User.all
 

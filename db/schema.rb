@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_03_181729) do
+ActiveRecord::Schema.define(version: 2022_12_06_175914) do
 
   create_table "anonymity_levels", force: :cascade do |t|
     t.string "permission_name"
@@ -22,19 +22,9 @@ ActiveRecord::Schema.define(version: 2022_12_03_181729) do
   end
 
   create_table "causes", force: :cascade do |t|
-    t.string "quote"
     t.integer "politician_id"
-    t.boolean "name"
     t.integer "industry_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "couples", force: :cascade do |t|
-    t.integer "danish_user_id"
-    t.integer "foreign_user_id"
-    t.string "points"
-    t.string "city"
+    t.boolean "priority"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -46,48 +36,22 @@ ActiveRecord::Schema.define(version: 2022_12_03_181729) do
   end
 
   create_table "examples", force: :cascade do |t|
-    t.integer "value_id"
     t.integer "user_id"
     t.integer "policy_id"
-    t.string "remark"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "identifications", force: :cascade do |t|
-    t.string "identification_type"
-    t.string "person_type"
-    t.string "remark"
+    t.integer "article_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "industries", force: :cascade do |t|
-    t.string "industry"
+    t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "injustices", force: :cascade do |t|
     t.string "description"
-    t.string "injustice_type"
-    t.integer "policy_id"
     t.integer "value_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "integration_criteria", force: :cascade do |t|
-    t.boolean "deposit_requirement"
-    t.boolean "visit_requirement"
-    t.boolean "pr_requirement"
-    t.boolean "housing_requirement"
-    t.boolean "language_dane_requirement"
-    t.string "language_foreigner_requirement"
-    t.boolean "education_requirement"
-    t.boolean "work_dane_requirement"
-    t.boolean "work_foreigner_requirement"
-    t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -99,20 +63,9 @@ ActiveRecord::Schema.define(version: 2022_12_03_181729) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "permanent_residency_criteria", force: :cascade do |t|
-    t.boolean "language_requirement"
-    t.boolean "work_requirement"
-    t.boolean "inicome_requirement"
-    t.string "active_citizenship_requirement"
-    t.integer "user_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "policies", force: :cascade do |t|
     t.string "description"
-    t.string "low_sentiment"
-    t.string "high_sentiment"
+    t.integer "injustice_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -120,17 +73,11 @@ ActiveRecord::Schema.define(version: 2022_12_03_181729) do
   create_table "politicians", force: :cascade do |t|
     t.integer "district_id"
     t.string "party"
-    t.string "year_elected"
-    t.integer "status_id"
-    t.string "first_name"
+    t.integer "name"
+    t.string "photo"
     t.string "last_name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "residencies", force: :cascade do |t|
-    t.string "residency_type"
-    t.string "residency_status"
+    t.boolean "spokesperson"
+    t.string "username"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -138,38 +85,22 @@ ActiveRecord::Schema.define(version: 2022_12_03_181729) do
   create_table "stances", force: :cascade do |t|
     t.integer "policy_id"
     t.integer "politician_id"
-    t.string "sentiment_score"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "statuses", force: :cascade do |t|
-    t.string "status_type"
-    t.string "person_type"
-    t.boolean "remark"
+    t.integer "sentiment_score"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "users", force: :cascade do |t|
-    t.integer "status_id"
-    t.integer "identification_id"
     t.integer "residency_id"
     t.string "first_name"
     t.string "last_name"
-    t.date "arrival_year"
     t.string "nationality"
-    t.string "email"
+    t.string "username"
     t.integer "industry_id"
     t.integer "anonymity_id"
     t.integer "municipality_id"
-    t.boolean "integration_survey"
-    t.boolean "integration_result"
-    t.string "permanent_residency_survey"
-    t.boolean "permanent_residency_result"
-    t.integer "volunteer_team_id"
-    t.string "phone"
     t.string "personal_story"
+    t.string "photo"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -177,6 +108,7 @@ ActiveRecord::Schema.define(version: 2022_12_03_181729) do
   create_table "values", force: :cascade do |t|
     t.string "name"
     t.string "description"
+    t.string "photo"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

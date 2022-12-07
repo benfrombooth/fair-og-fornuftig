@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>FinalProject</title>
+    <title>Fair & Fornuftig</title>
     <%= csrf_meta_tags %>
 
     <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
@@ -19,7 +19,7 @@
 
         body {
           padding-top: 20px;
-          padding-bottom: 40px;
+          padding-bottom: 20px;
           background-color: #FDF9E5;
         }
 
@@ -88,6 +88,38 @@
   </head>
 
   <body>
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/policies">Policies</a>
+      </li> 
+      <li>
+        <a href="/examples">Examples</a> 
+      </li>
+      <li>
+        <a href="/politicians">Politicians</a>
+      </li>
+
+      <% if session.fetch(:user_id) == nil %>
+        <li>
+          <a href="/user_sign_up">Sign up</a>
+        </li>
+        <li>
+          <a href="/user_sign_in">Sign in</a>
+        </li>
+      <% else %>
+        <li>
+          <a href="/user_sign_out">Sign out</a>
+        </li>
+      <% end %>
+    </ul>
+
+    <p style="color: green"><%= notice %></p>
+
+    <p style="color: red"><%= alert %></p>
+
     <%= yield %>
   </body>
 </html>
