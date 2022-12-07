@@ -1,4 +1,8 @@
 class ExamplesController < ApplicationController
+  def overview
+    render({ :template => "examples/overview.html.erb" })
+  end
+  
   def index
     matching_examples = Example.all
 

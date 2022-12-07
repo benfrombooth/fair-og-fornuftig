@@ -1,4 +1,8 @@
 class PoliciesController < ApplicationController
+  def overview
+    render({ :template => "policies/overview.html.erb" })
+  end
+  
   def index
     matching_policies = Policy.all
 
