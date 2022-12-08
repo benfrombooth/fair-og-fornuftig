@@ -1,126 +1,41 @@
 <div>
   <div>
     <h1>
-      Policies and politicians affecting <%= @the_user.first_name %> <%= @the_user.last_name %>
+      Learn more about <%= @the_user.first_name %>
     </h1>
+  
+  <hr>
 
     <div>
       <div>
-        <a href="/users">
+        <a href="/examples/overview">
           Go back
         </a>
       </div>
-
-      <div>
-        <a href="/delete_user/<%= @the_user.id %>">
-          Delete user
-        </a>
-      </div>
+    </div>
+  
+  <hr>
+    
+    <div>
+      <h3>
+        List of relevant policies and politicians
+      </h3>
     </div>
 
     <dl>
       <dt>
-        Residency
+        Policies
       </dt>
       <dd>
-        <%= @the_user.residency_id %>
+        <%= @the_user.id.policies.description %>
       </dd>
 
       <dt>
-        First name
+        Politicians
       </dt>
       <dd>
-        <%= @the_user.first_name %>
+        <%= @the_user.districts.politician.name %>
       </dd>
-
-      <dt>
-        Last name
-      </dt>
-      <dd>
-        <%= @the_user.last_name %>
-      </dd>
-
-      <dt>
-        Nationality
-      </dt>
-      <dd>
-        <%= @the_user.nationality %>
-      </dd>
-
-      <dt>
-        Industry
-      </dt>
-      <dd>
-        <%= @the_user.industry_id %>
-      </dd>
-
-      <dt>
-        Permission name
-      </dt>
-      <dd>
-        <%= @the_user.permission_name %>
-      </dd>
-
-      <dt>
-        Permission photo
-      </dt>
-      <dd>
-        <%= @the_user.permission_photo %>
-      </dd>
-
-      <dt>
-        Permission story
-      </dt>
-      <dd>
-        <%= @the_user.permission_story %>
-      </dd>
-
-      <dt>
-        Permission media
-      </dt>
-      <dd>
-        <%= @the_user.permission_media %>
-      </dd>
-
-      <dt>
-        Municipality
-      </dt>
-      <dd>
-        <%= @the_user.municipality_id %>
-      </dd>
-
-      <dt>
-        Personal story
-      </dt>
-      <dd>
-        <%= @the_user.personal_story %>
-      </dd>
-
-      <dt>
-        Photo
-      </dt>
-      <dd>
-        <%= @the_user.photo %>
-      </dd>
-
-      <dt>
-        Created at
-      </dt>
-      <dd>
-        <%= time_ago_in_words(@the_user.created_at) %> ago
-      </dd>
-
-      <dt>
-        Updated at
-      </dt>
-      <dd>
-        <%= time_ago_in_words(@the_user.updated_at) %> ago
-      </dd>
-    </dl>
-  </div>
-</div>
-
-<hr>
 
 
 <div>
