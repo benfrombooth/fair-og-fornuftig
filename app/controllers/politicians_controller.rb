@@ -1,5 +1,9 @@
 class PoliticiansController < ApplicationController
   def overview
+
+    matching_politicians = Politician.all
+    @list_of_politicians = matching_politicians.order({ :total_sentiment_score => :desc })
+
     render({ :template => "politicians/overview.html.erb" })
   end
   
@@ -29,6 +33,8 @@ class PoliticiansController < ApplicationController
     the_politician.photo = params.fetch("query_photo")
     the_politician.spokesperson = params.fetch("query_spokesperson")
     the_politician.status_id = params.fetch("query_status_id")
+    the_politician.priority = params.fetch("query_priority")
+    the_politician.total_sentiment_score = params.fetch("query_total_sentiment_score")
 
     if the_politician.valid?
       the_politician.save
@@ -48,6 +54,8 @@ class PoliticiansController < ApplicationController
     the_politician.photo = params.fetch("query_photo")
     the_politician.spokesperson = params.fetch("query_spokesperson")
     the_politician.status_id = params.fetch("query_status_id")
+    the_politician.priority = params.fetch("query_priority")
+    the_politician.total_sentiment_score = params.fetch("query_total_sentiment_score")
 
     if the_politician.valid?
       the_politician.save

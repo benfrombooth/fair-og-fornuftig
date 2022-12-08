@@ -10,6 +10,85 @@
 
 <div>
   <div>
+    <h2>
+      Add a new politician
+    </h2>
+
+    <form action="/insert_politician" method="post">
+      <div>
+        <label for="district_id_box">
+          District
+        </label>
+
+        <input type="text" id="district_id_box" name="query_district_id">
+      </div>
+
+      <div>
+        <label for="party_box">
+          Party
+        </label>
+
+        <input type="text" id="party_box" name="query_party">
+      </div>
+
+      <div>
+        <label for="name_box">
+          Name
+        </label>
+
+        <input type="text" id="name_box" name="query_name">
+      </div>
+
+      <div>
+        <label for="photo_box">
+          Photo
+        </label>
+
+        <input type="text" id="photo_box" name="query_photo">
+      </div>
+
+      <div>
+        <label for="spokesperson_box">
+          Spokesperson
+        </label>
+
+        <input type="text" id="spokesperson_box" name="query_spokesperson">
+      </div>
+
+      <div>
+        <label for="status_id_box">
+          Status
+        </label>
+
+        <input type="text" id="status_id_box" name="query_status_id">
+      </div>
+
+      <div>
+        <label for="priority_box">
+          Priority
+        </label>
+
+        <input type="text" id="priority_box" name="query_priority">
+      </div>
+
+      <div>
+        <label for="total_sentiment_score_box">
+          Total sentiment score
+        </label>
+
+        <input type="text" id="total_sentiment_score_box" name="query_total_sentiment_score">
+      </div>
+
+      <button>
+        Create politician
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>
+<div>
+  <div>
     <table border="1">
       <tr>
         <th>
@@ -38,6 +117,14 @@
 
         <th>
           Status
+        </th>
+
+        <th>
+          Priority
+        </th>
+
+        <th>
+          Total sentiment score
         </th>
 
         <th>
@@ -71,7 +158,7 @@
         </td>
 
         <td>
-          <img src=<%= a_politician.photo %>>
+          <%= a_politician.photo %>
         </td>
 
         <td>
@@ -79,18 +166,15 @@
         </td>
 
         <td>
-          
-          <% if a_politician.status_id == 5 %>
-            Ally
-          <% elsif a_politician.status_id == 4 %>
-            Supporter
-          <% elsif a_politician.status_id == 3 %>
-            Sympathizer
-          <% elsif a_politician.status_id == 2 %>
-            Bystander
-          <% else a_politician.status_id == 1 %>
-            Opponent
-          <% end %>
+          <%= a_politician.status_id %>
+        </td>
+
+        <td>
+          <%= a_politician.priority %>
+        </td>
+
+        <td>
+          <%= a_politician.total_sentiment_score %>
         </td>
 
         <td>

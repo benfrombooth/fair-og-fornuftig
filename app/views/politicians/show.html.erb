@@ -62,6 +62,20 @@
       </dd>
 
       <dt>
+        Priority
+      </dt>
+      <dd>
+        <%= @the_politician.priority %>
+      </dd>
+
+      <dt>
+        Total sentiment score
+      </dt>
+      <dd>
+        <%= @the_politician.total_sentiment_score %>
+      </dd>
+
+      <dt>
         Created at
       </dt>
       <dd>
@@ -127,13 +141,29 @@
 
         <input type="text" id="spokesperson_box" name="query_spokesperson" value="<%= @the_politician.spokesperson %>">
       </div>
-   
+
       <div>
         <label for="status_id_box">
           Status
         </label>
 
         <input type="text" id="status_id_box" name="query_status_id" value="<%= @the_politician.status_id %>">
+      </div>
+
+      <div>
+        <label for="priority_box">
+          Priority
+        </label>
+
+        <input type="text" id="priority_box" name="query_priority" value="<%= @the_politician.priority %>">
+      </div>
+
+      <div>
+        <label for="total_sentiment_score_box">
+          Total sentiment score
+        </label>
+
+        <input type="text" id="total_sentiment_score_box" name="query_total_sentiment_score" value="<%= @the_politician.total_sentiment_score %>">
       </div>
 
       <button>

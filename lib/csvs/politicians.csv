@@ -1,174 +1,174 @@
-id,created_at,updated_at,district_id,party,status_id,name,photo,spokesperson,priority
-1,12/2/2022 13:15,12/2/2022 13:15,6,Dansk Folkeparti,5,Alex Ahrendsten,https://www.ft.dk/-/media/cv/foto/2019/df/alex-ahrendtsen/alex_ahrendtsen_500.ashx,,TRUE
-2,12/2/2022 13:15,12/2/2022 13:15,8,Liberal Alliance,3,Alex Vanopslagh,https://www.ft.dk/-/media/cv/foto/2019/la/alex-vanopslagh/alex_vanopslagh_500.ashx,,FALSE
-3,12/2/2022 13:15,12/2/2022 13:15,1,Liberal Alliance,2,Alexander Ryle,,,FALSE
-4,12/2/2022 13:15,12/2/2022 13:15,7,Socialdemokratiet,4,Anders Kronborg,https://www.ft.dk/-/media/cv/foto/2019/s/anders-kronborg/anders_kronborg_500.ashx,,FALSE
-5,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,5,Ane Halsboe-Jørgensen,https://www.ft.dk/-/media/cv/foto/2019/s/ane-halsboe-jorgensen/ane_halsboe-jrgensen_500.ashx,,FALSE
-6,12/2/2022 13:15,12/2/2022 13:15,9,Socialdemokratiet,4,Anne Paulin,https://www.ft.dk/-/media/cv/foto/2019/s/anne-paulin/anne_paulin_500.ashx,,FALSE
-7,12/2/2022 13:15,12/2/2022 13:15,5,Socialistisk Folkeparti,2,Anne Valentina Berthelsen,https://www.ft.dk/-/media/cv/foto/2019/sf/anne-valentina-berthelsen/anne_valentina_berthelsen_500.ashx,,FALSE
-8,12/2/2022 13:15,12/2/2022 13:15,9,Socialdemokratiet,3,Annette Vind,https://www.ft.dk/-/media/cv/foto/2019/s/annette-lind/annette_lind_500.ashx,,FALSE
-9,12/2/2022 13:15,12/2/2022 13:15,7,Venstre,3,Anni Matthiesen,https://www.ft.dk/-/media/cv/foto/2019/v/anni-matthiesen/anni_matthiesen_500.ashx,,FALSE
-10,12/2/2022 13:15,12/2/2022 13:15,5,Socialistisk Folkeparti,3,Astrid Carøe Rasmussen,https://www.ft.dk/-/media/cv/foto/2019/sf/astrid-caroe/astrid_caroe_500.ashx,,FALSE
-11,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,5,Astrid Krag,"https://www.ft.dk/-/media/cv/foto/2015/s/astrid-krag/astrid_krag_500,-d-,jpg.ashx",,FALSE
-12,12/2/2022 13:15,12/2/2022 13:15,7,Socialdemokratiet,4,Benny Engelbrecht,https://www.ft.dk/-/media/cv/foto/2019/s/benny-engelbrecht/benny_engelbrecht_500.ashx,,FALSE
-13,12/2/2022 13:15,12/2/2022 13:15,9,Danmarksdemokraterne,4,Betina Kastbjerg,,,TRUE
-14,12/2/2022 13:15,12/2/2022 13:15,7,Socialdemokratiet,4,Birgitte Vind,https://www.ft.dk/-/media/cv/foto/2019/s/birgitte-vind/birgitte_vind_500.ashx,,FALSE
-15,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,4,Bjarne Laustsen,https://www.ft.dk/-/media/cv/foto/2019/s/bjarne-laustsen/bjarne_laustsen_500.ashx,,FALSE
-16,12/2/2022 13:15,12/2/2022 13:15,6,Socialdemokratiet,5,Bjørn Brandenborg,https://www.ft.dk/-/media/cv/foto/2019/s/bjorn-brandenborg/bjorn_brandenborg_500.ashx,,FALSE
-17,12/2/2022 13:15,12/2/2022 13:15,5,De Konservative,5,Brigitte Klintskov Jerkel,,,FALSE
-18,12/2/2022 13:15,12/2/2022 13:15,8,Socialdemokratiet,1,Camilla Fabricius,https://www.ft.dk/-/media/cv/foto/2019/s/camilla-fabricius/camilla_fabricius_500.ashx,,TRUE
-19,12/2/2022 13:15,12/2/2022 13:15,1,Socialistisk Folkeparti,3,Carl Valentin,https://www.ft.dk/-/media/cv/foto/2019/sf/carl-valentin/carl_valentin_500.ashx,,FALSE
-20,12/2/2022 13:15,12/2/2022 13:15,9,Liberal Alliance,2,Carsten Bach,"https://www.ft.dk/-/media/cv/foto/2015/la/carsten-bach/carsten_bach_500,-d-,jpg.ashx",,FALSE
-21,12/2/2022 13:15,12/2/2022 13:15,5,Moderaterne,2,Charlotte Bagge Hansen,,,FALSE
-22,12/2/2022 13:15,12/2/2022 13:15,8,Socialistisk Folkeparti,1,Charlotte Broman Mølbæk,https://www.ft.dk/-/media/cv/foto/2019/sf/charlotte-broman-moelbaek/charlotte_broman_moelbaek_500.ashx,,FALSE
-23,12/2/2022 13:15,12/2/2022 13:15,2,Danmarksdemokraterne,4,Charlotte Munch,,,FALSE
-24,12/2/2022 13:15,12/2/2022 13:15,10,Radikale Venstre,1,Christian Friis Bach,"https://www.ft.dk/-/media/cv/foto/20111/rv/christian_friis_bach/christian_friis_bach_pdf,-d-,jpg.ashx",,FALSE
-25,12/2/2022 13:15,12/2/2022 13:15,7,Socialdemokratiet,2,Christian Rabjerg Madsen,"https://www.ft.dk/-/media/cv/foto/2015/s/christian-rabjerg-madsen/christian_rabjerg_madsen_500,-d-,jpg.ashx",,FALSE
-26,12/2/2022 13:15,12/2/2022 13:15,1,Alternativet,5,Christina Sade Olumeko,,,TRUE
-27,12/2/2022 13:15,12/2/2022 13:15,7,Venstre,4,Christoffer Aagaard Melson,https://www.ft.dk/-/media/cv/foto/2019/v/christoffer-aagaard-melson/christoffer_aagaard_melson_500.ashx,,FALSE
-28,12/2/2022 13:15,12/2/2022 13:15,6,Socialdemokratiet,4,Dan Jørgensen,https://www.ft.dk/-/media/cv/foto/2019/s/dan-jorgensen/dan_jorgensen_500.ashx,,TRUE
-29,12/2/2022 13:15,12/2/2022 13:15,9,Danmarksdemokraterne,4,Dennis Flydtkjær,https://www.ft.dk/-/media/cv/foto/2019/df/dennis-flydtkjaer/dennis_flydtkjaer_500.ashx,,TRUE
-30,12/2/2022 13:15,12/2/2022 13:15,6,Venstre,4,Erling Bonnesen,https://www.ft.dk/-/media/cv/foto/2019/v/erling-bonnesen/erling_bonnesen_500.ashx,,TRUE
-31,12/2/2022 13:15,12/2/2022 13:15,3,Socialdemokratiet,1,Fie Hækkerup,,,FALSE
-32,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,5,Flemming Møller Mortensen,https://www.ft.dk/-/media/cv/foto/2019/s/flemming-moeller-mortensen/flemming_moeller_mortensen_500.ashx,,FALSE
-33,12/2/2022 13:15,12/2/2022 13:15,1,Alternativet,4,Franciska Rosenkilde,,,FALSE
-34,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,4,Frederik Vad,,,TRUE
-35,12/2/2022 13:15,12/2/2022 13:15,3,Venstre,4,Hans Andersen,https://www.ft.dk/-/media/cv/foto/2019/v/hans-andersen/hans_andersen_500.ashx,,FALSE
-36,12/2/2022 13:15,12/2/2022 13:15,7,Venstre,4,Hans Christian Schmidt,"https://www.ft.dk/-/media/cv/foto/20111/v/hans_chr_schmidt/hans_chr_schmidt_pdf,-d-,jpg.ashx",,FALSE
-37,12/2/2022 13:15,12/2/2022 13:15,8,Danmarksdemokraterne,1,Hans Kristian Skibby,https://www.ft.dk/-/media/cv/foto/2019/df/hans-kristian-skibby/hans_kristian_skibby_500.ashx,,TRUE
-38,12/2/2022 13:15,12/2/2022 13:15,7,Liberal Alliance,3,Helena Artmann Andresen,,,TRUE
-39,12/2/2022 13:15,12/2/2022 13:15,3,Alternativet,4,Helene Liliendahl Brydensholt,,,TRUE
-40,12/2/2022 13:15,12/2/2022 13:15,1,De Konservative,1,Helle Bonnesen,,,FALSE
-41,12/2/2022 13:15,12/2/2022 13:15,7,Liberal Alliance,5,Henrik Dahl,https://www.ft.dk/-/media/cv/foto/2019/la/henrik-dahl/henrik_dahl_500.ashx,,TRUE
-42,12/2/2022 13:15,12/2/2022 13:15,7,Moderaterne,3,Henrik Frandsen,,,FALSE
-43,12/2/2022 13:15,12/2/2022 13:15,3,Socialdemokratiet,4,Henrik Møller,https://www.ft.dk/-/media/cv/foto/2019/s/henrik-moller/henrik_moller_500.ashx,,FALSE
-44,12/2/2022 13:15,12/2/2022 13:15,1,Socialdemokratiet,3,Ida Auken,https://www.ft.dk/-/media/cv/foto/2019/rv/ida-auken/ida_auken_500.ashx,,FALSE
-45,12/2/2022 13:15,12/2/2022 13:15,10,Danmarksdemokraterne,4,Inger Støjberg,https://www.ft.dk/-/media/cv/foto/2019/v/inger-stojberg/inger_stojberg_500.ashx,,FALSE
-46,12/2/2022 13:15,12/2/2022 13:15,5,Venstre,3,Jacob Jensen,"https://www.ft.dk/-/media/cv/foto/2015/v/jacob-jensen/jacob_jensen_500,-d-,jpg.ashx",,TRUE
-47,12/2/2022 13:15,12/2/2022 13:15,5,Socialistisk Folkeparti,2,Jacob Mark,https://www.ft.dk/-/media/cv/foto/2019/sf/jacob-mark/jacob_mark_500.ashx,,FALSE
-48,12/2/2022 13:15,12/2/2022 13:15,8,Venstre,4,Jakob Ellemann-Jensen,https://www.ft.dk/-/media/cv/foto/2019/v/jakob-ellemann-jensen/jakob_ellemann_jensen_500.ashx,,TRUE
-49,12/2/2022 13:15,12/2/2022 13:15,3,Moderaterne,3,Jakob Engel-Schmidt,https://www.ft.dk/-/media/cv/foto/2015/v/jakob-engel_schmidt/jakob_engel_schmidt_500.ashx,,FALSE
-50,12/2/2022 13:15,12/2/2022 13:15,1,Venstre,4,Jan Jørgensen,https://www.ft.dk/-/media/cv/foto/2019/v/jan-e-jorgensen/jan_e_jorgensen_500.ashx,,FALSE
-51,12/2/2022 13:15,12/2/2022 13:15,6,Danmarksdemokraterne,4,Jens Henrik Thulesen Dahl,https://www.ft.dk/-/media/cv/foto/2019/df/jens-henrik-thulesen-dahl/jens_henrik_thulesen_dahl_500.ashx,,FALSE
-52,12/2/2022 13:15,12/2/2022 13:15,8,Socialdemokratiet,2,Jens Joel,https://www.ft.dk/-/media/cv/foto/2019/s/jens-joel/jens_joel_500.ashx,,FALSE
-53,12/2/2022 13:15,12/2/2022 13:15,8,Liberal Alliance,4,Jens Meilvang,,,FALSE
-54,12/2/2022 13:15,12/2/2022 13:15,2,Socialdemokratiet,2,Jeppe Bruus,https://www.ft.dk/-/media/cv/foto/2019/s/jeppe-bruus/jeppe_bruus_500.ashx,,FALSE
-55,12/2/2022 13:15,12/2/2022 13:15,9,Moderaterne,2,Jeppe Søe,,,FALSE
-56,12/2/2022 13:15,12/2/2022 13:15,7,Socialdemokratiet,3,Jesper Petersen,https://www.ft.dk/-/media/cv/foto/2019/s/jesper-petersen/jesper_petersen_500.ashx,,FALSE
-57,12/2/2022 13:15,12/2/2022 13:15,1,Enhedslisten,5,Jette Gottlieb,https://www.ft.dk/-/media/cv/foto/2019/el/jette-gottlieb/jette_gottlieb_500.ashx,,TRUE
-58,12/2/2022 13:15,12/2/2022 13:15,1,Moderaterne,2,Jon Stephensen,,,FALSE
-59,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,3,Kaare Dybvad Bek,"https://www.ft.dk/-/media/cv/foto/2015/s/kaare-dybvad/kaare_dybvad_500,-d-,jpg.ashx",,FALSE
-60,12/2/2022 13:15,12/2/2022 13:15,2,Venstre,4,Karen Ellemann,,,FALSE
-61,12/2/2022 13:15,12/2/2022 13:15,8,Moderaterne,5,Karin Liltorp,,,FALSE
-62,12/2/2022 13:15,12/2/2022 13:15,7,Danmarksdemokraterne,3,Karina Adsbøl,https://www.ft.dk/-/media/cv/foto/2019/df/karina-adsboel/karina_adsboel_500.ashx,,TRUE
-63,12/2/2022 13:15,12/2/2022 13:15,7,Socialistisk Folkeparti,1,Karina Lorentzen Dehnhardt,https://www.ft.dk/-/media/cv/foto/2019/sf/karina-lorentzen-dehnhardt/karina_lorentzen_dehnhardt_500.ashx,,FALSE
-64,12/2/2022 13:15,12/2/2022 13:15,6,Socialistisk Folkeparti,5,Karsten Hønge,https://www.ft.dk/-/media/cv/foto/2019/sf/karsten-honge/karsten_honge_500.ashx,,FALSE
-65,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,3,Kasper Roug,https://www.ft.dk/-/media/cv/foto/2019/s/kasper-roug/kasper_roug_500.ashx,,FALSE
-66,12/2/2022 13:15,12/2/2022 13:15,2,Socialdemokratiet,4,Kasper Sand Kjær,https://www.ft.dk/-/media/cv/foto/2019/s/kasper-sand-kjaer/kasper_sand_kjaer_500.ashx,,FALSE
-67,12/2/2022 13:15,12/2/2022 13:15,6,Liberal Alliance,3,Katrine Daugaard,,,FALSE
-68,12/2/2022 13:15,12/2/2022 13:15,8,Radikale Venstre,5,Katrine Robsøe,https://www.ft.dk/-/media/cv/foto/2019/rv/katrine-robsoe/katrine_robsoe_500.ashx,,TRUE
-69,12/2/2022 13:15,12/2/2022 13:15,7,Danmarksdemokraterne,4,Kenneth Fredslund Petersen,,,TRUE
-70,12/2/2022 13:15,12/2/2022 13:15,6,Socialdemokratiet,2,Kim Aas,,,TRUE
-71,12/2/2022 13:15,12/2/2022 13:15,10,Nye Borgerlige,4,Kim Edberg,,,TRUE
-72,12/2/2022 13:15,12/2/2022 13:15,8,Socialistisk Folkeparti,4,Kirsten Normann Andersen,https://www.ft.dk/-/media/cv/foto/2019/sf/kirsten-normann-andersen/kirsten_normann_andersen_500.ashx,,FALSE
-73,12/2/2022 13:15,12/2/2022 13:15,7,Socialdemokratiet,3,Kris Jensen Skriver,,,FALSE
-74,12/2/2022 13:15,12/2/2022 13:15,10,Danmarksdemokraterne,5,Kristian Bøgsted,,,TRUE
-75,12/2/2022 13:15,12/2/2022 13:15,10,Moderaterne,5,Kristian Klarskov,,,FALSE
-76,12/2/2022 13:15,12/2/2022 13:15,8,Nye Borgerlige,3,Lars Boje Mathiesen,https://www.ft.dk/-/media/cv/foto/2019/nb/lars-boje-mathiesen/lars_boje_mathiesen_500.ashx,,TRUE
-77,12/2/2022 13:15,12/2/2022 13:15,6,Venstre,1,Lars Christian Lilleholt,https://www.ft.dk/-/media/cv/foto/2019/v/lars-christian-lilleholt/lars_christian_lilleholt_500.ashx,,FALSE
-78,12/2/2022 13:15,12/2/2022 13:15,5,Moderaterne,4,Lars Løkke Rasmussen,"https://www.ft.dk/-/media/cv/foto/20111/v/lars_loekke_rasmussen/lars_loekke_rasmussen_pdf,-d-,jpg.ashx",,FALSE
-79,12/2/2022 13:15,12/2/2022 13:15,5,Liberal Alliance,4,Lars-Christian Brask,,,FALSE
-80,12/2/2022 13:15,12/2/2022 13:15,4,Socialdemokratiet,1,Lea Wermelin,https://www.ft.dk/-/media/cv/foto/2019/s/lea-wermelin/lea_wermelin_500.ashx,,FALSE
-81,12/2/2022 13:15,12/2/2022 13:15,8,Socialdemokratiet,3,Leif Lahn Jensen,https://www.ft.dk/-/media/cv/foto/2019/s/leif-lahn-jensen/leif_lahn_jensen_500.ashx,,FALSE
-82,12/2/2022 13:15,12/2/2022 13:15,1,Venstre,3,Linea Søgaard-Lidell,,,FALSE
-83,12/2/2022 13:15,12/2/2022 13:15,1,Socialistisk Folkeparti,4,Lisbeth Bech-Nielsen,https://www.ft.dk/-/media/cv/foto/2019/sf/lisbeth-bech-nielsen/lisbeth_bech_poulsen_500.ashx,,TRUE
-84,12/2/2022 13:15,12/2/2022 13:15,10,Danmarksdemokraterne,4,Lise Bech,https://www.ft.dk/-/media/cv/foto/2019/df/lise-bech/lise_bech_500.ashx,,TRUE
-85,12/2/2022 13:15,12/2/2022 13:15,9,De Konservative,1,Lise Bertelsen,,,FALSE
-86,12/2/2022 13:15,12/2/2022 13:15,7,Radikale Venstre,4,Lotte Rod,https://www.ft.dk/-/media/cv/foto/2019/rv/lotte-rod/lotte_rod_500.ashx,,TRUE
-87,12/2/2022 13:15,12/2/2022 13:15,8,Liberal Alliance,5,Louise Brown,,,FALSE
-88,12/2/2022 13:15,12/2/2022 13:15,5,Venstre,2,Louise Schack Elholm,https://www.ft.dk/-/media/cv/foto/2019/v/louise-schack-elholm/louise_schack_elholm_500.ashx,,FALSE
-89,12/2/2022 13:15,12/2/2022 13:15,9,Venstre,3,Mads Fuglede,https://www.ft.dk/-/media/cv/foto/2015/v/mads-fuglede/mads_fuglede_500.ashx,,FALSE
-90,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,5,Magnus Heunicke,"https://www.ft.dk/-/media/cv/foto/2015/s/magnus-heunicke/magnus_heunicke_500,-d-,jpg.ashx",,FALSE
-91,12/2/2022 13:15,12/2/2022 13:15,6,De Konservative,2,Mai Mercado,https://www.ft.dk/-/media/cv/foto/2019/kf/mai-mercado/mai_mercado_500.ashx,,TRUE
-92,12/2/2022 13:15,12/2/2022 13:15,8,Enhedslisten,4,Mai Villadsen,https://www.ft.dk/-/media/cv/foto/2019/el/mai-villadsen/mai_villadsen_500.ashx,,TRUE
-93,12/2/2022 13:15,12/2/2022 13:15,8,Socialdemokratiet,5,Malte Larsen,https://www.ft.dk/-/media/cv/foto/2019/s/malte-larsen/malte_larsen_500.ashx,,FALSE
-94,12/2/2022 13:15,12/2/2022 13:15,2,Socialdemokratiet,3,Maria Durhuus,,,FALSE
-95,12/2/2022 13:15,12/2/2022 13:15,3,Socialistisk Folkeparti,3,Marianne Bigum,,,FALSE
-96,12/2/2022 13:15,12/2/2022 13:15,10,Venstre,2,Marie Bjerre,https://www.ft.dk/-/media/cv/foto/2019/v/marie-bjerre/marie_bjerre_500.ashx,,FALSE
-97,12/2/2022 13:15,12/2/2022 13:15,3,Danmarksdemokraterne,1,Marlene Harpsøe,"https://www.ft.dk/-/media/cv/foto/2015/df/marlene-harpsoe/marlene_harpsoe_500,-d-,jpg.ashx",,TRUE
-98,12/2/2022 13:15,12/2/2022 13:15,3,Radikale Venstre,4,Martin Lidegaard,"https://www.ft.dk/-/media/cv/foto/2015/rv/martin-lidegaard/martin_lidegaard_500,-d-,jpg.ashx",,FALSE
-99,12/2/2022 13:15,12/2/2022 13:15,3,Socialdemokratiet,4,Matilde Powers,,,FALSE
-100,12/2/2022 13:15,12/2/2022 13:15,2,Socialdemokratiet,3,Mattias Tesfaye,"https://www.ft.dk/-/media/cv/foto/2015/s/mattias-tesfaye/mattias_tesfaye_500,-d-,jpg.ashx",,FALSE
-101,12/2/2022 13:15,12/2/2022 13:15,3,De Konservative,5,Mette Abildgaard,https://www.ft.dk/-/media/cv/foto/2019/kf/mette-abildgaard/mette_abildgaard_500.ashx,,FALSE
-102,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,5,Mette Frederiksen,"https://www.ft.dk/-/media/cv/foto/2015/s/mette-frederiksen/mette_frederiksen_500,-d-,jpg.ashx",,FALSE
-103,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,3,Mette Gjerskov,https://www.ft.dk/-/media/cv/foto/2019/s/mette-gjerskov/mette_gjerskov_500.ashx,,FALSE
-104,12/2/2022 13:15,12/2/2022 13:15,7,Moderaterne,1,Mette Kierkgaard,,,FALSE
-105,12/2/2022 13:15,12/2/2022 13:15,1,Socialdemokratiet,5,Mette Reissmann,"https://www.ft.dk/-/media/cv/foto/2015/s/mette-reissmann/mette_reissmann_500,-d-,jpg.ashx",,FALSE
-106,12/2/2022 13:15,12/2/2022 13:15,3,Nye Borgerlige,4,Mette Thiesen,,,TRUE
-107,12/2/2022 13:15,12/2/2022 13:15,8,Venstre,5,Michael Aastrup Jensen,https://www.ft.dk/-/media/cv/foto/2019/v/michael-aastrup-jensen/michael_aastrup_jensen_500.ashx,,TRUE
-108,12/2/2022 13:15,12/2/2022 13:15,5,Moderaterne,1,Mike Villa Fonseca,,,FALSE
-109,12/2/2022 13:15,12/2/2022 13:15,6,Nye Borgerlige,5,Mikkel Bjørn,,,TRUE
-110,12/2/2022 13:15,12/2/2022 13:15,9,Socialdemokratiet,4,Mogens Jensen,https://www.ft.dk/-/media/cv/foto/2019/s/mogens-jensen/mogens_jensen_500.ashx,,FALSE
-111,12/2/2022 13:15,12/2/2022 13:15,8,De Konservative,2,Mona Juul,https://www.ft.dk/-/media/cv/foto/2019/kf/mona-juul/mona_juul_500.ashx,,FALSE
-112,12/2/2022 13:15,12/2/2022 13:15,2,Moderaterne,1,Monika Rubin,,,FALSE
-113,12/2/2022 13:15,12/2/2022 13:15,2,Socialdemokratiet,5,Morten Bødskov,https://www.ft.dk/-/media/cv/foto/2019/s/morten-bodskov/morten_bodskov_500.ashx,,FALSE
-114,12/2/2022 13:15,12/2/2022 13:15,5,Venstre,4,Morten Dahlin,https://www.ft.dk/-/media/cv/foto/2019/v/morten-dahlin/morten_dahlin_500.ashx,TRUE,TRUE
-115,12/2/2022 13:15,12/2/2022 13:15,2,Dansk Folkeparti,3,Morten Messerschmidt,https://www.ft.dk/-/media/cv/foto/2019/df/morten-messerschmidt/morten_messerschmidt_500.ashx,,TRUE
-116,12/2/2022 13:15,12/2/2022 13:15,1,Moderaterne,3,Nanna Gotfredsen,,,TRUE
-117,12/2/2022 13:15,12/2/2022 13:15,8,Socialdemokratiet,4,Nicolai Wammen,"https://www.ft.dk/-/media/cv/foto/20111/s/nicolai_wammen/nicolai_wammen_pdf,-d-,jpg.ashx",,TRUE
-118,12/2/2022 13:15,12/2/2022 13:15,7,De Konservative,4,Niels Flemming Hansen,https://www.ft.dk/-/media/cv/foto/2019/kf/niels-flemming-hansen/niels_flemming_hansen_500.ashx,,FALSE
-119,12/2/2022 13:15,12/2/2022 13:15,10,Enhedslisten,5,Peder Hvelplund,https://www.ft.dk/-/media/cv/foto/2019/el/peder-hvelplund/peder_hvelplund_500.ashx,,FALSE
-120,12/2/2022 13:15,12/2/2022 13:15,1,Enhedslisten,4,Pelle Dragsted,"https://www.ft.dk/-/media/cv/foto/2015/el/pelle-dragsted/pelle_dragsted_500,-d-,jpg.ashx",,TRUE
-121,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,4,Per Husted,https://www.ft.dk/-/media/cv/foto/2009_1/685x650_pdf/spehu-jpg.ashx,,FALSE
-122,12/2/2022 13:15,12/2/2022 13:15,10,De Konservative,5,Per Larsen,https://www.ft.dk/-/media/cv/foto/2019/kf/per-larsen/per_larsen_500.ashx,,FALSE
-123,12/2/2022 13:15,12/2/2022 13:15,1,Socialdemokratiet,2,Pernille Rosenkrantz-Theil,https://www.ft.dk/-/media/cv/foto/2019/s/pernille-rosenkrantz-theil/pernille_rosenkrantz-theil_500.ashx,,FALSE
-124,12/2/2022 13:15,12/2/2022 13:15,7,Nye Borgerlige,3,Pernille Vermund,https://www.ft.dk/-/media/cv/foto/2019/nb/pernille-vermund/pernille_vermund_500.ashx,,TRUE
-125,12/2/2022 13:15,12/2/2022 13:15,8,Moderaterne,4,Peter Have,,,FALSE
-126,12/2/2022 13:15,12/2/2022 13:15,1,Socialdemokratiet,3,Peter Hummelgaard,https://www.ft.dk/-/media/cv/foto/2019/s/peter-hummelgaard-thomsen/peter_hummelgaard_thomsen_500.ashx,,FALSE
-127,12/2/2022 13:15,12/2/2022 13:15,4,Venstre,2,Peter Juel-Jensen,https://www.ft.dk/-/media/cv/foto/2019/v/peter-juel-jensen/peter_juel-jensen_500.ashx,,FALSE
-128,12/2/2022 13:15,12/2/2022 13:15,7,Dansk Folkeparti,4,Peter Kofod,"https://www.ft.dk/-/media/cv/foto/2015/df/peter-kofod-poulsen/peter_kofod_poulsen_500,-d-,jpg.ashx",,TRUE
-129,12/2/2022 13:15,12/2/2022 13:15,5,Nye Borgerlige,5,Peter Seier Christensen,https://www.ft.dk/-/media/cv/foto/2019/nb/peter-seier-christensen/peter_seier_christensen_500.ashx,TRUE,TRUE
-130,12/2/2022 13:15,12/2/2022 13:15,5,Danmarksdemokraterne,1,Peter Skaarup,https://www.ft.dk/-/media/cv/foto/2019/df/peter-skaarup/peter_skaarup_500.ashx,,TRUE
-131,12/2/2022 13:15,12/2/2022 13:15,5,Dansk Folkeparti,2,Pia Kjærsgaard,https://www.ft.dk/-/media/cv/foto/2019/df/pia-kjaersgaard/pia_kjaersgaard_500.ashx,,TRUE
-132,12/2/2022 13:15,12/2/2022 13:15,1,Socialistisk Folkeparti,1,Pia Olsen Dyhr,https://www.ft.dk/-/media/cv/foto/2019/sf/pia-olsen-dyhr/pia_olsen_dyhr_500.ashx,,FALSE
-133,12/2/2022 13:15,12/2/2022 13:15,10,Venstre,4,Preben Bang Henriksen,"https://www.ft.dk/-/media/cv/foto/2015/v/preben-bang-henriksen/preben_bang_henriksen_500,-d-,jpg.ashx",,TRUE
-134,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,4,Rasmus Horn Langhoff,https://www.ft.dk/-/media/cv/foto/2019/s/rasmus-horn-langhoff/rasmus_horn_langhof_500.ashx,,FALSE
-135,12/2/2022 13:15,12/2/2022 13:15,2,De Konservative,1,Rasmus Jarlov,"https://www.ft.dk/-/media/cv/foto/2015/kf/rasmus-jarlov/rasmus_jarlov_500,-d-,jpg.ashx",,TRUE
-136,12/2/2022 13:15,12/2/2022 13:15,2,Moderaterne,3,Rasmus Lund-Nielsen,,,FALSE
-137,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,1,Rasmus Prehn,"https://www.ft.dk/-/media/cv/foto/2015/s/rasmus-prehn/rasmus_prehn_500,-d-,jpg.ashx",,FALSE
-138,12/2/2022 13:15,12/2/2022 13:15,3,Socialdemokratiet,5,Rasmus Stoklund,https://www.ft.dk/-/media/cv/foto/2019/s/rasmus-stoklund/rasmus_stoklund_500.ashx,,TRUE
-139,12/2/2022 13:15,12/2/2022 13:15,6,Moderaterne,1,Rosa Eriksen,,,FALSE
-140,12/2/2022 13:15,12/2/2022 13:15,1,Enhedslisten,1,Rosa Lund,https://www.ft.dk/-/media/cv/foto/2019/el/rosa-lund/rosa_lund_500.ashx,,TRUE
-141,12/2/2022 13:15,12/2/2022 13:15,1,Radikale Venstre,3,Samira Nawa,https://www.ft.dk/-/media/cv/foto/2019/rv/samira-nawa/samira_nawa_500.ashx,TRUE,TRUE
-142,12/2/2022 13:15,12/2/2022 13:15,5,Liberal Alliance,4,Sandra Elisabeth Skalvig,,,FALSE
-143,12/2/2022 13:15,12/2/2022 13:15,6,Socialdemokratiet,3,Sara Emil Baaring,,,FALSE
-144,12/2/2022 13:15,12/2/2022 13:15,5,Alternativet,5,Sascha Faxe,,,FALSE
-145,12/2/2022 13:15,12/2/2022 13:15,9,Socialistisk Folkeparti,4,Signe Munk,https://www.ft.dk/-/media/cv/foto/2019/sf/signe-munk/signe_munk_500.ashx,,FALSE
-146,12/2/2022 13:15,12/2/2022 13:15,2,Socialistisk Folkeparti,4,Sigurd Agersnap,,,FALSE
-147,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,4,Simon Kollerup,https://www.ft.dk/-/media/cv/foto/2019/s/simon-kollerup/simon_kollerup_500.ashx,,FALSE
-148,12/2/2022 13:15,12/2/2022 13:15,2,Radikale Venstre,3,Sofie Carsten Nielsen,https://www.ft.dk/-/media/cv/foto/2019/rv/sofie-carsten-nielsen/sofie_carsten_nielsen_500.ashx,,TRUE
-149,12/2/2022 13:15,12/2/2022 13:15,8,Socialistisk Folkeparti,4,Sofie Lippert,,,TRUE
-150,12/2/2022 13:15,12/2/2022 13:15,10,Liberal Alliance,1,Solbjørg Jakobsen,,,FALSE
-151,12/2/2022 13:15,12/2/2022 13:15,3,Venstre,1,Sophie Løhde,https://www.ft.dk/-/media/cv/foto/2019/v/sophie-loehde/sophie_lohde_500.ashx,,TRUE
-152,12/2/2022 13:15,12/2/2022 13:15,7,Enhedslisten,4,Søren Egge Rasmussen,"https://www.ft.dk/-/media/cv/foto/2015/el/soren-egge-rasmussen/soren_egge_rasmussen_500,-d-,jpg.ashx",,FALSE
-153,12/2/2022 13:15,12/2/2022 13:15,7,Danmarksdemokraterne,5,Søren Espersen,https://www.ft.dk/-/media/cv/foto/2019/df/soren-espersen/soren_espersen_500.ashx,,TRUE
-154,12/2/2022 13:15,12/2/2022 13:15,9,Venstre,3,Søren Gade,"https://www.ft.dk/-/media/cv/foto/2015/v/soeren-gade/soeren_gade_500,-d-,jpg.ashx",,TRUE
-155,12/2/2022 13:15,12/2/2022 13:15,9,De Konservative,4,Søren Pape Poulsen,https://www.ft.dk/-/media/cv/foto/2019/kf/soren-pape-poulsen/soren_pape_poulsen_500.ashx,,TRUE
-156,12/2/2022 13:15,12/2/2022 13:15,2,Enhedslisten,2,Søren Sørengaard,https://www.ft.dk/-/media/cv/foto/2019/el/soeren-soendergaard/soeren_soendergaard_500.ashx,,FALSE
-157,12/2/2022 13:15,12/2/2022 13:15,3,Liberal Alliance,1,Steffen Frølund,,,FALSE
-158,12/2/2022 13:15,12/2/2022 13:15,2,Liberal Alliance,4,Steffen Larsen,,TRUE,FALSE
-159,12/2/2022 13:15,12/2/2022 13:15,5,Danmarksdemokraterne,5,Susie Jessen,,,TRUE
-160,12/2/2022 13:15,12/2/2022 13:15,10,Socialistisk Folkeparti,2,Theresa Berg Andersen,https://www.ft.dk/-/media/cv/foto/2019/sf/theresa-berg-andersen/theresa_berg_andersen_500.ashx,,FALSE
-161,12/2/2022 13:15,12/2/2022 13:15,10,Alternativet,4,Theresa Scavenius,,,FALSE
-162,12/2/2022 13:15,12/2/2022 13:15,9,Venstre,1,Thomas Danielsen,https://www.ft.dk/-/media/cv/foto/2019/v/thomas-danielsen/thomas_danielsen_500.ashx,,TRUE
-163,12/2/2022 13:15,12/2/2022 13:15,9,Socialdemokratiet,1,Thomas Jensen,https://www.ft.dk/-/media/cv/foto/2019/s/thomas-jensen/thomas_jensen_500.ashx,,FALSE
-164,12/2/2022 13:15,12/2/2022 13:15,8,Socialdemokratiet,5,Thomas Monberg,,,FALSE
-165,12/2/2022 13:15,12/2/2022 13:15,6,Socialdemokratiet,5,Thomas Skriver Jensen,,,FALSE
-166,12/2/2022 13:15,12/2/2022 13:15,8,Moderaterne,5,Tobias Grotkjær Elmstrøm,,TRUE,TRUE
-167,12/2/2022 13:15,12/2/2022 13:15,8,Alternativet,5,Torsten Gejl,"https://www.ft.dk/-/media/cv/foto/2015/alt/torsten-gejl/torsten_gejl_500,-d-,jpg.ashx",,FALSE
-168,12/2/2022 13:15,12/2/2022 13:15,10,Venstre,5,Torsten Schack Pedersen,https://www.ft.dk/-/media/cv/foto/2019/v/torsten-schack-pedersen/torsten_schack_pedersen_500.ashx,,TRUE
-169,12/2/2022 13:15,12/2/2022 13:15,6,Socialdemokratiet,5,Trine Bramsen,https://www.ft.dk/-/media/cv/foto/2019/s/trine-bramsen/trine_bramsen_500.ashx,,FALSE
-170,12/2/2022 13:15,12/2/2022 13:15,5,Enhedslisten,5,Trine Pertou Mach,"https://www.ft.dk/-/media/cv/foto/20111/sf/trine_mach/trine_mach_500,-d-,jpg.ashx",,FALSE
-171,12/2/2022 13:15,12/2/2022 13:15,8,Venstre,5,Troels Lund Poulsen,"https://www.ft.dk/-/media/cv/foto/2015/v/troels-lund-poulsen/troels_lund_poulsen_500,-d-,jpg.ashx",,TRUE
-172,12/2/2022 13:15,12/2/2022 13:15,6,Enhedslisten,5,Victoria Velasquez,https://www.ft.dk/-/media/cv/foto/2019/el/victoria-velasquez/victoriavelasquez_500.ashx,,FALSE
-173,12/2/2022 13:15,12/2/2022 13:15,5,Radikale Venstre,5,Zenia Stampe,https://www.ft.dk/-/media/cv/foto/2019/rv/zenia-stampe/zenia_stampe_500.ashx,,TRUE
+id,created_at,updated_at,district_id,party,status_id,name,photo,spokesperson,priority,total_sentiment_score
+1,12/2/2022 13:15,12/2/2022 13:15,6,Dansk Folkeparti,1,Alex Ahrendsten,https://www.ft.dk/-/media/cv/foto/2019/df/alex-ahrendtsen/alex_ahrendtsen_500.ashx,,TRUE,3
+2,12/2/2022 13:15,12/2/2022 13:15,8,Liberal Alliance,3,Alex Vanopslagh,https://www.ft.dk/-/media/cv/foto/2019/la/alex-vanopslagh/alex_vanopslagh_500.ashx,,FALSE,8
+3,12/2/2022 13:15,12/2/2022 13:15,1,Liberal Alliance,4,Alexander Ryle,,,FALSE,12
+4,12/2/2022 13:15,12/2/2022 13:15,7,Socialdemokratiet,2,Anders Kronborg,https://www.ft.dk/-/media/cv/foto/2019/s/anders-kronborg/anders_kronborg_500.ashx,,FALSE,7
+5,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,1,Ane Halsboe-Jørgensen,https://www.ft.dk/-/media/cv/foto/2019/s/ane-halsboe-jorgensen/ane_halsboe-jrgensen_500.ashx,,FALSE,5
+6,12/2/2022 13:15,12/2/2022 13:15,9,Socialdemokratiet,2,Anne Paulin,https://www.ft.dk/-/media/cv/foto/2019/s/anne-paulin/anne_paulin_500.ashx,,FALSE,6
+7,12/2/2022 13:15,12/2/2022 13:15,5,Socialistisk Folkeparti,4,Anne Valentina Berthelsen,https://www.ft.dk/-/media/cv/foto/2019/sf/anne-valentina-berthelsen/anne_valentina_berthelsen_500.ashx,,FALSE,11
+8,12/2/2022 13:15,12/2/2022 13:15,9,Socialdemokratiet,3,Annette Vind,https://www.ft.dk/-/media/cv/foto/2019/s/annette-lind/annette_lind_500.ashx,,FALSE,8
+9,12/2/2022 13:15,12/2/2022 13:15,7,Venstre,3,Anni Matthiesen,https://www.ft.dk/-/media/cv/foto/2019/v/anni-matthiesen/anni_matthiesen_500.ashx,,FALSE,9
+10,12/2/2022 13:15,12/2/2022 13:15,5,Socialistisk Folkeparti,3,Astrid Carøe Rasmussen,https://www.ft.dk/-/media/cv/foto/2019/sf/astrid-caroe/astrid_caroe_500.ashx,,FALSE,10
+11,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,1,Astrid Krag,"https://www.ft.dk/-/media/cv/foto/2015/s/astrid-krag/astrid_krag_500,-d-,jpg.ashx",,FALSE,5
+12,12/2/2022 13:15,12/2/2022 13:15,7,Socialdemokratiet,2,Benny Engelbrecht,https://www.ft.dk/-/media/cv/foto/2019/s/benny-engelbrecht/benny_engelbrecht_500.ashx,,FALSE,6
+13,12/2/2022 13:15,12/2/2022 13:15,9,Danmarksdemokraterne,2,Betina Kastbjerg,,,TRUE,6
+14,12/2/2022 13:15,12/2/2022 13:15,7,Socialdemokratiet,2,Birgitte Vind,https://www.ft.dk/-/media/cv/foto/2019/s/birgitte-vind/birgitte_vind_500.ashx,,FALSE,7
+15,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,2,Bjarne Laustsen,https://www.ft.dk/-/media/cv/foto/2019/s/bjarne-laustsen/bjarne_laustsen_500.ashx,,FALSE,7
+16,12/2/2022 13:15,12/2/2022 13:15,6,Socialdemokratiet,1,Bjørn Brandenborg,https://www.ft.dk/-/media/cv/foto/2019/s/bjorn-brandenborg/bjorn_brandenborg_500.ashx,,FALSE,4
+17,12/2/2022 13:15,12/2/2022 13:15,5,De Konservative,3,Brigitte Klintskov Jerkel,,,FALSE,8
+18,12/2/2022 13:15,12/2/2022 13:15,8,Socialdemokratiet,1,Camilla Fabricius,https://www.ft.dk/-/media/cv/foto/2019/s/camilla-fabricius/camilla_fabricius_500.ashx,,TRUE,4
+19,12/2/2022 13:15,12/2/2022 13:15,1,Socialistisk Folkeparti,5,Carl Valentin,https://www.ft.dk/-/media/cv/foto/2019/sf/carl-valentin/carl_valentin_500.ashx,,FALSE,13
+20,12/2/2022 13:15,12/2/2022 13:15,9,Liberal Alliance,3,Carsten Bach,"https://www.ft.dk/-/media/cv/foto/2015/la/carsten-bach/carsten_bach_500,-d-,jpg.ashx",,FALSE,8
+21,12/2/2022 13:15,12/2/2022 13:15,5,Moderaterne,4,Charlotte Bagge Hansen,,,FALSE,11
+22,12/2/2022 13:15,12/2/2022 13:15,8,Socialistisk Folkeparti,4,Charlotte Broman Mølbæk,https://www.ft.dk/-/media/cv/foto/2019/sf/charlotte-broman-moelbaek/charlotte_broman_moelbaek_500.ashx,,FALSE,12
+23,12/2/2022 13:15,12/2/2022 13:15,2,Danmarksdemokraterne,1,Charlotte Munch,,,FALSE,5
+24,12/2/2022 13:15,12/2/2022 13:15,10,Radikale Venstre,5,Christian Friis Bach,"https://www.ft.dk/-/media/cv/foto/20111/rv/christian_friis_bach/christian_friis_bach_pdf,-d-,jpg.ashx",,FALSE,15
+25,12/2/2022 13:15,12/2/2022 13:15,7,Socialdemokratiet,2,Christian Rabjerg Madsen,"https://www.ft.dk/-/media/cv/foto/2015/s/christian-rabjerg-madsen/christian_rabjerg_madsen_500,-d-,jpg.ashx",,FALSE,6
+26,12/2/2022 13:15,12/2/2022 13:15,1,Alternativet,5,Christina Sade Olumeko,,,TRUE,14
+27,12/2/2022 13:15,12/2/2022 13:15,7,Venstre,4,Christoffer Aagaard Melson,https://www.ft.dk/-/media/cv/foto/2019/v/christoffer-aagaard-melson/christoffer_aagaard_melson_500.ashx,,FALSE,11
+28,12/2/2022 13:15,12/2/2022 13:15,6,Socialdemokratiet,1,Dan Jørgensen,https://www.ft.dk/-/media/cv/foto/2019/s/dan-jorgensen/dan_jorgensen_500.ashx,,TRUE,4
+29,12/2/2022 13:15,12/2/2022 13:15,9,Danmarksdemokraterne,2,Dennis Flydtkjær,https://www.ft.dk/-/media/cv/foto/2019/df/dennis-flydtkjaer/dennis_flydtkjaer_500.ashx,,TRUE,6
+30,12/2/2022 13:15,12/2/2022 13:15,6,Venstre,2,Erling Bonnesen,https://www.ft.dk/-/media/cv/foto/2019/v/erling-bonnesen/erling_bonnesen_500.ashx,,TRUE,7
+31,12/2/2022 13:15,12/2/2022 13:15,3,Socialdemokratiet,2,Fie Hækkerup,,,FALSE,7
+32,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,2,Flemming Møller Mortensen,https://www.ft.dk/-/media/cv/foto/2019/s/flemming-moeller-mortensen/flemming_moeller_mortensen_500.ashx,,FALSE,7
+33,12/2/2022 13:15,12/2/2022 13:15,1,Alternativet,5,Franciska Rosenkilde,,,FALSE,15
+34,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,1,Frederik Vad,,,TRUE,4
+35,12/2/2022 13:15,12/2/2022 13:15,3,Venstre,2,Hans Andersen,https://www.ft.dk/-/media/cv/foto/2019/v/hans-andersen/hans_andersen_500.ashx,,FALSE,6
+36,12/2/2022 13:15,12/2/2022 13:15,7,Venstre,2,Hans Christian Schmidt,"https://www.ft.dk/-/media/cv/foto/20111/v/hans_chr_schmidt/hans_chr_schmidt_pdf,-d-,jpg.ashx",,FALSE,6
+37,12/2/2022 13:15,12/2/2022 13:15,8,Danmarksdemokraterne,2,Hans Kristian Skibby,https://www.ft.dk/-/media/cv/foto/2019/df/hans-kristian-skibby/hans_kristian_skibby_500.ashx,,TRUE,6
+38,12/2/2022 13:15,12/2/2022 13:15,7,Liberal Alliance,2,Helena Artmann Andresen,,,TRUE,7
+39,12/2/2022 13:15,12/2/2022 13:15,3,Alternativet,5,Helene Liliendahl Brydensholt,,,TRUE,14
+40,12/2/2022 13:15,12/2/2022 13:15,1,De Konservative,3,Helle Bonnesen,,,FALSE,9
+41,12/2/2022 13:15,12/2/2022 13:15,7,Liberal Alliance,2,Henrik Dahl,https://www.ft.dk/-/media/cv/foto/2019/la/henrik-dahl/henrik_dahl_500.ashx,,TRUE,6
+42,12/2/2022 13:15,12/2/2022 13:15,7,Moderaterne,5,Henrik Frandsen,,,FALSE,13
+43,12/2/2022 13:15,12/2/2022 13:15,3,Socialdemokratiet,1,Henrik Møller,https://www.ft.dk/-/media/cv/foto/2019/s/henrik-moller/henrik_moller_500.ashx,,FALSE,5
+44,12/2/2022 13:15,12/2/2022 13:15,1,Socialdemokratiet,3,Ida Auken,https://www.ft.dk/-/media/cv/foto/2019/rv/ida-auken/ida_auken_500.ashx,,FALSE,8
+45,12/2/2022 13:15,12/2/2022 13:15,10,Danmarksdemokraterne,1,Inger Støjberg,https://www.ft.dk/-/media/cv/foto/2019/v/inger-stojberg/inger_stojberg_500.ashx,,FALSE,4
+46,12/2/2022 13:15,12/2/2022 13:15,5,Venstre,2,Jacob Jensen,"https://www.ft.dk/-/media/cv/foto/2015/v/jacob-jensen/jacob_jensen_500,-d-,jpg.ashx",,TRUE,7
+47,12/2/2022 13:15,12/2/2022 13:15,5,Socialistisk Folkeparti,3,Jacob Mark,https://www.ft.dk/-/media/cv/foto/2019/sf/jacob-mark/jacob_mark_500.ashx,,FALSE,9
+48,12/2/2022 13:15,12/2/2022 13:15,8,Venstre,2,Jakob Ellemann-Jensen,https://www.ft.dk/-/media/cv/foto/2019/v/jakob-ellemann-jensen/jakob_ellemann_jensen_500.ashx,,TRUE,7
+49,12/2/2022 13:15,12/2/2022 13:15,3,Moderaterne,3,Jakob Engel-Schmidt,https://www.ft.dk/-/media/cv/foto/2015/v/jakob-engel_schmidt/jakob_engel_schmidt_500.ashx,,FALSE,10
+50,12/2/2022 13:15,12/2/2022 13:15,1,Venstre,4,Jan Jørgensen,https://www.ft.dk/-/media/cv/foto/2019/v/jan-e-jorgensen/jan_e_jorgensen_500.ashx,,FALSE,12
+51,12/2/2022 13:15,12/2/2022 13:15,6,Danmarksdemokraterne,2,Jens Henrik Thulesen Dahl,https://www.ft.dk/-/media/cv/foto/2019/df/jens-henrik-thulesen-dahl/jens_henrik_thulesen_dahl_500.ashx,,FALSE,6
+52,12/2/2022 13:15,12/2/2022 13:15,8,Socialdemokratiet,3,Jens Joel,https://www.ft.dk/-/media/cv/foto/2019/s/jens-joel/jens_joel_500.ashx,,FALSE,8
+53,12/2/2022 13:15,12/2/2022 13:15,8,Liberal Alliance,2,Jens Meilvang,,,FALSE,7
+54,12/2/2022 13:15,12/2/2022 13:15,2,Socialdemokratiet,2,Jeppe Bruus,https://www.ft.dk/-/media/cv/foto/2019/s/jeppe-bruus/jeppe_bruus_500.ashx,,FALSE,7
+55,12/2/2022 13:15,12/2/2022 13:15,9,Moderaterne,4,Jeppe Søe,,,FALSE,11
+56,12/2/2022 13:15,12/2/2022 13:15,7,Socialdemokratiet,2,Jesper Petersen,https://www.ft.dk/-/media/cv/foto/2019/s/jesper-petersen/jesper_petersen_500.ashx,,FALSE,7
+57,12/2/2022 13:15,12/2/2022 13:15,1,Enhedslisten,4,Jette Gottlieb,https://www.ft.dk/-/media/cv/foto/2019/el/jette-gottlieb/jette_gottlieb_500.ashx,,TRUE,11
+58,12/2/2022 13:15,12/2/2022 13:15,1,Moderaterne,4,Jon Stephensen,,,FALSE,12
+59,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,2,Kaare Dybvad Bek,"https://www.ft.dk/-/media/cv/foto/2015/s/kaare-dybvad/kaare_dybvad_500,-d-,jpg.ashx",,FALSE,6
+60,12/2/2022 13:15,12/2/2022 13:15,2,Venstre,3,Karen Ellemann,,,FALSE,8
+61,12/2/2022 13:15,12/2/2022 13:15,8,Moderaterne,3,Karin Liltorp,,,FALSE,10
+62,12/2/2022 13:15,12/2/2022 13:15,7,Danmarksdemokraterne,1,Karina Adsbøl,https://www.ft.dk/-/media/cv/foto/2019/df/karina-adsboel/karina_adsboel_500.ashx,,TRUE,5
+63,12/2/2022 13:15,12/2/2022 13:15,7,Socialistisk Folkeparti,4,Karina Lorentzen Dehnhardt,https://www.ft.dk/-/media/cv/foto/2019/sf/karina-lorentzen-dehnhardt/karina_lorentzen_dehnhardt_500.ashx,,FALSE,11
+64,12/2/2022 13:15,12/2/2022 13:15,6,Socialistisk Folkeparti,3,Karsten Hønge,https://www.ft.dk/-/media/cv/foto/2019/sf/karsten-honge/karsten_honge_500.ashx,,FALSE,9
+65,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,2,Kasper Roug,https://www.ft.dk/-/media/cv/foto/2019/s/kasper-roug/kasper_roug_500.ashx,,FALSE,7
+66,12/2/2022 13:15,12/2/2022 13:15,2,Socialdemokratiet,1,Kasper Sand Kjær,https://www.ft.dk/-/media/cv/foto/2019/s/kasper-sand-kjaer/kasper_sand_kjaer_500.ashx,,FALSE,5
+67,12/2/2022 13:15,12/2/2022 13:15,6,Liberal Alliance,3,Katrine Daugaard,,,FALSE,10
+68,12/2/2022 13:15,12/2/2022 13:15,8,Radikale Venstre,5,Katrine Robsøe,https://www.ft.dk/-/media/cv/foto/2019/rv/katrine-robsoe/katrine_robsoe_500.ashx,,TRUE,15
+69,12/2/2022 13:15,12/2/2022 13:15,7,Danmarksdemokraterne,1,Kenneth Fredslund Petersen,,,TRUE,4
+70,12/2/2022 13:15,12/2/2022 13:15,6,Socialdemokratiet,3,Kim Aas,,,TRUE,9
+71,12/2/2022 13:15,12/2/2022 13:15,10,Nye Borgerlige,2,Kim Edberg,,,TRUE,7
+72,12/2/2022 13:15,12/2/2022 13:15,8,Socialistisk Folkeparti,3,Kirsten Normann Andersen,https://www.ft.dk/-/media/cv/foto/2019/sf/kirsten-normann-andersen/kirsten_normann_andersen_500.ashx,,FALSE,10
+73,12/2/2022 13:15,12/2/2022 13:15,7,Socialdemokratiet,1,Kris Jensen Skriver,,,FALSE,5
+74,12/2/2022 13:15,12/2/2022 13:15,10,Danmarksdemokraterne,2,Kristian Bøgsted,,,TRUE,6
+75,12/2/2022 13:15,12/2/2022 13:15,10,Moderaterne,4,Kristian Klarskov,,,FALSE,11
+76,12/2/2022 13:15,12/2/2022 13:15,8,Nye Borgerlige,2,Lars Boje Mathiesen,https://www.ft.dk/-/media/cv/foto/2019/nb/lars-boje-mathiesen/lars_boje_mathiesen_500.ashx,,TRUE,6
+77,12/2/2022 13:15,12/2/2022 13:15,6,Venstre,2,Lars Christian Lilleholt,https://www.ft.dk/-/media/cv/foto/2019/v/lars-christian-lilleholt/lars_christian_lilleholt_500.ashx,,FALSE,6
+78,12/2/2022 13:15,12/2/2022 13:15,5,Moderaterne,5,Lars Løkke Rasmussen,"https://www.ft.dk/-/media/cv/foto/20111/v/lars_loekke_rasmussen/lars_loekke_rasmussen_pdf,-d-,jpg.ashx",,FALSE,13
+79,12/2/2022 13:15,12/2/2022 13:15,5,Liberal Alliance,3,Lars-Christian Brask,,,FALSE,10
+80,12/2/2022 13:15,12/2/2022 13:15,4,Socialdemokratiet,1,Lea Wermelin,https://www.ft.dk/-/media/cv/foto/2019/s/lea-wermelin/lea_wermelin_500.ashx,,FALSE,5
+81,12/2/2022 13:15,12/2/2022 13:15,8,Socialdemokratiet,1,Leif Lahn Jensen,https://www.ft.dk/-/media/cv/foto/2019/s/leif-lahn-jensen/leif_lahn_jensen_500.ashx,,FALSE,5
+82,12/2/2022 13:15,12/2/2022 13:15,1,Venstre,3,Linea Søgaard-Lidell,,,FALSE,8
+83,12/2/2022 13:15,12/2/2022 13:15,1,Socialistisk Folkeparti,5,Lisbeth Bech-Nielsen,https://www.ft.dk/-/media/cv/foto/2019/sf/lisbeth-bech-nielsen/lisbeth_bech_poulsen_500.ashx,,TRUE,13
+84,12/2/2022 13:15,12/2/2022 13:15,10,Danmarksdemokraterne,2,Lise Bech,https://www.ft.dk/-/media/cv/foto/2019/df/lise-bech/lise_bech_500.ashx,,TRUE,6
+85,12/2/2022 13:15,12/2/2022 13:15,9,De Konservative,2,Lise Bertelsen,,,FALSE,7
+86,12/2/2022 13:15,12/2/2022 13:15,7,Radikale Venstre,5,Lotte Rod,https://www.ft.dk/-/media/cv/foto/2019/rv/lotte-rod/lotte_rod_500.ashx,,TRUE,13
+87,12/2/2022 13:15,12/2/2022 13:15,8,Liberal Alliance,3,Louise Brown,,,FALSE,10
+88,12/2/2022 13:15,12/2/2022 13:15,5,Venstre,2,Louise Schack Elholm,https://www.ft.dk/-/media/cv/foto/2019/v/louise-schack-elholm/louise_schack_elholm_500.ashx,,FALSE,7
+89,12/2/2022 13:15,12/2/2022 13:15,9,Venstre,3,Mads Fuglede,https://www.ft.dk/-/media/cv/foto/2015/v/mads-fuglede/mads_fuglede_500.ashx,,FALSE,9
+90,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,2,Magnus Heunicke,"https://www.ft.dk/-/media/cv/foto/2015/s/magnus-heunicke/magnus_heunicke_500,-d-,jpg.ashx",,FALSE,7
+91,12/2/2022 13:15,12/2/2022 13:15,6,De Konservative,2,Mai Mercado,https://www.ft.dk/-/media/cv/foto/2019/kf/mai-mercado/mai_mercado_500.ashx,,TRUE,7
+92,12/2/2022 13:15,12/2/2022 13:15,8,Enhedslisten,5,Mai Villadsen,https://www.ft.dk/-/media/cv/foto/2019/el/mai-villadsen/mai_villadsen_500.ashx,,TRUE,13
+93,12/2/2022 13:15,12/2/2022 13:15,8,Socialdemokratiet,2,Malte Larsen,https://www.ft.dk/-/media/cv/foto/2019/s/malte-larsen/malte_larsen_500.ashx,,FALSE,7
+94,12/2/2022 13:15,12/2/2022 13:15,2,Socialdemokratiet,1,Maria Durhuus,,,FALSE,5
+95,12/2/2022 13:15,12/2/2022 13:15,3,Socialistisk Folkeparti,4,Marianne Bigum,,,FALSE,12
+96,12/2/2022 13:15,12/2/2022 13:15,10,Venstre,3,Marie Bjerre,https://www.ft.dk/-/media/cv/foto/2019/v/marie-bjerre/marie_bjerre_500.ashx,,FALSE,8
+97,12/2/2022 13:15,12/2/2022 13:15,3,Danmarksdemokraterne,1,Marlene Harpsøe,"https://www.ft.dk/-/media/cv/foto/2015/df/marlene-harpsoe/marlene_harpsoe_500,-d-,jpg.ashx",,TRUE,5
+98,12/2/2022 13:15,12/2/2022 13:15,3,Radikale Venstre,4,Martin Lidegaard,"https://www.ft.dk/-/media/cv/foto/2015/rv/martin-lidegaard/martin_lidegaard_500,-d-,jpg.ashx",,FALSE,11
+99,12/2/2022 13:15,12/2/2022 13:15,3,Socialdemokratiet,2,Matilde Powers,,,FALSE,7
+100,12/2/2022 13:15,12/2/2022 13:15,2,Socialdemokratiet,1,Mattias Tesfaye,"https://www.ft.dk/-/media/cv/foto/2015/s/mattias-tesfaye/mattias_tesfaye_500,-d-,jpg.ashx",,FALSE,4
+101,12/2/2022 13:15,12/2/2022 13:15,3,De Konservative,3,Mette Abildgaard,https://www.ft.dk/-/media/cv/foto/2019/kf/mette-abildgaard/mette_abildgaard_500.ashx,,FALSE,8
+102,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,2,Mette Frederiksen,"https://www.ft.dk/-/media/cv/foto/2015/s/mette-frederiksen/mette_frederiksen_500,-d-,jpg.ashx",,FALSE,7
+103,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,3,Mette Gjerskov,https://www.ft.dk/-/media/cv/foto/2019/s/mette-gjerskov/mette_gjerskov_500.ashx,,FALSE,10
+104,12/2/2022 13:15,12/2/2022 13:15,7,Moderaterne,4,Mette Kierkgaard,,,FALSE,12
+105,12/2/2022 13:15,12/2/2022 13:15,1,Socialdemokratiet,5,Mette Reissmann,"https://www.ft.dk/-/media/cv/foto/2015/s/mette-reissmann/mette_reissmann_500,-d-,jpg.ashx",,FALSE,13
+106,12/2/2022 13:15,12/2/2022 13:15,3,Nye Borgerlige,2,Mette Thiesen,,,TRUE,7
+107,12/2/2022 13:15,12/2/2022 13:15,8,Venstre,2,Michael Aastrup Jensen,https://www.ft.dk/-/media/cv/foto/2019/v/michael-aastrup-jensen/michael_aastrup_jensen_500.ashx,,TRUE,6
+108,12/2/2022 13:15,12/2/2022 13:15,5,Moderaterne,3,Mike Villa Fonseca,,,FALSE,9
+109,12/2/2022 13:15,12/2/2022 13:15,6,Nye Borgerlige,1,Mikkel Bjørn,,,TRUE,5
+110,12/2/2022 13:15,12/2/2022 13:15,9,Socialdemokratiet,1,Mogens Jensen,https://www.ft.dk/-/media/cv/foto/2019/s/mogens-jensen/mogens_jensen_500.ashx,,FALSE,4
+111,12/2/2022 13:15,12/2/2022 13:15,8,De Konservative,3,Mona Juul,https://www.ft.dk/-/media/cv/foto/2019/kf/mona-juul/mona_juul_500.ashx,,FALSE,9
+112,12/2/2022 13:15,12/2/2022 13:15,2,Moderaterne,5,Monika Rubin,,,FALSE,14
+113,12/2/2022 13:15,12/2/2022 13:15,2,Socialdemokratiet,1,Morten Bødskov,https://www.ft.dk/-/media/cv/foto/2019/s/morten-bodskov/morten_bodskov_500.ashx,,FALSE,5
+114,12/2/2022 13:15,12/2/2022 13:15,5,Venstre,2,Morten Dahlin,https://www.ft.dk/-/media/cv/foto/2019/v/morten-dahlin/morten_dahlin_500.ashx,TRUE,TRUE,7
+115,12/2/2022 13:15,12/2/2022 13:15,2,Dansk Folkeparti,1,Morten Messerschmidt,https://www.ft.dk/-/media/cv/foto/2019/df/morten-messerschmidt/morten_messerschmidt_500.ashx,,TRUE,3
+116,12/2/2022 13:15,12/2/2022 13:15,1,Moderaterne,5,Nanna Gotfredsen,,,TRUE,13
+117,12/2/2022 13:15,12/2/2022 13:15,8,Socialdemokratiet,1,Nicolai Wammen,"https://www.ft.dk/-/media/cv/foto/20111/s/nicolai_wammen/nicolai_wammen_pdf,-d-,jpg.ashx",,TRUE,5
+118,12/2/2022 13:15,12/2/2022 13:15,7,De Konservative,2,Niels Flemming Hansen,https://www.ft.dk/-/media/cv/foto/2019/kf/niels-flemming-hansen/niels_flemming_hansen_500.ashx,,FALSE,7
+119,12/2/2022 13:15,12/2/2022 13:15,10,Enhedslisten,4,Peder Hvelplund,https://www.ft.dk/-/media/cv/foto/2019/el/peder-hvelplund/peder_hvelplund_500.ashx,,FALSE,11
+120,12/2/2022 13:15,12/2/2022 13:15,1,Enhedslisten,5,Pelle Dragsted,"https://www.ft.dk/-/media/cv/foto/2015/el/pelle-dragsted/pelle_dragsted_500,-d-,jpg.ashx",,TRUE,13
+121,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,1,Per Husted,https://www.ft.dk/-/media/cv/foto/2009_1/685x650_pdf/spehu-jpg.ashx,,FALSE,4
+122,12/2/2022 13:15,12/2/2022 13:15,10,De Konservative,3,Per Larsen,https://www.ft.dk/-/media/cv/foto/2019/kf/per-larsen/per_larsen_500.ashx,,FALSE,10
+123,12/2/2022 13:15,12/2/2022 13:15,1,Socialdemokratiet,2,Pernille Rosenkrantz-Theil,https://www.ft.dk/-/media/cv/foto/2019/s/pernille-rosenkrantz-theil/pernille_rosenkrantz-theil_500.ashx,,FALSE,6
+124,12/2/2022 13:15,12/2/2022 13:15,7,Nye Borgerlige,3,Pernille Vermund,https://www.ft.dk/-/media/cv/foto/2019/nb/pernille-vermund/pernille_vermund_500.ashx,,TRUE,8
+125,12/2/2022 13:15,12/2/2022 13:15,8,Moderaterne,3,Peter Have,,,FALSE,10
+126,12/2/2022 13:15,12/2/2022 13:15,1,Socialdemokratiet,2,Peter Hummelgaard,https://www.ft.dk/-/media/cv/foto/2019/s/peter-hummelgaard-thomsen/peter_hummelgaard_thomsen_500.ashx,,FALSE,7
+127,12/2/2022 13:15,12/2/2022 13:15,4,Venstre,2,Peter Juel-Jensen,https://www.ft.dk/-/media/cv/foto/2019/v/peter-juel-jensen/peter_juel-jensen_500.ashx,,FALSE,7
+128,12/2/2022 13:15,12/2/2022 13:15,7,Dansk Folkeparti,1,Peter Kofod,"https://www.ft.dk/-/media/cv/foto/2015/df/peter-kofod-poulsen/peter_kofod_poulsen_500,-d-,jpg.ashx",,TRUE,4
+129,12/2/2022 13:15,12/2/2022 13:15,5,Nye Borgerlige,2,Peter Seier Christensen,https://www.ft.dk/-/media/cv/foto/2019/nb/peter-seier-christensen/peter_seier_christensen_500.ashx,TRUE,TRUE,7
+130,12/2/2022 13:15,12/2/2022 13:15,5,Danmarksdemokraterne,2,Peter Skaarup,https://www.ft.dk/-/media/cv/foto/2019/df/peter-skaarup/peter_skaarup_500.ashx,,TRUE,6
+131,12/2/2022 13:15,12/2/2022 13:15,5,Dansk Folkeparti,1,Pia Kjærsgaard,https://www.ft.dk/-/media/cv/foto/2019/df/pia-kjaersgaard/pia_kjaersgaard_500.ashx,,TRUE,3
+132,12/2/2022 13:15,12/2/2022 13:15,1,Socialistisk Folkeparti,4,Pia Olsen Dyhr,https://www.ft.dk/-/media/cv/foto/2019/sf/pia-olsen-dyhr/pia_olsen_dyhr_500.ashx,,FALSE,12
+133,12/2/2022 13:15,12/2/2022 13:15,10,Venstre,3,Preben Bang Henriksen,"https://www.ft.dk/-/media/cv/foto/2015/v/preben-bang-henriksen/preben_bang_henriksen_500,-d-,jpg.ashx",,TRUE,9
+134,12/2/2022 13:15,12/2/2022 13:15,5,Socialdemokratiet,2,Rasmus Horn Langhoff,https://www.ft.dk/-/media/cv/foto/2019/s/rasmus-horn-langhoff/rasmus_horn_langhof_500.ashx,,FALSE,7
+135,12/2/2022 13:15,12/2/2022 13:15,2,De Konservative,3,Rasmus Jarlov,"https://www.ft.dk/-/media/cv/foto/2015/kf/rasmus-jarlov/rasmus_jarlov_500,-d-,jpg.ashx",,TRUE,8
+136,12/2/2022 13:15,12/2/2022 13:15,2,Moderaterne,4,Rasmus Lund-Nielsen,,,FALSE,12
+137,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,2,Rasmus Prehn,"https://www.ft.dk/-/media/cv/foto/2015/s/rasmus-prehn/rasmus_prehn_500,-d-,jpg.ashx",,FALSE,6
+138,12/2/2022 13:15,12/2/2022 13:15,3,Socialdemokratiet,1,Rasmus Stoklund,https://www.ft.dk/-/media/cv/foto/2019/s/rasmus-stoklund/rasmus_stoklund_500.ashx,,TRUE,4
+139,12/2/2022 13:15,12/2/2022 13:15,6,Moderaterne,5,Rosa Eriksen,,,FALSE,13
+140,12/2/2022 13:15,12/2/2022 13:15,1,Enhedslisten,4,Rosa Lund,https://www.ft.dk/-/media/cv/foto/2019/el/rosa-lund/rosa_lund_500.ashx,,TRUE,12
+141,12/2/2022 13:15,12/2/2022 13:15,1,Radikale Venstre,5,Samira Nawa,https://www.ft.dk/-/media/cv/foto/2019/rv/samira-nawa/samira_nawa_500.ashx,TRUE,TRUE,15
+142,12/2/2022 13:15,12/2/2022 13:15,5,Liberal Alliance,2,Sandra Elisabeth Skalvig,,,FALSE,7
+143,12/2/2022 13:15,12/2/2022 13:15,6,Socialdemokratiet,2,Sara Emil Baaring,,,FALSE,6
+144,12/2/2022 13:15,12/2/2022 13:15,5,Alternativet,5,Sascha Faxe,,,FALSE,15
+145,12/2/2022 13:15,12/2/2022 13:15,9,Socialistisk Folkeparti,3,Signe Munk,https://www.ft.dk/-/media/cv/foto/2019/sf/signe-munk/signe_munk_500.ashx,,FALSE,10
+146,12/2/2022 13:15,12/2/2022 13:15,2,Socialistisk Folkeparti,5,Sigurd Agersnap,,,FALSE,13
+147,12/2/2022 13:15,12/2/2022 13:15,10,Socialdemokratiet,1,Simon Kollerup,https://www.ft.dk/-/media/cv/foto/2019/s/simon-kollerup/simon_kollerup_500.ashx,,FALSE,5
+148,12/2/2022 13:15,12/2/2022 13:15,2,Radikale Venstre,5,Sofie Carsten Nielsen,https://www.ft.dk/-/media/cv/foto/2019/rv/sofie-carsten-nielsen/sofie_carsten_nielsen_500.ashx,,TRUE,15
+149,12/2/2022 13:15,12/2/2022 13:15,8,Socialistisk Folkeparti,5,Sofie Lippert,,,TRUE,14
+150,12/2/2022 13:15,12/2/2022 13:15,10,Liberal Alliance,3,Solbjørg Jakobsen,,,FALSE,8
+151,12/2/2022 13:15,12/2/2022 13:15,3,Venstre,2,Sophie Løhde,https://www.ft.dk/-/media/cv/foto/2019/v/sophie-loehde/sophie_lohde_500.ashx,,TRUE,7
+152,12/2/2022 13:15,12/2/2022 13:15,7,Enhedslisten,3,Søren Egge Rasmussen,"https://www.ft.dk/-/media/cv/foto/2015/el/soren-egge-rasmussen/soren_egge_rasmussen_500,-d-,jpg.ashx",,FALSE,10
+153,12/2/2022 13:15,12/2/2022 13:15,7,Danmarksdemokraterne,1,Søren Espersen,https://www.ft.dk/-/media/cv/foto/2019/df/soren-espersen/soren_espersen_500.ashx,,TRUE,5
+154,12/2/2022 13:15,12/2/2022 13:15,9,Venstre,2,Søren Gade,"https://www.ft.dk/-/media/cv/foto/2015/v/soeren-gade/soeren_gade_500,-d-,jpg.ashx",,TRUE,6
+155,12/2/2022 13:15,12/2/2022 13:15,9,De Konservative,2,Søren Pape Poulsen,https://www.ft.dk/-/media/cv/foto/2019/kf/soren-pape-poulsen/soren_pape_poulsen_500.ashx,,TRUE,7
+156,12/2/2022 13:15,12/2/2022 13:15,2,Enhedslisten,2,Søren Sørengaard,https://www.ft.dk/-/media/cv/foto/2019/el/soeren-soendergaard/soeren_soendergaard_500.ashx,,FALSE,7
+157,12/2/2022 13:15,12/2/2022 13:15,3,Liberal Alliance,2,Steffen Frølund,,,FALSE,7
+158,12/2/2022 13:15,12/2/2022 13:15,2,Liberal Alliance,3,Steffen Larsen,,TRUE,FALSE,10
+159,12/2/2022 13:15,12/2/2022 13:15,5,Danmarksdemokraterne,2,Susie Jessen,,,TRUE,6
+160,12/2/2022 13:15,12/2/2022 13:15,10,Socialistisk Folkeparti,5,Theresa Berg Andersen,https://www.ft.dk/-/media/cv/foto/2019/sf/theresa-berg-andersen/theresa_berg_andersen_500.ashx,,FALSE,13
+161,12/2/2022 13:15,12/2/2022 13:15,10,Alternativet,5,Theresa Scavenius,,,FALSE,14
+162,12/2/2022 13:15,12/2/2022 13:15,9,Venstre,2,Thomas Danielsen,https://www.ft.dk/-/media/cv/foto/2019/v/thomas-danielsen/thomas_danielsen_500.ashx,,TRUE,7
+163,12/2/2022 13:15,12/2/2022 13:15,9,Socialdemokratiet,1,Thomas Jensen,https://www.ft.dk/-/media/cv/foto/2019/s/thomas-jensen/thomas_jensen_500.ashx,,FALSE,5
+164,12/2/2022 13:15,12/2/2022 13:15,8,Socialdemokratiet,3,Thomas Monberg,,,FALSE,8
+165,12/2/2022 13:15,12/2/2022 13:15,6,Socialdemokratiet,2,Thomas Skriver Jensen,,,FALSE,7
+166,12/2/2022 13:15,12/2/2022 13:15,8,Moderaterne,4,Tobias Grotkjær Elmstrøm,,TRUE,TRUE,11
+167,12/2/2022 13:15,12/2/2022 13:15,8,Alternativet,5,Torsten Gejl,"https://www.ft.dk/-/media/cv/foto/2015/alt/torsten-gejl/torsten_gejl_500,-d-,jpg.ashx",,FALSE,14
+168,12/2/2022 13:15,12/2/2022 13:15,10,Venstre,2,Torsten Schack Pedersen,https://www.ft.dk/-/media/cv/foto/2019/v/torsten-schack-pedersen/torsten_schack_pedersen_500.ashx,,TRUE,7
+169,12/2/2022 13:15,12/2/2022 13:15,6,Socialdemokratiet,1,Trine Bramsen,https://www.ft.dk/-/media/cv/foto/2019/s/trine-bramsen/trine_bramsen_500.ashx,,FALSE,5
+170,12/2/2022 13:15,12/2/2022 13:15,5,Enhedslisten,4,Trine Pertou Mach,"https://www.ft.dk/-/media/cv/foto/20111/sf/trine_mach/trine_mach_500,-d-,jpg.ashx",,FALSE,12
+171,12/2/2022 13:15,12/2/2022 13:15,8,Venstre,2,Troels Lund Poulsen,"https://www.ft.dk/-/media/cv/foto/2015/v/troels-lund-poulsen/troels_lund_poulsen_500,-d-,jpg.ashx",,TRUE,7
+172,12/2/2022 13:15,12/2/2022 13:15,6,Enhedslisten,5,Victoria Velasquez,https://www.ft.dk/-/media/cv/foto/2019/el/victoria-velasquez/victoriavelasquez_500.ashx,,FALSE,14
+173,12/2/2022 13:15,12/2/2022 13:15,5,Radikale Venstre,5,Zenia Stampe,https://www.ft.dk/-/media/cv/foto/2019/rv/zenia-stampe/zenia_stampe_500.ashx,,TRUE,15
