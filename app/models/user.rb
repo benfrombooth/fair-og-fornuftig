@@ -28,4 +28,6 @@ class User < ApplicationRecord
   belongs_to(:industry, { :class_name => "Industry", :foreign_key => "industry_id" })
 
   has_one(:cause, { :through => :industry, :source => :causes })
+
+  has_many(:policies, { :through => :examples, :source => :policy })
 end

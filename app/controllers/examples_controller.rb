@@ -1,9 +1,8 @@
 class ExamplesController < ApplicationController
   def overview
 
-    @users = User.all
-
-    
+    matching_users = User.all
+    @list_of_users = matching_users.order({ :username => :asc })
 
     render({ :template => "examples/overview.html.erb" })
   end

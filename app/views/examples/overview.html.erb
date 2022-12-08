@@ -8,11 +8,56 @@
 
 <div>
   <h2>
-    Examples showcasing the issues
+    List of personal examples
   </h2>
 <div>
 
-<table>
+<table border="1">
+  <tr>
+    <th>
+      Name
+    </th>
+    <th>
+      Photo
+    </th>
+    <th>
+      Municipality
+    </th>
+    <th>
+      Industry
+    </th>
+    <th>
+      Story
+    </th>
+    <th>
+      Policies
+    </th>
+  </tr>
+
+  <% @list_of_users.each do |a_user| %>
+    <tr>
+      <td>
+        <%= a_user.first_name %> <%= a_user.last_name %>
+      </td>
+      <td>
+        <img src=<%= a_user.photo %>>
+      </td>
+      <td>
+        <%= a_user.municipality.name %>
+      </td>
+      <td>
+        <%= a_user.industry.name %>
+      </td>
+      <td>
+        <%= a_user.personal_story %>
+      </td>
+      <td>
+        <%= a_user.policies %>
+      </td>
+    </tr>
+  <% end%>
+</table>
+
   <tr>    First & Last Name    </tr>
   <tr>    Photo     </tr>
   <tr>    Municipality    </tr>
@@ -22,9 +67,6 @@
 </table>
 
 <p> Include validation for photo and story permissions!</p>
-
-users.each do |the_user|
-
 
 industry = Industry.where({ :id => the_user.industry_id }).at(0)
 industry_name = industry.name
