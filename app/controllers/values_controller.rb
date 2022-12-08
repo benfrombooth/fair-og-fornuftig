@@ -4,7 +4,7 @@ class ValuesController < ApplicationController
 
     @list_of_values = matching_values.order({ :created_at => :desc })
 
-    render({ :template => "values/index.html.erb" })
+    render({ :template => "users/overview.html.erb" })
   end
 
   def show
