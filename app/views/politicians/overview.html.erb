@@ -21,13 +21,16 @@
       Photo
     </th>
     <th>
+      Party
+    </th>
+    <th class="">
+      Category
+    </th>
+    <th>
       District
     </th>
     <th>
-      Industry
-    </th>
-    <th>
-      Story
+      # Victims in District
     </th>
     <th>
       Policies
@@ -43,6 +46,12 @@
         <img src=<%= a_politician.photo %> class="user-images">
       </td>
       <td>
+        <%= a_politician.party %>
+      </td>
+      <td>
+        <%= a_politician.district %>
+      </td>
+      <td>
         <%= a_politician.district.name %>
       </td>  
       <td>
@@ -56,13 +65,3 @@
     </tr>
   <% end%>
 </table>
-
-  <tr>    First & Last Name    </tr>
-  <tr>    Photo     </tr>
-  <tr>    Municipality    </tr>
-  <tr>    Industry    </tr>
-  <tr>    Personal stories    </tr>
-  <tr>    Policies    </tr>
-</table>
-
-<p> Show details will provide the examples, the causes, if there is a match between victim id from their region and their cause, ability to edit their stance... </p>
