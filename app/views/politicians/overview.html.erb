@@ -8,7 +8,7 @@
 
 <div>
   <h3>
-    Ranking of politicians by support (high to low)
+    List of politicians by support (high to low)
   </h3>
 <div>
 
@@ -34,23 +34,23 @@
     </th>
   </tr>
 
-  <% @list_of_politicians.each do |a_user| %>
+  <% @list_of_politicians.each do |a_politician| %>
     <tr>
       <td>
-        <%= a_user.name %>
+        <%= a_politician.name %>
       </td>
       <td>
-        <img src=<%= a_user.photo %>>
+        <img src=<%= a_politician.photo %> class="user-images">
       </td>
       <td>
-        <%= a_user.district.name %>
+        <%= a_politician.district.name %>
       </td>  
       <td>
-        <%= a_user.stances %>
+        <%= a_politician.stances %>
       </td>
       <td>
-        <a href="/politicians/<%= a_user.id %>">
-          Show details
+        <a href="/politicians/<%= a_politician.id %>">
+          Show policy stances
         </a>
       </td>
     </tr>
@@ -66,5 +66,3 @@
 </table>
 
 <p> Show details will provide the examples, the causes, if there is a match between victim id from their region and their cause, ability to edit their stance... </p>
-
-end
