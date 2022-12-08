@@ -7,7 +7,6 @@ class PoliticiansController < ApplicationController
     render({ :template => "politicians/overview.html.erb" })
   end
 
-  
   def index
     matching_politicians = Politician.all
 

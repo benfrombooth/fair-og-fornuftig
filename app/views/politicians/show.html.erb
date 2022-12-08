@@ -16,26 +16,15 @@
 
 <hr>
 
-    <dl>
-      <dt>
-        Policy
-      </dt>
-      <dd>
-        <%= @the_politician.stances.description %>
-      </dd>
-
-      <dt>
-        Support (5=most, 1=least)
-      </dt>
-      <dd>
-        <%= @the_politician.name %>
-      </dd>
+   
 
       <dt>
         Comment
       </dt>
       <dd>
+        <% @the_politican.each do |a_stance| %>
         <%= @the_politician.stances.comment %>
+        <% end %>
       </dd>
 
     
