@@ -188,8 +188,6 @@ namespace :slurp do
     t.name = row["name"]
     t.photo = row["photo"]
     t.spokesperson = row["spokesperson"]
-    t.username = row["username"]
-    t.password = row["password"]
  
     t.save
       puts "Politician saved"
@@ -273,7 +271,6 @@ namespace :slurp do
     t.first_name = row["first_name"]
     t.last_name = row["last_name"]
     t.nationality = row["nationality"]
-    t.username = row["username"]
     t.industry_id = row["industry_id"]
     t.permission_name = row["permission_name"]
     t.permission_photo = row["permission_photo"]
@@ -282,7 +279,6 @@ namespace :slurp do
     t.municipality_id = row["municipality_id"]
     t.personal_story = row["personal_story"]
     t.photo = row["photo"]
-    t.password = row["password"]
  
     t.save
       puts "User saved"

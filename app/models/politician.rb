@@ -13,6 +13,8 @@
 #  status_id    :integer
 #
 class Politician < ApplicationRecord
+  validates(:name, { :uniqueness => true })
+  
   has_many(:stances, { :class_name => "Stance", :foreign_key => "politician_id", :dependent => :destroy })
 
   has_many(:causes, { :class_name => "Cause", :foreign_key => "politician_id", :dependent => :destroy })

@@ -1,7 +1,7 @@
 class ExamplesController < ApplicationController
   def overview
 
-    @users = Users.all
+    @users = User.all
 
     
 

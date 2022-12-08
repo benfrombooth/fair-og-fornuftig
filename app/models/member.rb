@@ -14,4 +14,6 @@ class Member < ApplicationRecord
   validates :username, :uniqueness => { :case_sensitive => false }
   validates :username, :presence => true
   has_secure_password
+
+  has_many(:bookmarks, { :class_name => "Bookmark", :foreign_key => "member_id", :dependent => :destroy })
 end

@@ -23,7 +23,7 @@
 
 <p> Include validation for photo and story permissions!</p>
 
-@users.each do |the_user|
+users.each do |the_user|
 
 
 industry = Industry.where({ :id => the_user.industry_id }).at(0)
