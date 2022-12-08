@@ -80,8 +80,16 @@
 
         <td>
           
-          <% if a_politician.status_id = 5 %>
+          <% if a_politician.status_id == 5 %>
+            Ally
+          <% elsif a_politician.status_id == 4 %>
             Supporter
+          <% elsif a_politician.status_id == 3 %>
+            Sympathizer
+          <% elsif a_politician.status_id == 2 %>
+            Bystander
+          <% else a_politician.status_id == 1 %>
+            Opponent
           <% end %>
         </td>
 
