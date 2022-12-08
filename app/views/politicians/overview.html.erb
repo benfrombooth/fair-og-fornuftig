@@ -21,16 +21,19 @@
       Photo
     </th>
     <th>
+      Party
+    </th>
+    <th>
+      Sentiment Score
+    </th>
+    <th>
+      Category
+    </th>
+    <th>
       District
     </th>
     <th>
-      Industry
-    </th>
-    <th>
-      Story
-    </th>
-    <th>
-      Policies
+      Cause(s)
     </th>
   </tr>
 
@@ -43,10 +46,13 @@
         <img src=<%= a_user.photo %>>
       </td>
       <td>
-        <%= a_user.district.name %>
+        <%= a_user.party %>
       </td>  
       <td>
-        <%= a_user.stances %>
+        <%= a_user.total_sentiment_score %>
+      </td>  
+      <td>
+        <%= a_user.total_sentiment_score %>
       </td>
       <td>
         <a href="/politicians/<%= a_user.id %>">
@@ -68,3 +74,10 @@
 <p> Show details will provide the examples, the causes, if there is a match between victim id from their region and their cause, ability to edit their stance... </p>
 
 end
+
+    <th>
+      Victim Count - District
+    </th>
+    <th>
+      Victim Count - Causes(s)
+    </th>
