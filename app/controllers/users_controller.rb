@@ -46,6 +46,11 @@ class UsersController < ApplicationController
     end
   end
 
+  def sign_up_form
+    render({ :template => "users/sign_up.html.erb" })
+  end
+
+
   def update
     the_id = params.fetch("path_id")
     the_user = User.where({ :id => the_id }).at(0)
