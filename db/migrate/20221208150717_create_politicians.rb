@@ -8,7 +8,7 @@ class CreatePoliticians < ActiveRecord::Migration[6.0]
       t.string :spokesperson
       t.integer :status_id
       t.string :priority
-      t.string :total_sentiment_score
+      t.integer :total_sentiment_score
 
       t.timestamps
     end

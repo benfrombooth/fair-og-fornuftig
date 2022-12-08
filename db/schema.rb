@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_08_034046) do
+ActiveRecord::Schema.define(version: 2022_12_08_150717) do
 
   create_table "bookmarks", force: :cascade do |t|
     t.integer "user_id"
@@ -85,7 +85,7 @@ ActiveRecord::Schema.define(version: 2022_12_08_034046) do
     t.string "spokesperson"
     t.integer "status_id"
     t.string "priority"
-    t.string "total_sentiment_score"
+    t.integer "total_sentiment_score"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

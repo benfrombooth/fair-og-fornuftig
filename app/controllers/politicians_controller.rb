@@ -1,12 +1,4 @@
 class PoliticiansController < ApplicationController
-  def overview
-
-    matching_politicians = Politician.all
-    @list_of_politicians = matching_politicians.order({ :total_sentiment_score => :desc })
-
-    render({ :template => "politicians/overview.html.erb" })
-  end
-  
   def index
     matching_politicians = Politician.all
 

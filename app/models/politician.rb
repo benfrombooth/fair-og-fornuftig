@@ -8,7 +8,7 @@
 #  photo                 :string
 #  priority              :string
 #  spokesperson          :string
-#  total_sentiment_score :string
+#  total_sentiment_score :integer
 #  created_at            :datetime         not null
 #  updated_at            :datetime         not null
 #  district_id           :integer
@@ -23,7 +23,5 @@ class Politician < ApplicationRecord
 
   belongs_to(:district, { :required => true, :class_name => "District", :foreign_key => "district_id" })
 
-  has_many(:policies, { :through => :stances, :source => :policy })
-
-  has_many(:values, { :through => :stances, :source => :value })
+  validates(:name, { :uniqueness => true })
 end
