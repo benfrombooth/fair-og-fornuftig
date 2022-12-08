@@ -24,7 +24,7 @@
       Party
     </th>
     <th class="">
-      Category
+      Support (15=most, 1=least)
     </th>
     <th>
       District
@@ -49,13 +49,13 @@
         <%= a_politician.party %>
       </td>
       <td>
-        <%= a_politician.district %>
+        <%= a_politician.total_sentiment_score %>
       </td>
       <td>
-        <%= a_politician.district.name %>
+        <%= a_politician.party %>
       </td>  
       <td>
-        <%= a_politician.stances %>
+        <%= a_politician.party %>
       </td>
       <td>
         <a href="/politicians/<%= a_politician.id %>">

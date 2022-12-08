@@ -1,176 +1,36 @@
 <div>
   <div>
     <h1>
-      Politician #<%= @the_politician.id %> details
+      Stances for <%= @the_politician.name %>
     </h1>
 
     <div>
       <div>
-        <a href="/politicians">
+        <a href="/politicians/overview">
           Go back
         </a>
       </div>
 
-      <div>
-        <a href="/delete_politician/<%= @the_politician.id %>">
-          Delete politician
-        </a>
-      </div>
-    </div>
-
     <dl>
       <dt>
-        District
+        Policy
       </dt>
       <dd>
-        <%= @the_politician.district_id %>
+        <%= @the_politician.stances.description %>
       </dd>
 
       <dt>
-        Party
-      </dt>
-      <dd>
-        <%= @the_politician.party %>
-      </dd>
-
-      <dt>
-        Name
+        Support (5=most, 1=least)
       </dt>
       <dd>
         <%= @the_politician.name %>
       </dd>
 
       <dt>
-        Photo
+        Comment
       </dt>
       <dd>
-        <%= @the_politician.photo %>
+        <%= @the_politician.stances.comment %>
       </dd>
 
-      <dt>
-        Spokesperson
-      </dt>
-      <dd>
-        <%= @the_politician.spokesperson %>
-      </dd>
-
-      <dt>
-        Status
-      </dt>
-      <dd>
-        <%= @the_politician.status_id %>
-      </dd>
-
-      <dt>
-        Priority
-      </dt>
-      <dd>
-        <%= @the_politician.priority %>
-      </dd>
-
-      <dt>
-        Total sentiment score
-      </dt>
-      <dd>
-        <%= @the_politician.total_sentiment_score %>
-      </dd>
-
-      <dt>
-        Created at
-      </dt>
-      <dd>
-        <%= time_ago_in_words(@the_politician.created_at) %> ago
-      </dd>
-
-      <dt>
-        Updated at
-      </dt>
-      <dd>
-        <%= time_ago_in_words(@the_politician.updated_at) %> ago
-      </dd>
-    </dl>
-  </div>
-</div>
-
-<hr>
-
-
-<div>
-  <div>
-    <h2>
-      Edit politician
-    </h2>
-
-    <form action="/modify_politician/<%= @the_politician.id %>"  method="post" >
-      <div>
-        <label for="district_id_box">
-          District
-        </label>
-
-        <input type="text" id="district_id_box" name="query_district_id" value="<%= @the_politician.district_id %>">
-      </div>
-
-      <div>
-        <label for="party_box">
-          Party
-        </label>
-
-        <input type="text" id="party_box" name="query_party" value="<%= @the_politician.party %>">
-      </div>
-
-      <div>
-        <label for="name_box">
-          Name
-        </label>
-
-        <input type="text" id="name_box" name="query_name" value="<%= @the_politician.name %>">
-      </div>
-
-      <div>
-        <label for="photo_box">
-          Photo
-        </label>
-
-        <input type="text" id="photo_box" name="query_photo" value="<%= @the_politician.photo %>">
-      </div>
-
-      <div>
-        <label for="spokesperson_box">
-          Spokesperson
-        </label>
-
-        <input type="text" id="spokesperson_box" name="query_spokesperson" value="<%= @the_politician.spokesperson %>">
-      </div>
-
-      <div>
-        <label for="status_id_box">
-          Status
-        </label>
-
-        <input type="text" id="status_id_box" name="query_status_id" value="<%= @the_politician.status_id %>">
-      </div>
-
-      <div>
-        <label for="priority_box">
-          Priority
-        </label>
-
-        <input type="text" id="priority_box" name="query_priority" value="<%= @the_politician.priority %>">
-      </div>
-
-      <div>
-        <label for="total_sentiment_score_box">
-          Total sentiment score
-        </label>
-
-        <input type="text" id="total_sentiment_score_box" name="query_total_sentiment_score" value="<%= @the_politician.total_sentiment_score %>">
-      </div>
-
-      <button>
-        Update politician
-      </button>
-    </form>
-  </div>
-</div>
-
-<hr>
+    

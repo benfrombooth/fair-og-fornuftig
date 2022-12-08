@@ -218,6 +218,7 @@ namespace :slurp do
     t.photo = row["photo"]
     t.spokesperson = row["spokesperson"]
     t.priority = row["priority"]
+    t.total_sentiment_score = row["total_sentiment_score"]
 
     t.save
       puts "Politician saved"
