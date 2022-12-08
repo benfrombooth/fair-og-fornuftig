@@ -1,7 +1,7 @@
 <div>
   <div>
     <h1>
-      Policies affecting <%= @the_example.user.first_name %> <%= @the_example.user.last_name %>
+      More to know about <%= @the_example.user.first_name %> <%= @the_example.user.last_name %>
     </h1>
 
     <div>
@@ -17,38 +17,45 @@
         </a>
       </div>
     </div>
+  
+<hr>
 
-    <dl>
-      <dt>
-        List of relevant policies
-      </dt>
-
-    <%= @the_example %>
-  </div>
-</div>
+  <div>
+    <h2>
+      List of relevant policies and politicians
+    </h2>
+    
+    <div>
+      <dl>
+        <dt>
+          Policies
+        </dt>
 
 <hr>
 
-
-<div>
   <div>
-    <h2>
-      Edit example
-    </h2>
+    <div>
+      <h2>
+        Edit this example
+      </h2>
 
-      <div>
-        <label for="policy_id_box">
-          Policy
-        </label>
+    <div>
+      <label for="policy_id_box">
+        Policy
+      </label>
 
-        <input type="text" id="policy_id_box" name="query_policy_id" value="<%= @the_example.policy_id %>">
-      </div>
+      <input type="text" id="policy_id_box" name="query_policy_id" value="<%= @the_example.policy.description %>">
+    </div>
 
       <button>
-        Update example
+        Add new policy
       </button>
     </form>
   </div>
 </div>
 
 <hr>
+
+<p><%= @not_matching_examples %>
+
+<p>...</p>
