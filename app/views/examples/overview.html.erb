@@ -12,7 +12,7 @@
   </h2>
 <div>
 
-<table border="1">
+<table id="examples">
   <tr>
     <th>
       Name
@@ -40,7 +40,7 @@
         <%= a_user.first_name %> <%= a_user.last_name %>
       </td>
       <td>
-        <img src=<%= a_user.photo %>>
+        <img src=<%= a_user.photo %> class="user-images">
       </td>
       <td>
         <%= a_user.municipality.name %>
