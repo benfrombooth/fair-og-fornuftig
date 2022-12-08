@@ -28,8 +28,6 @@ class PoliticiansController < ApplicationController
     the_politician.name = params.fetch("query_name")
     the_politician.photo = params.fetch("query_photo")
     the_politician.spokesperson = params.fetch("query_spokesperson")
-    the_politician.username = params.fetch("query_username")
-    the_politician.password = params.fetch("query_password")
     the_politician.status_id = params.fetch("query_status_id")
 
     if the_politician.valid?
@@ -49,8 +47,6 @@ class PoliticiansController < ApplicationController
     the_politician.name = params.fetch("query_name")
     the_politician.photo = params.fetch("query_photo")
     the_politician.spokesperson = params.fetch("query_spokesperson")
-    the_politician.username = params.fetch("query_username")
-    the_politician.password = params.fetch("query_password")
     the_politician.status_id = params.fetch("query_status_id")
 
     if the_politician.valid?

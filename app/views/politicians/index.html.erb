@@ -37,14 +37,6 @@
         </th>
 
         <th>
-          Username
-        </th>
-
-        <th>
-          Password
-        </th>
-
-        <th>
           Status
         </th>
 
@@ -79,7 +71,7 @@
         </td>
 
         <td>
-          <%= a_politician.photo %>
+          <img src=<%= a_politician.photo %>>
         </td>
 
         <td>
@@ -87,15 +79,10 @@
         </td>
 
         <td>
-          <%= a_politician.username %>
-        </td>
-
-        <td>
-          <%= a_politician.password %>
-        </td>
-
-        <td>
-          <%= a_politician.status_id %>
+          
+          <% if a_politician.status_id = 5 %>
+            Supporter
+          <% end %>
         </td>
 
         <td>

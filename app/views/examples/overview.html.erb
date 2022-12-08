@@ -52,7 +52,9 @@
         <%= a_user.personal_story %>
       </td>
       <td>
-        <%= a_user.policies %>
+        <a href="/examples/<%= a_user.id %>">
+          Show policies
+        </a>
       </td>
     </tr>
   <% end%>

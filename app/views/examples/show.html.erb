@@ -1,12 +1,12 @@
 <div>
   <div>
     <h1>
-      Example #<%= @the_example.id %> details
+      Policies affecting <%= @the_example.user.first_name %> <%= @the_example.user.last_name %>
     </h1>
 
     <div>
       <div>
-        <a href="/examples">
+        <a href="/examples/overview">
           Go back
         </a>
       </div>
@@ -20,40 +20,10 @@
 
     <dl>
       <dt>
-        User
+        List of relevant policies
       </dt>
-      <dd>
-        <%= @the_example.user_id %>
-      </dd>
 
-      <dt>
-        Policy
-      </dt>
-      <dd>
-        <%= @the_example.policy_id %>
-      </dd>
-
-      <dt>
-        Article
-      </dt>
-      <dd>
-        <%= @the_example.article_id %>
-      </dd>
-
-      <dt>
-        Created at
-      </dt>
-      <dd>
-        <%= time_ago_in_words(@the_example.created_at) %> ago
-      </dd>
-
-      <dt>
-        Updated at
-      </dt>
-      <dd>
-        <%= time_ago_in_words(@the_example.updated_at) %> ago
-      </dd>
-    </dl>
+    <%= @the_example %>
   </div>
 </div>
 
@@ -66,29 +36,12 @@
       Edit example
     </h2>
 
-    <form action="/modify_example/<%= @the_example.id %>"  method="post" >
-      <div>
-        <label for="user_id_box">
-          User
-        </label>
-
-        <input type="text" id="user_id_box" name="query_user_id" value="<%= @the_example.user_id %>">
-      </div>
-
       <div>
         <label for="policy_id_box">
           Policy
         </label>
 
         <input type="text" id="policy_id_box" name="query_policy_id" value="<%= @the_example.policy_id %>">
-      </div>
-
-      <div>
-        <label for="article_id_box">
-          Article
-        </label>
-
-        <input type="text" id="article_id_box" name="query_article_id" value="<%= @the_example.article_id %>">
       </div>
 
       <button>
