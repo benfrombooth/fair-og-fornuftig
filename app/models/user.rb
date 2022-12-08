@@ -30,4 +30,6 @@ class User < ApplicationRecord
   has_one(:cause, { :through => :industry, :source => :causes })
 
   has_many(:policies, { :through => :examples, :source => :policy })
+
+  has_one(:district, { :through => :municipality, :source => :district })
 end

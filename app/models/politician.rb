@@ -21,7 +21,7 @@ class Politician < ApplicationRecord
 
   has_many(:bookmarks, { :class_name => "Bookmark", :foreign_key => "politician_id", :dependent => :destroy })
 
-  belongs_to(:district, { :required => true, :class_name => "District", :foreign_key => "district_id" })
+  belongs_to(:district, { :class_name => "District", :foreign_key => "district_id" })
 
   validates(:name, { :uniqueness => true })
 end

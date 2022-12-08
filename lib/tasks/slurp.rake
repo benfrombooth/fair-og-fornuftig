@@ -85,7 +85,7 @@ namespace :slurp do
     t = Industry.new
     t.name = row["name"]
  
-    t.save
+   t.save
       puts "Industry saved"
     end
 
@@ -217,12 +217,13 @@ namespace :slurp do
     t.name = row["name"]
     t.photo = row["photo"]
     t.spokesperson = row["spokesperson"]
-    t.priority = row["priority"]
-    t.total_sentiment_score = row["total_sentiment_score"]
+    p t.priority = row["priority"]
+    p t.total_sentiment_score = row["total_sentiment_score"]
+    
 
     t.save
       puts "Politician saved"
-    end
+   end
 
   puts "There are now #{Politician.count} rows in the politicians table"
 

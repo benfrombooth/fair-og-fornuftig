@@ -27,16 +27,19 @@
         Policies
       </dt>
       <dd>
-        <%= @the_user.id.policies.description %>
+        <% @the_user.policies.each do |a_policy|%>
+        <li><%= a_policy.description %></li>
+      <% end %>
       </dd>
 
       <dt>
         Politicians
       </dt>
       <dd>
-        <%= @the_user.districts.politician.name %>
+        <% @the_user.district.politicians.each do |a_district| %>
+        <li><%= a_district.name %>/<li>
+      <% end %>
       </dd>
-
 
 <div>
   <div>

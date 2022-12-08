@@ -1,5 +1,9 @@
 class UsersController < ApplicationController
   def home
+    @list_of_values = Value.all.order({ :id => :asc })
+
+    @list_of_injustices = Injustice.all.order({ :id => :asc })
+    
     render({ :template => "users/home.html.erb" })
   end
   
