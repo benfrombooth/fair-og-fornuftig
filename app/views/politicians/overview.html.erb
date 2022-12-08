@@ -1,0 +1,70 @@
+<div>
+  <h1>
+    Find out politicians' stances
+  </h1>
+<div>
+ 
+<hr>
+
+<div>
+  <h3>
+    Ranking of politicians by support (high to low)
+  </h3>
+<div>
+
+<table id="politicians">
+  <tr>
+    <th>
+      Name
+    </th>
+    <th>
+      Photo
+    </th>
+    <th>
+      District
+    </th>
+    <th>
+      Industry
+    </th>
+    <th>
+      Story
+    </th>
+    <th>
+      Policies
+    </th>
+  </tr>
+
+  <% @list_of_politicians.each do |a_user| %>
+    <tr>
+      <td>
+        <%= a_user.name %>
+      </td>
+      <td>
+        <img src=<%= a_user.photo %>>
+      </td>
+      <td>
+        <%= a_user.district.name %>
+      </td>  
+      <td>
+        <%= a_user.stances %>
+      </td>
+      <td>
+        <a href="/politicians/<%= a_user.id %>">
+          Show details
+        </a>
+      </td>
+    </tr>
+  <% end%>
+</table>
+
+  <tr>    First & Last Name    </tr>
+  <tr>    Photo     </tr>
+  <tr>    Municipality    </tr>
+  <tr>    Industry    </tr>
+  <tr>    Personal stories    </tr>
+  <tr>    Policies    </tr>
+</table>
+
+<p> Show details will provide the examples, the causes, if there is a match between victim id from their region and their cause, ability to edit their stance... </p>
+
+end
