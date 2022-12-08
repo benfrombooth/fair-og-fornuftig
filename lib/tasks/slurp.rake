@@ -217,9 +217,8 @@ namespace :slurp do
     t.name = row["name"]
     t.photo = row["photo"]
     t.spokesperson = row["spokesperson"]
-    t.username = row["username"]
-    t.password = row["password"]
- 
+    t.priority = row["priority"]
+
     t.save
       puts "Politician saved"
     end
@@ -245,6 +244,7 @@ namespace :slurp do
     t.policy_id = row["policy_id"]
     t.politician_id = row["politician_id"]
     t.sentiment_score = row["sentiment_score"]
+    t.comment = row["comment"]
  
     t.save
       puts "Stance saved"
