@@ -5,39 +5,41 @@
     </h1>
   </div>
   
-  <hr>
+<hr>
 
+  <div>
     <div>
-      <div>
-        <a href="/examples/overview">
-          Go back
-        </a>
-      </div>
+      <a href="/examples/overview">
+        Go back
+      </a>
     </div>
+  </div>
   
-  <hr>
+<hr>
     
-    <div>
-      <h3>
-        List of relevant policies and politicians
-      </h3>
-    </div>
+  <div>
+    <h3>
+      List of relevant policies and politicians
+    </h3>
+  </div>
 
-    <dl>
-      <dt>
-        Policies
-      </dt>
+  <dl>
+    <dt>
+      Policies
+    </dt>
       <dd>
         <% @the_user.policies.each do |a_policy|%>
           <li><%= a_policy.description %></li>
         <% end %>
       </dd>
 
-      <dt>
-        Politicians
-      </dt>
+    <dt>
+      Politicians
+    </dt>
       <dd>
         <% @the_user.district.politicians.each do |a_district| %>
           <li><%= a_district.name %></li>
         <% end %>
       </dd>
+
+<hr>

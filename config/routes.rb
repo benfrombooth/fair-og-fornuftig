@@ -34,9 +34,7 @@ Rails.application.routes.draw do
   # Routes for the Member account:
 
   # SIGN UP FORM
-  get("/member_sign_up", { :controller => "member_authentication", :action => "sign_up_form" })  
-  # OPTIONAL ADD USER
-  get("/user_sign_up", { :controller => "users", :action => "sign_up_form" })      
+  get("/member_sign_up", { :controller => "member_authentication", :action => "sign_up_form" })     
   # CREATE RECORD
   post("/insert_member", { :controller => "member_authentication", :action => "create"  })
       
@@ -74,25 +72,6 @@ Rails.application.routes.draw do
   
   # DELETE
   get("/delete_stance/:path_id", { :controller => "stances", :action => "destroy" })
-
-  #------------------------------
-
-  # Routes for the Politician resource:
-
-  # CREATE
-  post("/insert_politician", { :controller => "politicians", :action => "create" })
-          
-  # READ
-  get("/politicians", { :controller => "politicians", :action => "index" })
-  
-  get("/politicians/:path_id", { :controller => "politicians", :action => "show" })
-  
-  # UPDATE
-  
-  post("/modify_politician/:path_id", { :controller => "politicians", :action => "update" })
-  
-  # DELETE
-  get("/delete_politician/:path_id", { :controller => "politicians", :action => "destroy" })
 
   #------------------------------
   
@@ -133,7 +112,7 @@ Rails.application.routes.draw do
   get("/delete_industry/:path_id", { :controller => "industries", :action => "destroy" })
 
   #------------------------------
-    # Routes for the Politician resource:
+  # Routes for the Politician resource:
 
   # CREATE
   post("/insert_politician", { :controller => "politicians", :action => "create" })
@@ -231,11 +210,14 @@ Rails.application.routes.draw do
 
   # Routes for the User resource:
 
+  # SIGN UP FORM
+  get("/user_sign_up", { :controller => "_users", :action => "sign_up_form" })  
+     
   # CREATE
   post("/insert_user", { :controller => "users", :action => "create" })
           
   # READ
-  get("/users", { :controller => "users", :action => "index" })
+  # get("/users", { :controller => "users", :action => "index" })
   
   get("/users/:path_id", { :controller => "users", :action => "show" })
   

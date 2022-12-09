@@ -53,16 +53,16 @@ REFERENCE
 <div>
   <div>
     <h2>
-      Edit user
+      Add a new user
     </h2>
 
-    <form action="/modify_user/<%= @the_user.id %>"  method="post" >
+    <form action="/insert_user" method="post">
       <div>
         <label for="residency_id_box">
           Residency
         </label>
 
-        <input type="text" id="residency_id_box" name="query_residency_id" value="<%= @the_user.residency_id %>">
+        <input type="text" id="residency_id_box" name="query_residency_id">
       </div>
 
       <div>
@@ -70,7 +70,7 @@ REFERENCE
           First name
         </label>
 
-        <input type="text" id="first_name_box" name="query_first_name" value="<%= @the_user.first_name %>">
+        <input type="text" id="first_name_box" name="query_first_name">
       </div>
 
       <div>
@@ -78,7 +78,7 @@ REFERENCE
           Last name
         </label>
 
-        <input type="text" id="last_name_box" name="query_last_name" value="<%= @the_user.last_name %>">
+        <input type="text" id="last_name_box" name="query_last_name">
       </div>
 
       <div>
@@ -86,7 +86,7 @@ REFERENCE
           Nationality
         </label>
 
-        <input type="text" id="nationality_box" name="query_nationality" value="<%= @the_user.nationality %>">
+        <input type="text" id="nationality_box" name="query_nationality">
       </div>
 
       <div>
@@ -94,7 +94,7 @@ REFERENCE
           Industry
         </label>
 
-        <input type="text" id="industry_id_box" name="query_industry_id" value="<%= @the_user.industry_id %>">
+        <input type="text" id="industry_id_box" name="query_industry_id">
       </div>
 
       <div>
@@ -102,7 +102,7 @@ REFERENCE
           Permission name
         </label>
 
-        <input type="text" id="permission_name_box" name="query_permission_name" value="<%= @the_user.permission_name %>">
+        <input type="text" id="permission_name_box" name="query_permission_name">
       </div>
 
       <div>
@@ -110,7 +110,7 @@ REFERENCE
           Permission photo
         </label>
 
-        <input type="text" id="permission_photo_box" name="query_permission_photo" value="<%= @the_user.permission_photo %>">
+        <input type="text" id="permission_photo_box" name="query_permission_photo">
       </div>
 
       <div>
@@ -118,7 +118,7 @@ REFERENCE
           Permission story
         </label>
 
-        <input type="text" id="permission_story_box" name="query_permission_story" value="<%= @the_user.permission_story %>">
+        <input type="text" id="permission_story_box" name="query_permission_story">
       </div>
 
       <div>
@@ -126,7 +126,7 @@ REFERENCE
           Permission media
         </label>
 
-        <input type="text" id="permission_media_box" name="query_permission_media" value="<%= @the_user.permission_media %>">
+        <input type="text" id="permission_media_box" name="query_permission_media">
       </div>
 
       <div>
@@ -134,7 +134,7 @@ REFERENCE
           Municipality
         </label>
 
-        <input type="text" id="municipality_id_box" name="query_municipality_id" value="<%= @the_user.municipality_id %>">
+        <input type="text" id="municipality_id_box" name="query_municipality_id">
       </div>
 
       <div>
@@ -142,7 +142,7 @@ REFERENCE
           Personal story
         </label>
 
-        <input type="text" id="personal_story_box" name="query_personal_story" value="<%= @the_user.personal_story %>">
+        <input type="text" id="personal_story_box" name="query_personal_story">
       </div>
 
       <div>
@@ -150,14 +150,12 @@ REFERENCE
           Photo
         </label>
 
-        <input type="text" id="photo_box" name="query_photo" value="<%= @the_user.photo %>">
+        <input type="text" id="photo_box" name="query_photo">
       </div>
 
       <button>
-        Update user
+        Create user
       </button>
     </form>
   </div>
 </div>
-
-<hr>
