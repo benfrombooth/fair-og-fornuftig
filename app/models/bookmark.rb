@@ -14,10 +14,10 @@ class Bookmark < ApplicationRecord
   belongs_to(:member, { :required => true, :class_name => "Member", :foreign_key => "member_id" })
 
  # Attempting the bookmark feature without requiring member to input id 
-  def my_id
-    my_id = self.id
-    form_input = Bookmark.where({ :id => my_id })
-    return form_input
-  end
+ # def my_id
+  #  my_id = self.id
+  #  form_input = Bookmark.where({ :id => my_id })
+  #  return form_input
+ # end
 
 end
