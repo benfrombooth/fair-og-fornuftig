@@ -17,7 +17,7 @@
 
 <hr>
 
-  <div class="">
+  <div class="card">
     <dt>
       Comment(s)
     </dt>
@@ -31,6 +31,8 @@
       <% end %>
     </dd>
   </div>
+
+<hr>
 
 gt_client = Google::Cloud::Translate.new({ :version => :v2 })
 
@@ -76,9 +78,9 @@ translation = gt_client.translate("Hello, world!", { :to => "es" })
         <input type="text" id="spokesperson_box" name="query_spokesperson" value="<%= @the_politician.spokesperson %>">
       </div>
 
-      <button>
+      <button class="button">
         Update politican
-      </button>
+      </button class="button">
     </form>
   </div>
 </div>
