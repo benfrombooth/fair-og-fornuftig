@@ -24,13 +24,17 @@
     <dd>
       <% if @the_politician.stances != nil %>
         <% @the_politician.stances.each do |a_policy| %>
-        <li><%= a_policy.comment %></li>
+          <li><%= a_policy.comment %></li>
         <% end %>
       <% else %>
         Uh oh! This politician has made no official comments...
       <% end %>
     </dd>
   </div>
+
+gt_client = Google::Cloud::Translate.new({ :version => :v2 })
+
+translation = gt_client.translate("Hello, world!", { :to => "es" })
 
 <div>
   <div>
