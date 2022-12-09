@@ -34,14 +34,10 @@
 
 <hr>
 
-gt_client = Google::Cloud::Translate.new({ :version => :v2 })
-
-translation = gt_client.translate("Hello, world!", { :to => "es" })
-
 <div>
   <div>
     <h3>
-      Edit policy stance
+      Edit politician details
     </h3>
   </div>
 
@@ -51,7 +47,7 @@ translation = gt_client.translate("Hello, world!", { :to => "es" })
           District
         </label>
 
-        <input type="text" id="district_id_box" name="query_district_id" value="<%= @the_politician.district_id %>">
+        <input type="text" id="district_box" name="query_district" value="<%= @the_politician.district.name %>">
       </div>
 
       <div>
@@ -70,17 +66,9 @@ translation = gt_client.translate("Hello, world!", { :to => "es" })
         <input type="text" id="total_sentiment_score_box" name="query_total_sentiment_score" value="<%= @the_politician.total_sentiment_score %>">
       </div>
 
-      <div>
-        <label for="spokesperson_box">
-          Spokesperson (T/F)
-        </label>
-
-        <input type="text" id="spokesperson_box" name="query_spokesperson" value="<%= @the_politician.spokesperson %>">
-      </div>
-
-      <button class="button">
+      <button class="button-politician">
         Update politican
-      </button class="button">
+      </button class="button-politician">
     </form>
   </div>
 </div>

@@ -48,13 +48,8 @@ class PoliticiansController < ApplicationController
     the_id = params.fetch("path_id")
     the_politician = Politician.where({ :id => the_id }).at(0)
 
-    the_politician.district_id = params.fetch("query_district_id")
+    the_politician.district.name = params.fetch("query_district")
     the_politician.party = params.fetch("query_party")
-    the_politician.name = params.fetch("query_name")
-    the_politician.photo = params.fetch("query_photo")
-    the_politician.spokesperson = params.fetch("query_spokesperson")
-    the_politician.status_id = params.fetch("query_status_id")
-    the_politician.priority = params.fetch("query_priority")
     the_politician.total_sentiment_score = params.fetch("query_total_sentiment_score")
 
     if the_politician.valid?

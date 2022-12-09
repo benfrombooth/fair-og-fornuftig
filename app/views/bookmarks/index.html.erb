@@ -1,7 +1,7 @@
 <div>
   <div>
     <h1>
-      List of all bookmarks
+      <%= @current_member.first_name %>'s bookmarks
     </h1>
   </div>
 </div>
@@ -11,28 +11,28 @@
 <div>
   <div>
     <h2>
-      Add a new bookmark
+      Follow a new politician
     </h2>
 
     <form action="/insert_bookmark" method="post">
-      <div>
-        <label for="member_id_box">
-          Member
-        </label>
-
-        <input type="text" id="member_id_box" name="query_member_id">
-      </div>
 
       <div>
         <label for="politician_id_box">
           Politician
         </label>
 
-        <input type="text" id="politician_id_box" name="query_politician_id">
+      <select name="query_politician_id">
+        <% Politician.all.order(:party).each do |a_politician| %>
+          <option value="<%= a_politician.id %>">
+            <%= a_politician.name %>
+          </option>
+        <% end %>
+      </select>
+
       </div>
 
       <button>
-        Create bookmark
+        Follow this politician!
       </button>
     </form>
   </div>
@@ -43,14 +43,6 @@
   <div>
     <table border="1">
       <tr>
-        <th>
-          ID
-        </th>
-
-        <th>
-          Member
-        </th>
-
         <th>
           Politician
         </th>
@@ -69,28 +61,18 @@
 
       <% @list_of_bookmarks.each do |a_bookmark| %>
       <tr>
+ 
         <td>
-          <%= a_bookmark.id %>
-        </td>
-
-        <td>
-          <%= a_bookmark.member_id %>
-        </td>
-
-        <td>
-          <%= a_bookmark.politician_id %>
+          <%= a_bookmark.politician.name %>
         </td>
 
         <td>
           <%= time_ago_in_words(a_bookmark.created_at) %> ago
         </td>
-        <td>
-          <%= time_ago_in_words(a_bookmark.updated_at) %> ago
-        </td>
 
         <td>
-          <a href="/bookmarks/<%= a_bookmark.id %>">
-            Show details
+          <a href="/delete_bookmark/<%= a_bookmark.id %>">
+            Un-follow
           </a>
         </td>
       </tr>
