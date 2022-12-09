@@ -1,6 +1,20 @@
 Rails.application.routes.draw do
 
-  # Routes for the Bookmark resource:
+  #------------------------------
+
+  # Route used for the home page:
+
+  get("/", { :controller => "users", :action => "home" })
+
+  # Routes used for links in project:
+
+  get("/examples/overview", { :controller => "examples", :action => "overview" })
+  get("/policies/overview", { :controller => "policies", :action => "overview" })
+  get("/politicians/overview", { :controller => "politicians", :action => "overview" })
+
+  #------------------------------ 
+ 
+  # Routes for bookmark (of politician):
 
   # CREATE
   post("/insert_bookmark", { :controller => "bookmarks", :action => "create" })
@@ -19,19 +33,7 @@ Rails.application.routes.draw do
 
   #------------------------------
 
-  # Route used for the home page:
-
-  get("/", { :controller => "users", :action => "home" })
-
-  # Routes used for links in project:
-
-  get("/examples/overview", { :controller => "examples", :action => "overview" })
-  get("/policies/overview", { :controller => "policies", :action => "overview" })
-  get("/politicians/overview", { :controller => "politicians", :action => "overview" })
-
-  #------------------------------ 
- 
-  # Routes for bookmark (of politician):
+  # Routes for the Bookmark resource:
 
   # CREATE
   post("/insert_bookmark", { :controller => "bookmarks", :action => "create" })
