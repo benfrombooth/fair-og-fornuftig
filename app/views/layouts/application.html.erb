@@ -46,8 +46,16 @@
           flex-grow: 1;
         }
 
+    .banner-pic {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 30%;
+          height: 128px;
+        }
+
     .card {
-      /* Add shadows to create the "card" effect */
+/* Add shadows to create the "card" effect */
           box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
           transition: 0.3s;
           background: #4B9496;
@@ -60,12 +68,19 @@
         }
 
 /* Add some padding inside the card container */
+    .banner-table {
+          font-size: 20px;
+          color: #C8102E;
+        }
+    
     .container {
           padding: 2px 16px;
         }
 
     div {
           font-family: 'Playfair Display', serif, bold;
+          padding-top: 10px;
+          padding-bottom: 10px;
         }
     
     .user-images {
@@ -74,7 +89,8 @@
           border-radius: 128px;
           object-fit: cover;
         }
-    
+
+/* CSS formatting for tables on overview pages */
     #policies {
       font-family: 'Playfair Display', serif, bold;
       border-collapse: collapse;
@@ -155,7 +171,11 @@
 
 <body>
   
-  <table style="width: 100%" border="1">
+  <div>
+    <img class="banner-pic" alt="F&F Logo" src="/images/Logo.jpg">
+  </div>
+
+  <table style="width: 100%" border="1" class="banner-table">
       <tr>
         <td>
           <strong>Menu Options</strong>
@@ -187,6 +207,7 @@
       </tr>
     </table>
 
+  <div>
     <ul>
       <% if session.fetch(:member_id) == nil %>
         <li>
@@ -201,6 +222,7 @@
         </li>
       <% end %>
     </ul>
+  </div>
 
     <p style="color: green"><%= notice %></p>
 
