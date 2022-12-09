@@ -20,21 +20,21 @@
     <th>
       Description
     </th>
-    <th class="">
+    <th>
       Value
     </th>
     <th>
       Injustice
     </th>
     <th>
-      # Victims
+      # Examples (still in testing!)
     </th>
   </tr>
 
   <% @list_of_policies.each_with_index do |the_policy, the_index| %>
     <tr>
       <td>
-        <%= the_index %>
+        <%= the_index %>  
       </td>
       <td>
         <%= the_policy.description %>
@@ -43,7 +43,7 @@
         <%= the_policy.value.description %>.
       </td>
       <td>
-        <%= the_policy.injustice.description %>
+        <strong><%= the_policy.injustice.description %></strong>
       </td>
       <td>
         <%= the_policy.examples.count %>
