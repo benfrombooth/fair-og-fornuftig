@@ -2,7 +2,7 @@
   <h1>
     Welcome to our interactive <b>Fair & Fornuftig</b> application!
   </h1>
-<div>
+</div>
 
 <hr>
 
@@ -10,22 +10,25 @@
   <h2>
     About us
   </h2>
+</div>
 
-  <div class="">
+  <div class="about-us-card">
     <p>
       <b>Mission:</b> Our interest organization <span>Fair & Fornuftig</span> aims to to help Danish politicians reinvent immigration policy and to help Danish citizens understand its human toll. Many of us foreigners have gotten into difficulties as a result of absurd rules or senseless case management. Based on our personal experiences and mapping of these to broken policies, we have identified a number of inefficient aspects that should be changed by the next government.
     </p>
   </div>
 
-  <div class="">
+  <div class="about-us-card">
     <p>
       <b>Vision:</b> Our diverse array of members are united in their <span>love of Denmark</span> and desire to contribute to the country's prosperity. We have faced a number of challenges with obtaining full legal and democratic rights - as well as societal respect. However, we have set out to bring the immigration rules and system in line with Denmark's values, which we identify with strongly. The system has fallen out of sync with the very same values it is meant to protect. We want to fix this using broad, respectful dialogue.
     </p>
   </div>
 
-  <p>
-    <b>Importance:</b> Denmark risks being perceived as a xenophobic country. These policy issues have triggered critical media coverage and raised eyebrows across the Danish population. We need a real effort to make the system fairer and more efficient. Many citizens with a foreign background are highly functioning members of society. <span>Now it's the system's turn to function</span>. A lack of political will - amid a labor shortage, no less - is counterproductive to Denmark's growth, prosperity and not least its core values.
-  </p>
+  <div class="about-us-card">
+    <p>
+      <b>Importance:</b> Denmark risks being perceived as a xenophobic country. These policy issues have triggered critical media coverage and raised eyebrows across the Danish population. We need a real effort to make the system fairer and more efficient. Many citizens with a foreign background are highly functioning members of society. <span>Now it's the system's turn to function</span>. A lack of political will - amid a labor shortage, no less - is counterproductive to Denmark's growth, prosperity and not least its core values.
+    </p>
+  </div>
 
 <hr>
 
@@ -33,14 +36,22 @@
   <h2>
     Ways to use this app
   </h2>
+</div>
 
-<button type="button"><a href="/member_sign_up">Sign up if you are affected</a></button>
-
-<button type="button"><a href="/policies/overview">Learn about broken policies</a></button>
-
-<button type="button"><a href="/examples/overview">See examples from our members</a></button>
-
-<button type="button"><a href="/politicians/overview">Find out politicians' stances</a></button>
+<div>
+  <div>
+    <button type="button" class="sign-up-button"><a href="/member_sign_up">Sign up if you are affected</a></button>
+  </div>
+  <div>
+    <button type="button" class="policies-button"><a href="/policies/overview">Learn about broken policies</a></button>
+  </div>
+  <div>
+    <button type="button" class="examples-button"><a href="/examples/overview">See examples from our members</a></button>
+  </div>
+  <div>
+    <button type="button" class="politicians-button"><a href="/politicians/overview">Find out politicians' stances</a></button>
+  </div>
+</div>
 
 <hr>
 
@@ -48,42 +59,132 @@
   <h2>
     Overview of Danish values
   </h2>
+</div>
 
-<p>Click on each value to learn more!</p>
+<div>
+  <h5>
+    Click on each value to learn more!
+  </h5>
+</div>
 
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Value #1: <%= @list_of_values.map_relation_to_array(:name).at(0) %>
+        <strong>Value #1: <%= @list_of_values.map_relation_to_array(:name).at(0) %></strong>
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
+        <strong><%= @list_of_values.map_relation_to_array(:description).at(0) %></strong>
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
+        <strong>Value #2: <%= @list_of_values.map_relation_to_array(:name).at(1) %></strong>
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong><%= @list_of_values.map_relation_to_array(:description).at(1) %></strong>
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+        <strong>Value #3: <%= @list_of_values.map_relation_to_array(:name).at(2) %></strong>
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong><%= @list_of_values.map_relation_to_array(:description).at(2) %></strong>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <strong>Value #4: <%= @list_of_values.map_relation_to_array(:name).at(3) %></strong>
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong><%= @list_of_values.map_relation_to_array(:description).at(3) %></strong>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+        <strong>Value #5: <%= @list_of_values.map_relation_to_array(:name).at(4) %></strong>
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong><%= @list_of_values.map_relation_to_array(:description).at(4) %></strong>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
+        <strong>Value #6: <%= @list_of_values.map_relation_to_array(:name).at(5) %></strong>
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong><%= @list_of_values.map_relation_to_array(:description).at(5) %></strong>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSeven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        <strong>Value #7: <%= @list_of_values.map_relation_to_array(:name).at(6) %></strong>
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong><%= @list_of_values.map_relation_to_array(:description).at(6) %></strong>
+      </div>
+    </div>
+  </div>
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="headingEight">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+        <strong>Value #8: <%= @list_of_values.map_relation_to_array(:name).at(7) %></strong>
+      </button>
+    </h2>
+    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong><%= @list_of_values.map_relation_to_array(:description).at(7) %></strong>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingNine">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+        <strong>Value #9: <%= @list_of_values.map_relation_to_array(:name).at(8) %></strong>
+      </button>
+    </h2>
+    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong><%= @list_of_values.map_relation_to_array(:description).at(8) %></strong>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+        <strong>Value #10: <%= @list_of_values.map_relation_to_array(:name).at(9) %></strong>
+      </button>
+    </h2>
+    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong><%= @list_of_values.map_relation_to_array(:description).at(9) %></strong>
       </div>
     </div>
   </div>
