@@ -3,25 +3,22 @@
     <h1>
       Policy #<%= @the_policy.id %> details
     </h1>
+  </div>
 
+  <div>
     <div>
-      <div>
-        <a href="/policies">
-          Go back
-        </a>
-      </div>
-
-      <div>
-        <a href="/delete_policy/<%= @the_policy.id %>">
-          Delete policy
-        </a>
-      </div>
+      <a href="/policies">
+        Go back
+      </a>
     </div>
+  </div>
 
-    <dl>
-      <dt>
-        Description
-      </dt>
+<hr>
+
+  <dl>
+    <dt>
+      Description
+    </dt>
       <dd>
         <%= @the_policy.description %>
       </dd>

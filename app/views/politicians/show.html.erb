@@ -3,28 +3,32 @@
     <h1>
       Stances for <%= @the_politician.name %>
     </h1>
+  </div>
 
 <hr>
 
+  <div>
     <div>
-      <div>
-        <a href="/politicians/overview">
-          Go back
-        </a>
-      </div>
+      <a href="/politicians/overview">
+        Go back
+      </a>
     </div>
+  </div>
 
 <hr>
 
-   
-
-      <dt>
-        Comment
-      </dt>
-      <dd>
-        <% @the_politican.each do |a_stance| %>
-        <%= @the_politician.stances.comment %>
-        <% end %>
-      </dd>
+  <div class="">
+    <dt>
+      Comment(s)
+    </dt>
+    <dd>
+      <% if @the_politician.stances != nil %>
+        <% @the_politicians.stances.each do |a_policy| %>
+        <%= a_policy.comment %>
+      <% else %>
+        Uh oh! This politician has no official comment...
+      <% end %>
+    </dd>
+  </div>
 
     
