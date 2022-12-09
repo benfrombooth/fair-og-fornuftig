@@ -8,24 +8,46 @@
 
 <div>
   <h3>
-    List of policies and their impacts
+    List of policies and impacts
   </h3>
 <div>
 
 <table id="policies">
   <tr>
     <th>
-      #
+      Policy #
     </th>
     <th>
       Description
     </th>
-    <th>
+    <th class="">
       Value
     </th>
     <th>
-      Victim Count
+      Injustice
+    </th>
+    <th>
+      # Victims
     </th>
   </tr>
 
+  <% @list_of_policies.each_with_index do |the_policy, the_index| %>
+    <tr>
+      <td>
+        <%= the_index %>
+      </td>
+      <td>
+        <%= the_policy.description %>
+      </td>
+      <td>
+        <%= the_policy.value.description %>.
+      </td>
+      <td>
+        <%= the_policy.injustice.description %>
+      </td>
+      <td>
+        <%= the_policy.examples.count %>
+      </td>  
+    </tr>
+  <% end%>
 </table>

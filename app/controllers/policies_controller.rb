@@ -1,5 +1,9 @@
 class PoliciesController < ApplicationController
   def overview
+    matching_policies = Policy.all
+
+    @list_of_policies = matching_policies.order({ :created_at => :desc })
+    
     render({ :template => "policies/overview.html.erb" })
   end
   
