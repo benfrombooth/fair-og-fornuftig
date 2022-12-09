@@ -23,10 +23,11 @@
     </dt>
     <dd>
       <% if @the_politician.stances != nil %>
-        <% @the_politicians.stances.each do |a_policy| %>
-        <%= a_policy.comment %>
+        <% @the_politician.stances.each do |a_policy| %>
+        <li><%= a_policy.comment %></li>
+        <% end %>
       <% else %>
-        Uh oh! This politician has no official comment...
+        Uh oh! This politician has made no official comments...
       <% end %>
     </dd>
   </div>
