@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_08_150717) do
+ActiveRecord::Schema.define(version: 2022_12_09_152218) do
 
   create_table "bookmarks", force: :cascade do |t|
-    t.integer "user_id"
+    t.integer "member_id"
     t.integer "politician_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

@@ -23,5 +23,9 @@ class Politician < ApplicationRecord
 
   belongs_to(:district, { :class_name => "District", :foreign_key => "district_id" })
 
+  has_many(:policies, { :through => :stances, :source => :policy })
+
+  has_many(:values, { :through => :stances, :source => :value })
+  
   validates(:name, { :uniqueness => true })
 end

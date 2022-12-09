@@ -33,7 +33,7 @@
       # Victims in District
     </th>
     <th>
-      Policies
+      Policy Stances
     </th>
   </tr>
 
@@ -52,14 +52,14 @@
         <%= a_politician.total_sentiment_score %>
       </td>
       <td>
-        <%= a_politician.priority %>
+        <%= a_politician.district.name %>
       </td>  
       <td>
-        <%= a_politician.party %>
+        <%= a_politician.district.users.count %>
       </td>
       <td>
         <a href="/politicians/<%= a_politician.id %>">
-          Show policy stances
+          Show comments
         </a>
       </td>
     </tr>
