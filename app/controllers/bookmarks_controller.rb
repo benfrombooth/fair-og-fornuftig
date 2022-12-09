@@ -7,11 +7,20 @@ class BookmarksController < ApplicationController
     render({ :template => "bookmarks/index.html.erb" })
   end
 
+  def show
+    the_id = params.fetch("path_id")
+
+    matching_bookmarks = Bookmark.where({ :id => the_id })
+
+    @the_bookmark = matching_bookmarks.at(0)
+
+    render({ :template => "bookmarks/show.html.erb" })
+  end
+
   def create
     the_bookmark = Bookmark.new
     the_bookmark.member_id = params.fetch("query_member_id")
     the_bookmark.politician_id = params.fetch("query_politician_id")
-    the_bookmark.force = params.fetch("query_force")
 
     if the_bookmark.valid?
       the_bookmark.save
@@ -27,7 +36,6 @@ class BookmarksController < ApplicationController
 
     the_bookmark.member_id = params.fetch("query_member_id")
     the_bookmark.politician_id = params.fetch("query_politician_id")
-    the_bookmark.force = params.fetch("query_force")
 
     if the_bookmark.valid?
       the_bookmark.save
