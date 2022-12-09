@@ -16,20 +16,19 @@
 
     <form action="/insert_bookmark" method="post">
 
-      <div>
-        <label for="member_id_box">
-          Username
-        </label>
+      <label for="member_id_box">
+        Username
+      </label>
 
-        <input type="text" id="name_box" name="query_name">
-      </div>  
+      <input type="text" id="name_box" name="query_name">
+ 
       
-        <label for="politician_id_box">
-          Politician
-        </label>
+      <label for="politician_id_box">
+        Politician
+      </label>
 
       <select name="query_politician_id">
-        <% Politician.all.order(:party).each do |a_politician| %>
+        <% Politician.all.order(:name).each do |a_politician| %>
           <option value="<%= a_politician.id %>">
             <%= a_politician.name %>
           </option>
@@ -38,6 +37,7 @@
 
       </div>
 
+    <div>
       <button>
         Follow this politician!
       </button>
